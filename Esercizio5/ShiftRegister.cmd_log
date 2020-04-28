@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr ShiftRegister.pcf 
+bitgen -intstyle ise -f ShiftRegister.ut ShiftRegister.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr ShiftRegister.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister.ut ShiftRegister.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr ShiftRegister.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister.ut ShiftRegister.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr ShiftRegister.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister.ut ShiftRegister.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr ShiftRegister.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister.ut ShiftRegister.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister.ngc ShiftRegister.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_map.ncd ShiftRegister.ngd ShiftRegister.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_map.ncd ShiftRegister.ncd ShiftRegister.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr ShiftRegister.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister.ut ShiftRegister.ncd 

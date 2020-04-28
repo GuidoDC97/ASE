@@ -1,0 +1,3 @@
+vhdl work "Flip_Flop_T_etd.vhd"
+vhdl work "Contatore_mod16_seriale.vhd"
+vhdl work "Contatore_mod16_seriale_tb.vhd"

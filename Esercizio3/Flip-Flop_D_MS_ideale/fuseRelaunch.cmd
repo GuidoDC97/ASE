@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/D_MS_ideale_tb_isim_beh.exe" -prj "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/D_MS_ideale_tb_beh.prj" "work.D_MS_ideale_tb" 

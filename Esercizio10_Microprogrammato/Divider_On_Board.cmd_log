@@ -1,0 +1,78 @@
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s250e-tq144-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-4 "Divider_On_Board.ngc" Divider_On_Board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Divider_On_Board_map.ncd Divider_On_Board.ngd Divider_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 Divider_On_Board_map.ncd Divider_On_Board.ncd Divider_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Divider_On_Board.twx Divider_On_Board.ncd -o Divider_On_Board.twr Divider_On_Board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f Divider_On_Board.ut Divider_On_Board.ncd 

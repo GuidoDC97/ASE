@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/D_MS_ideale_tb_isim_beh.exe -prj C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/D_MS_ideale_tb_beh.prj work.D_MS_ideale_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/RS.vhd" into library work
+Parsing VHDL file "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/Flip-Flop_D_ETd_Mazzeo.vhd" into library work
+Parsing VHDL file "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/Flip-Flop_D_MS_ideale.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/Flip-Flop_D_MS_ideale.vhd" Line 55: Actual for formal port clk2 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/Flip-Flop_D_MS_ideale_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity RS [rs_default]
+Compiling architecture structural of entity D_ET_Mazzeo [d_et_mazzeo_default]
+Compiling architecture structural of entity D_MS_ideale [d_ms_ideale_default]
+Compiling architecture behavioral of entity d_ms_ideale_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Impossibile trovare il percorso specificato, "isim\D_MS_ideale_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/D_MS_ideale_tb_isim_beh.exe
+Fuse Memory Usage: 29184 KB
+Fuse CPU Usage: 390 ms

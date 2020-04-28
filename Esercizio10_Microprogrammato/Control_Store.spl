@@ -1,0 +1,5 @@
+[Inputs]
+=address[2:0]=
+[Outputs]
+=word[10:0]=
+[BiDir]

@@ -1,0 +1,8 @@
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\common_defs.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\control_store.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\alu.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\datapath.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\control_unit.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\processor.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\dp_ar_ram.vhd"
+vhdl work "C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio12\BIPUSH\system.vhd"

@@ -1,0 +1,114 @@
+ISim log file
+Running: C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio10\Divider_On_Board_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board_tb_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+# run 1s
+Stopped at time : 629786900 ns : File "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board_tb.vhd" Line 57
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /divider_on_board_tb/uut/Inst_bin2bcd_12bit_1/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+# run 1s

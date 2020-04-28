@@ -1,0 +1,21 @@
+Storage Target: SPI Flash Single FPGA
+4M
+FF
+Untitled
+C:/Users/Guido Di Chiara/Desktop
+
+MCS
+No
+C:/Users/Guido Di Chiara/Desktop
+
+MCS
+No
+ Elaborazione\Tesina\Esercizio2\
+
+MCS
+No
+esina\Esercizio2\
+
+MCS
+Up
+No

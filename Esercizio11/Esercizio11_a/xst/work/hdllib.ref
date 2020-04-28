@@ -1,0 +1,10 @@
+AR uartcomponent behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd" sub00/vhpl01 1580757400
+EN clock_filter NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd" sub00/vhpl04 1580757405
+AR control_unit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd" sub00/vhpl03 1580757402
+EN uartcomponent NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd" sub00/vhpl00 1580757399
+AR debouncer behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd" sub00/vhpl09 1580757404
+AR clock_filter behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd" sub00/vhpl05 1580757406
+EN uart_tappo NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" sub00/vhpl06 1580757407
+AR uart_tappo structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" sub00/vhpl07 1580757408
+EN debouncer NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd" sub00/vhpl08 1580757403
+EN control_unit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd" sub00/vhpl02 1580757401

@@ -1,0 +1,28 @@
+Command line:
+   Digital_watch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51240
+
+Sat Feb 01 16:00:18 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5471.1 Meg
+
+ Total Signals          : 52
+ Total Nets             : 63
+ Total Signal Drivers   : 21
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 12
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 576
+
+ Total Simulation Time: 178.672 sec
+
+ Current Memory Usage: 4684.66 Meg
+
+Sat Feb 01 16:20:11 2020
+

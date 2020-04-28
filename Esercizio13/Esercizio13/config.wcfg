@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="neuralnetwork_on_board_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="11999990000000" label="" />
+      <marker time="3999990000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/switch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">switch[7:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/btn_load" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_load</obj_property>
+      <obj_property name="ObjectShortName">btn_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/btn_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_start</obj_property>
+      <obj_property name="ObjectShortName">btn_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/led" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">Clock Filter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Clock_Filter/clock_out" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">clock_out</obj_property>
+         <obj_property name="ObjectShortName">clock_out</obj_property>
+         <obj_property name="label">clock_fx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">Debouncer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Debouncer/load" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Debouncer/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group11" type="group">
+      <obj_property name="label">Control Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_ControlUnit/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_ControlUnit/en_hi" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en_hi</obj_property>
+         <obj_property name="ObjectShortName">en_hi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_ControlUnit/en_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en_out</obj_property>
+         <obj_property name="ObjectShortName">en_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_ControlUnit/en_err" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en_err</obj_property>
+         <obj_property name="ObjectShortName">en_err</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_ControlUnit/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group23" type="group">
+      <obj_property name="label">Datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/x1_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x1_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">x1_reg[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/x2_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x2_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">x2_reg[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_h_reg_2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_h_reg_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_h_reg_2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_h_reg_1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_h_reg_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_h_reg_1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_h_reg_0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_h_reg_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_h_reg_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_o_temp_2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_o_temp_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_o_temp_2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_o_temp_1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_o_temp_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_o_temp_1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_o_temp_0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_o_temp_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_o_temp_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/y_o_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y_o_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">y_o_reg[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/neuralnetwork_on_board_tb/uut/Inst_Datapath/err_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">err_reg</obj_property>
+         <obj_property name="ObjectShortName">err_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/anodes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">anodes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anodes[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/neuralnetwork_on_board_tb/cathodes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cathodes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cathodes[7:0]</obj_property>
+   </wvobject>
+</wave_config>

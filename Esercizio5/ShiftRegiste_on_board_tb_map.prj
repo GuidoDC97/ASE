@@ -1,0 +1,2 @@
+vhdl work "netgen/map/ShiftRegister_on_board_map.vhd"
+vhdl work "ShiftRegiste_on_board_tb.vhd"

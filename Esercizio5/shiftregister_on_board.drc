@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Jan 31 11:10:57 2020
+
+drc -z ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf
+
+DRC detected 0 errors and 0 warnings.

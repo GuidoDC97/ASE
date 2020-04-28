@@ -1,0 +1,16 @@
+EN clock_filter NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd" sub00/vhpl10 1581099923
+EN mux_2_1 NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/mux_2_1.vhd" sub00/vhpl00 1580408701
+EN ff_d NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd" sub00/vhpl02 1581099917
+AR debouncer behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd" sub00/vhpl13 1581099922
+AR shiftregister structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd" sub00/vhpl05 1581099920
+EN shiftregister NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd" sub00/vhpl04 1581099919
+AR ff_d behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd" sub00/vhpl03 1581099918
+AR mux_2_1_nbit dataflow "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd" sub00/vhpl15 1581099916
+AR clock_filter behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd" sub00/vhpl11 1581099924
+EN mux_2_1_nbit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd" sub00/vhpl14 1581099915
+AR shiftregister_on_board behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd" sub00/vhpl09 1581099926
+EN shiftregister_on_board NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd" sub00/vhpl08 1581099925
+EN controlunit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ControlUnit.vhd" sub00/vhpl06 1580407265
+AR mux_2_1 dataflow "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/mux_2_1.vhd" sub00/vhpl01 1580408702
+EN debouncer NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd" sub00/vhpl12 1581099921
+AR controlunit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ControlUnit.vhd" sub00/vhpl07 1580407266

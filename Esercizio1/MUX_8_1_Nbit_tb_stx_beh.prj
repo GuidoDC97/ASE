@@ -1,0 +1,4 @@
+vhdl isim_temp "MUX_2_1_Nbit.vhd"
+vhdl isim_temp "MUX_4_1_Nbit.vhd"
+vhdl isim_temp "MUX_8_1_Nbit.vhd"
+vhdl isim_temp "MUX_8_1_Nbit_tb.vhd"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/xst"
+elaborate
+-ifn Debouncer.prj
+-ifmt mixed

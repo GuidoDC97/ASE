@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_250K.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_250K.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_250K.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_250K.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+par -w -intstyle ise -ol high -t 1 arbitro_map.ncd arbitro.ncd arbitro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml arbitro.twx arbitro.ncd -o arbitro.twr arbitro.pcf -ucf BasysRevEGeneral.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+par -w -intstyle ise -ol high -t 1 arbitro_map.ncd arbitro.ncd arbitro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml arbitro.twx arbitro.ncd -o arbitro.twr arbitro.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f arbitro.ut arbitro.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+par -w -intstyle ise -ol high -t 1 arbitro_map.ncd arbitro.ncd arbitro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml arbitro.twx arbitro.ncd -o arbitro.twr arbitro.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f arbitro.ut arbitro.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-vq100-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+par -w -intstyle ise -ol high -t 1 arbitro_map.ncd arbitro.ncd arbitro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml arbitro.twx arbitro.ncd -o arbitro.twr arbitro.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f arbitro.ut arbitro.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio7/arbitro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-tq144-4 "arbitro.ngc" arbitro.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o arbitro_map.ncd arbitro.ngd arbitro.pcf 
+par -w -intstyle ise -ol high -t 1 arbitro_map.ncd arbitro.ncd arbitro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml arbitro.twx arbitro.ncd -o arbitro.twr arbitro.pcf 
+bitgen -intstyle ise -f arbitro.ut arbitro.ncd 

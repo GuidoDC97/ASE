@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio11\Esercizio11_c\UART_On_Board.ncd
+OUTFILE=C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio11\Esercizio11_c\UART_On_Board.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio11\Esercizio11_c
+LICENSE=WebPack
+USER_INFO=211833282_0_0_349

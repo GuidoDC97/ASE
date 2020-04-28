@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Feb 03 19:26:52 2020
+
+drc -z UART_Tappo.ncd UART_Tappo.pcf
+
+DRC detected 0 errors and 0 warnings.

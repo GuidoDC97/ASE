@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd</arg>&quot; line <arg fmt="%d" index="2">162</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">hundreds</arg>&apos; of component &apos;<arg fmt="%s" index="4">bin2bcd_12bit</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd</arg>&quot; line <arg fmt="%d" index="2">162</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">thousands</arg>&apos; of component &apos;<arg fmt="%s" index="4">bin2bcd_12bit</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd</arg>&quot; line <arg fmt="%d" index="2">171</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">hundreds</arg>&apos; of component &apos;<arg fmt="%s" index="4">bin2bcd_12bit</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd</arg>&quot; line <arg fmt="%d" index="2">171</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">thousands</arg>&apos; of component &apos;<arg fmt="%s" index="4">bin2bcd_12bit</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/counter_mod4.vhd</arg>&quot; line <arg fmt="%d" index="2">19</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;reset&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd</arg>&quot; line <arg fmt="%d" index="2">82</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/anodes_manager.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch.vhd</arg>&quot; line <arg fmt="%d" index="2">96</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">enable_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">Counter_mod_M_load</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">watch/h_counter/enable_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Digital_watch_on_board</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

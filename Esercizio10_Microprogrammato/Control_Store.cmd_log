@@ -1,0 +1,5 @@
+vhdtdtfi -prj Esercizio10 -o "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.vhi" -module Control_Store -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Store.vhd 
+vhdtdtfi -prj Esercizio10 -o "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.vhi" -module Control_Store -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Store.vhd 
+vhdtdtfi -lib work Control_Store.vhd -prj Esercizio10 -o Control_Store.spl -module Control_Store -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Control_Store.spl {C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.sym} 
+vhdtdtfi -prj Esercizio10 -o "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.vhi" -module Control_Store -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Store.vhd 

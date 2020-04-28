@@ -1,0 +1,3 @@
+vhdtdtfi -prj Esercizio2 -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.vhi" -module buffer_reg -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work buffer_reg.vhd 
+vhdtdtfi -lib work buffer_reg.vhd -prj Esercizio2 -o buffer_reg.spl -module buffer_reg -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e buffer_reg.spl {C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.sym} 

@@ -1,0 +1,893 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: NeuralNetwork_On_Board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "NeuralNetwork_On_Board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "NeuralNetwork_On_Board"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : NeuralNetwork_On_Board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd" in Library work.
+Architecture dataflow of Entity multiplier is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd" in Library work.
+Architecture dataflow of Entity adder is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd" in Library work.
+Architecture dataflow of Entity multiplexer_2_1_nbit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/counter_mod4.vhd" in Library work.
+Architecture behavioral of Entity counter_mod4 is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" in Library work.
+Architecture behavioral of Entity cathodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd" in Library work.
+Architecture behavioral of Entity anodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd" in Library work.
+Architecture behavioral of Entity registern is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd" in Library work.
+Architecture structural of Entity neuronhl is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronOL.vhd" in Library work.
+Architecture behavioral of Entity neuronol is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Control_Unit.vhd" in Library work.
+Entity <control_unit> compiled.
+Entity <control_unit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Datapath.vhd" in Library work.
+Architecture structural of Entity datapath is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Debouncer.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_Filter.vhd" in Library work.
+Architecture behavioral of Entity clock_filter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_filter_display.vhd" in Library work.
+Architecture behavioral of Entity clock_filter_display is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/seven_segment_array.vhd" in Library work.
+Architecture structural of Entity display_seven_segments is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd" in Library work.
+Architecture structural of Entity neuralnetwork_on_board is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <NeuralNetwork_On_Board> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Control_Unit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Datapath> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Clock_Filter> in library <work> (architecture <behavioral>) with generics.
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+
+Analyzing hierarchy for entity <CLOCK_FILTER_DISPLAY> in library <work> (architecture <behavioral>) with generics.
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+
+Analyzing hierarchy for entity <display_seven_segments> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <RegisterN> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <NeuronHL> in library <work> (architecture <structural>) with generics.
+	N = 4
+	NUM = 1
+
+Analyzing hierarchy for entity <NeuronHL> in library <work> (architecture <structural>) with generics.
+	N = 4
+	NUM = 2
+
+Analyzing hierarchy for entity <NeuronHL> in library <work> (architecture <structural>) with generics.
+	N = 4
+	NUM = 3
+
+Analyzing hierarchy for entity <RegisterN> in library <work> (architecture <behavioral>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <NeuronOL> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <RegisterN> in library <work> (architecture <behavioral>) with generics.
+	N = 16
+
+Analyzing hierarchy for entity <counter_mod4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <cathodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <anodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Multiplier> in library <work> (architecture <dataflow>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Adder> in library <work> (architecture <dataflow>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <Multiplexer_2_1_Nbit> in library <work> (architecture <dataflow>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <Multiplier> in library <work> (architecture <dataflow>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <Adder> in library <work> (architecture <dataflow>) with generics.
+	N = 16
+
+Analyzing hierarchy for entity <Multiplexer_2_1_Nbit> in library <work> (architecture <dataflow>) with generics.
+	N = 16
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <NeuralNetwork_On_Board> in library <work> (Architecture <structural>).
+	N = 4
+Entity <NeuralNetwork_On_Board> analyzed. Unit <NeuralNetwork_On_Board> generated.
+
+Analyzing Entity <Control_Unit> in library <work> (Architecture <behavioral>).
+Entity <Control_Unit> analyzed. Unit <Control_Unit> generated.
+
+Analyzing generic Entity <Datapath> in library <work> (Architecture <structural>).
+	N = 4
+Entity <Datapath> analyzed. Unit <Datapath> generated.
+
+Analyzing generic Entity <RegisterN.1> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <RegisterN.1> analyzed. Unit <RegisterN.1> generated.
+
+Analyzing generic Entity <NeuronHL.1> in library <work> (Architecture <structural>).
+	N = 4
+	NUM = 1
+Entity <NeuronHL.1> analyzed. Unit <NeuronHL.1> generated.
+
+Analyzing generic Entity <Multiplier.1> in library <work> (Architecture <dataflow>).
+	N = 4
+Entity <Multiplier.1> analyzed. Unit <Multiplier.1> generated.
+
+Analyzing generic Entity <Adder.1> in library <work> (Architecture <dataflow>).
+	N = 8
+Entity <Adder.1> analyzed. Unit <Adder.1> generated.
+
+Analyzing generic Entity <Multiplexer_2_1_Nbit.1> in library <work> (Architecture <dataflow>).
+	N = 8
+Entity <Multiplexer_2_1_Nbit.1> analyzed. Unit <Multiplexer_2_1_Nbit.1> generated.
+
+Analyzing generic Entity <NeuronHL.2> in library <work> (Architecture <structural>).
+	N = 4
+	NUM = 2
+Entity <NeuronHL.2> analyzed. Unit <NeuronHL.2> generated.
+
+Analyzing generic Entity <NeuronHL.3> in library <work> (Architecture <structural>).
+	N = 4
+	NUM = 3
+Entity <NeuronHL.3> analyzed. Unit <NeuronHL.3> generated.
+
+Analyzing generic Entity <RegisterN.2> in library <work> (Architecture <behavioral>).
+	N = 8
+Entity <RegisterN.2> analyzed. Unit <RegisterN.2> generated.
+
+Analyzing generic Entity <NeuronOL> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <NeuronOL> analyzed. Unit <NeuronOL> generated.
+
+Analyzing generic Entity <Multiplier.2> in library <work> (Architecture <dataflow>).
+	N = 8
+Entity <Multiplier.2> analyzed. Unit <Multiplier.2> generated.
+
+Analyzing generic Entity <Adder.2> in library <work> (Architecture <dataflow>).
+	N = 16
+Entity <Adder.2> analyzed. Unit <Adder.2> generated.
+
+Analyzing generic Entity <Multiplexer_2_1_Nbit.2> in library <work> (Architecture <dataflow>).
+	N = 16
+Entity <Multiplexer_2_1_Nbit.2> analyzed. Unit <Multiplexer_2_1_Nbit.2> generated.
+
+Analyzing generic Entity <RegisterN.3> in library <work> (Architecture <behavioral>).
+	N = 16
+Entity <RegisterN.3> analyzed. Unit <RegisterN.3> generated.
+
+Analyzing generic Entity <Debouncer> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+Analyzing generic Entity <Clock_Filter> in library <work> (Architecture <behavioral>).
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+Entity <Clock_Filter> analyzed. Unit <Clock_Filter> generated.
+
+Analyzing generic Entity <CLOCK_FILTER_DISPLAY> in library <work> (Architecture <behavioral>).
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+Entity <CLOCK_FILTER_DISPLAY> analyzed. Unit <CLOCK_FILTER_DISPLAY> generated.
+
+Analyzing Entity <display_seven_segments> in library <work> (Architecture <structural>).
+Entity <display_seven_segments> analyzed. Unit <display_seven_segments> generated.
+
+Analyzing Entity <counter_mod4> in library <work> (Architecture <behavioral>).
+Entity <counter_mod4> analyzed. Unit <counter_mod4> generated.
+
+Analyzing Entity <cathodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" line 52: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" line 76: Mux is complete : default of case is discarded
+Entity <cathodes_manager> analyzed. Unit <cathodes_manager> generated.
+
+Analyzing Entity <anodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd" line 28: Mux is complete : default of case is discarded
+Entity <anodes_manager> analyzed. Unit <anodes_manager> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Control_Unit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Control_Unit.vhd".
+WARNING:Xst:646 - Signal <next_state> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <current_state>.
+WARNING:Xst:737 - Found 1-bit latch for signal <EN_ERR>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 3-bit register for signal <current_state>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <Control_Unit> synthesized.
+
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Debouncer.vhd".
+    Using one-hot encoding for signal <i>.
+    Found 1-bit register for signal <START>.
+    Found 1-bit register for signal <LOAD>.
+    Found 4-bit register for signal <X1>.
+    Found 4-bit register for signal <X2>.
+    Found 2-bit register for signal <i>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <Clock_Filter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_Filter.vhd".
+    Found 1-bit register for signal <CLOCK_FX>.
+    Found 17-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Clock_Filter> synthesized.
+
+
+Synthesizing Unit <CLOCK_FILTER_DISPLAY>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_filter_display.vhd".
+    Found 1-bit register for signal <CLOCK_FX>.
+    Found 17-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <CLOCK_FILTER_DISPLAY> synthesized.
+
+
+Synthesizing Unit <RegisterN_1>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd".
+    Found 4-bit register for signal <Y>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <RegisterN_1> synthesized.
+
+
+Synthesizing Unit <RegisterN_2>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd".
+    Found 8-bit register for signal <Y>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <RegisterN_2> synthesized.
+
+
+Synthesizing Unit <RegisterN_3>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd".
+    Found 16-bit register for signal <Y>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <RegisterN_3> synthesized.
+
+
+Synthesizing Unit <Multiplier_1>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd".
+    Found 4x4-bit multiplier for signal <RIS_TEMP>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <Multiplier_1> synthesized.
+
+
+Synthesizing Unit <Adder_1>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd".
+    Found 8-bit adder for signal <RIS_TEMP>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Adder_1> synthesized.
+
+
+Synthesizing Unit <Multiplexer_2_1_Nbit_1>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd".
+Unit <Multiplexer_2_1_Nbit_1> synthesized.
+
+
+Synthesizing Unit <Multiplier_2>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd".
+    Found 8x8-bit multiplier for signal <RIS_TEMP>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <Multiplier_2> synthesized.
+
+
+Synthesizing Unit <Adder_2>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd".
+    Found 16-bit adder for signal <RIS_TEMP>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Adder_2> synthesized.
+
+
+Synthesizing Unit <Multiplexer_2_1_Nbit_2>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd".
+Unit <Multiplexer_2_1_Nbit_2> synthesized.
+
+
+Synthesizing Unit <counter_mod4>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/counter_mod4.vhd".
+    Found 2-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_mod4> synthesized.
+
+
+Synthesizing Unit <cathodes_manager>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd".
+    Found 16x7-bit ROM for signal <cathodes_for_digit>.
+    Found 4-bit 4-to-1 multiplexer for signal <nibble>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <cathodes_manager> synthesized.
+
+
+Synthesizing Unit <anodes_manager>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd".
+    Found 1-of-4 decoder for signal <anodes_switching>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <anodes_manager> synthesized.
+
+
+Synthesizing Unit <display_seven_segments>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/seven_segment_array.vhd".
+Unit <display_seven_segments> synthesized.
+
+
+Synthesizing Unit <NeuronHL_1>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd".
+Unit <NeuronHL_1> synthesized.
+
+
+Synthesizing Unit <NeuronHL_2>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd".
+Unit <NeuronHL_2> synthesized.
+
+
+Synthesizing Unit <NeuronHL_3>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd".
+Unit <NeuronHL_3> synthesized.
+
+
+Synthesizing Unit <NeuronOL>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronOL.vhd".
+Unit <NeuronOL> synthesized.
+
+
+Synthesizing Unit <Datapath>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Datapath.vhd".
+    Found 1-bit register for signal <ERR_REG>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Datapath> synthesized.
+
+
+Synthesizing Unit <NeuralNetwork_On_Board>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd".
+WARNING:Xst:1780 - Signal <RESET_N> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <NeuralNetwork_On_Board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Multipliers                                          : 9
+ 4x4-bit multiplier                                    : 6
+ 8x8-bit multiplier                                    : 3
+# Adders/Subtractors                                   : 9
+ 16-bit adder                                          : 3
+ 8-bit adder                                           : 6
+# Counters                                             : 3
+ 17-bit up counter                                     : 2
+ 2-bit up counter                                      : 1
+# Registers                                            : 15
+ 1-bit register                                        : 5
+ 16-bit register                                       : 1
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 4
+ 8-bit register                                        : 3
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <current_state_2> of sequential type is unconnected in block <Inst_Control_Unit>.
+WARNING:Xst:2677 - Node <i_0> of sequential type is unconnected in block <Inst_Debouncer>.
+WARNING:Xst:2677 - Node <current_state_2> of sequential type is unconnected in block <Control_Unit>.
+WARNING:Xst:2677 - Node <i_0> of sequential type is unconnected in block <Debouncer>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Multipliers                                          : 9
+ 4x4-bit multiplier                                    : 6
+ 8x8-bit multiplier                                    : 3
+# Adders/Subtractors                                   : 9
+ 16-bit adder                                          : 3
+ 8-bit adder                                           : 6
+# Counters                                             : 3
+ 17-bit up counter                                     : 2
+ 2-bit up counter                                      : 1
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <NeuralNetwork_On_Board> ...
+
+Optimizing unit <Debouncer> ...
+
+Optimizing unit <RegisterN_2> ...
+
+Optimizing unit <RegisterN_3> ...
+
+Optimizing unit <NeuronOL> ...
+
+Optimizing unit <Datapath> ...
+WARNING:Xst:1710 - FF/Latch <Inst_Datapath/Register_Y/Y_8> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_9> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_10> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_11> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_12> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_13> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_14> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_Y/Y_15> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_H0/Y_7> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Datapath/Register_H1/Y_7> (without init value) has a constant value of 0 in block <NeuralNetwork_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_0> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_1> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_2> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_3> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_4> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_5> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_6> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Register_H2/Y_7> of sequential type is unconnected in block <NeuralNetwork_On_Board>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block NeuralNetwork_On_Board, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 82
+ Flip-Flops                                            : 82
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : NeuralNetwork_On_Board.ngr
+Top Level Output File Name         : NeuralNetwork_On_Board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 282
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 34
+#      LUT2                        : 70
+#      LUT2_L                      : 2
+#      LUT3                        : 6
+#      LUT3_L                      : 2
+#      LUT4                        : 29
+#      LUT4_L                      : 3
+#      MUXCY                       : 67
+#      MUXF5                       : 5
+#      VCC                         : 1
+#      XORCY                       : 57
+# FlipFlops/Latches                : 83
+#      FDC                         : 37
+#      FDCE                        : 10
+#      FDCE_1                      : 31
+#      FDE                         : 1
+#      FDP                         : 1
+#      FDRE                        : 1
+#      FDSE                        : 1
+#      LD_1                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 11
+#      OBUF                        : 13
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                       92  out of   2448     3%  
+ Number of Slice Flip Flops:             83  out of   4896     1%  
+ Number of 4 input LUTs:                151  out of   4896     3%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    108    23%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                 | Load  |
+-----------------------------------+-------------------------------------------------------+-------+
+Inst_Control_Unit/current_state_0  | NONE(Inst_Control_Unit/EN_ERR)                        | 1     |
+Inst_Clock_Filter/CLOCK_FX1        | BUFG                                                  | 44    |
+CLOCK                              | BUFGP                                                 | 36    |
+Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX | NONE(Inst_display_seven_segments/counter_instance/c_0)| 2     |
+-----------------------------------+-------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 79    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.184ns (Maximum Frequency: 161.708MHz)
+   Minimum input arrival time before clock: 4.350ns
+   Maximum output required time after clock: 7.952ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_Clock_Filter/CLOCK_FX1'
+  Clock period: 6.184ns (frequency: 161.708MHz)
+  Total number of paths / destination ports: 910 / 43
+-------------------------------------------------------------------------
+Delay:               6.184ns (Levels of Logic = 7)
+  Source:            Inst_Datapath/Register_X1/Y_3 (FF)
+  Destination:       Inst_Datapath/ERR_REG (FF)
+  Source Clock:      Inst_Clock_Filter/CLOCK_FX1 falling
+  Destination Clock: Inst_Clock_Filter/CLOCK_FX1 falling
+
+  Data Path: Inst_Datapath/Register_X1/Y_3 to Inst_Datapath/ERR_REG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          14   0.591   1.175  Inst_Datapath/Register_X1/Y_3 (Inst_Datapath/Register_X1/Y_3)
+     LUT2:I0->O            1   0.704   0.000  Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_lut<3> (Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_lut<3>)
+     MUXCY:S->O            1   0.464   0.000  Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_cy<3> (Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_cy<4> (Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_cy<4>)
+     MUXCY:CI->O           0   0.059   0.000  Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_cy<5> (Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_cy<5>)
+     XORCY:CI->O           9   0.804   0.995  Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_1/Madd_RIS_TEMP_xor<6> (Inst_Datapath/Inst_NeuronHL_1/Inst_Adder_2/Madd_RIS_TEMP_lut<6>)
+     LUT4:I0->O            1   0.704   0.000  Inst_Datapath/ERR_REG_or0000_G (N30)
+     MUXF5:I1->O           1   0.321   0.000  Inst_Datapath/ERR_REG_or0000 (Inst_Datapath/ERR_REG_or0000)
+     FDCE_1:D                  0.308          Inst_Datapath/ERR_REG
+    ----------------------------------------
+    Total                      6.184ns (4.014ns logic, 2.170ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 5.522ns (frequency: 181.094MHz)
+  Total number of paths / destination ports: 919 / 37
+-------------------------------------------------------------------------
+Delay:               5.522ns (Levels of Logic = 18)
+  Source:            Inst_CLOCK_FILTER_DISPLAY/COUNTER_1 (FF)
+  Destination:       Inst_CLOCK_FILTER_DISPLAY/COUNTER_16 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: Inst_CLOCK_FILTER_DISPLAY/COUNTER_1 to Inst_CLOCK_FILTER_DISPLAY/COUNTER_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  Inst_CLOCK_FILTER_DISPLAY/COUNTER_1 (Inst_CLOCK_FILTER_DISPLAY/COUNTER_1)
+     LUT1:I0->O            1   0.704   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<1>_rt (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<1> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<2> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<3> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<4> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<5> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<6> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<7> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<8> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<9> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<10> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<11> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<12> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<13> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<14> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<14>)
+     MUXCY:CI->O           0   0.059   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<15> (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_cy<15>)
+     XORCY:CI->O           1   0.804   0.499  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_xor<16> (Result<16>1)
+     LUT2:I1->O            1   0.704   0.000  Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_eqn_161 (Inst_CLOCK_FILTER_DISPLAY/Mcount_COUNTER_eqn_16)
+     FDC:D                     0.308          Inst_CLOCK_FILTER_DISPLAY/COUNTER_16
+    ----------------------------------------
+    Total                      5.522ns (4.401ns logic, 1.121ns route)
+                                       (79.7% logic, 20.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX'
+  Clock period: 2.905ns (frequency: 344.234MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.905ns (Levels of Logic = 1)
+  Source:            Inst_display_seven_segments/counter_instance/c_0 (FF)
+  Destination:       Inst_display_seven_segments/counter_instance/c_0 (FF)
+  Source Clock:      Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX rising
+  Destination Clock: Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX rising
+
+  Data Path: Inst_display_seven_segments/counter_instance/c_0 to Inst_display_seven_segments/counter_instance/c_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.591   0.882  Inst_display_seven_segments/counter_instance/c_0 (Inst_display_seven_segments/counter_instance/c_0)
+     INV:I->O              1   0.704   0.420  Inst_display_seven_segments/counter_instance/Mcount_c_xor<0>11_INV_0 (Result<0>2)
+     FDC:D                     0.308          Inst_display_seven_segments/counter_instance/c_0
+    ----------------------------------------
+    Total                      2.905ns (1.603ns logic, 1.302ns route)
+                                       (55.2% logic, 44.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_Clock_Filter/CLOCK_FX1'
+  Total number of paths / destination ports: 25 / 23
+-------------------------------------------------------------------------
+Offset:              4.350ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       Inst_Debouncer/i_1 (FF)
+  Destination Clock: Inst_Clock_Filter/CLOCK_FX1 rising
+
+  Data Path: RESET to Inst_Debouncer/i_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            82   1.218   1.453  RESET_IBUF (RESET_IBUF)
+     LUT4:I0->O            1   0.704   0.420  Inst_Debouncer/i_and00001 (Inst_Debouncer/i_and0000)
+     FDE:CE                    0.555          Inst_Debouncer/i_1
+    ----------------------------------------
+    Total                      4.350ns (2.477ns logic, 1.873ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_Clock_Filter/CLOCK_FX1'
+  Total number of paths / destination ports: 57 / 8
+-------------------------------------------------------------------------
+Offset:              7.394ns (Levels of Logic = 4)
+  Source:            Inst_Datapath/Register_Y/Y_1 (FF)
+  Destination:       CATHODES<6> (PAD)
+  Source Clock:      Inst_Clock_Filter/CLOCK_FX1 falling
+
+  Data Path: Inst_Datapath/Register_Y/Y_1 to CATHODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           1   0.591   0.499  Inst_Datapath/Register_Y/Y_1 (Inst_Datapath/Register_Y/Y_1)
+     LUT3:I1->O            1   0.704   0.000  Inst_display_seven_segments/cathodes_instance/Mmux_nibble_41 (Inst_display_seven_segments/cathodes_instance/Mmux_nibble_41)
+     MUXF5:I0->O           7   0.321   0.883  Inst_display_seven_segments/cathodes_instance/Mmux_nibble_2_f5_0 (Inst_display_seven_segments/cathodes_instance/nibble<1>)
+     LUT4:I0->O            1   0.704   0.420  Inst_display_seven_segments/cathodes_instance/Mrom_cathodes_for_digit21 (CATHODES_2_OBUF)
+     OBUF:I->O                 3.272          CATHODES_2_OBUF (CATHODES<2>)
+    ----------------------------------------
+    Total                      7.394ns (5.592ns logic, 1.802ns route)
+                                       (75.6% logic, 24.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX'
+  Total number of paths / destination ports: 64 / 11
+-------------------------------------------------------------------------
+Offset:              7.952ns (Levels of Logic = 4)
+  Source:            Inst_display_seven_segments/counter_instance/c_0 (FF)
+  Destination:       CATHODES<6> (PAD)
+  Source Clock:      Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX rising
+
+  Data Path: Inst_display_seven_segments/counter_instance/c_0 to CATHODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.591   1.057  Inst_display_seven_segments/counter_instance/c_0 (Inst_display_seven_segments/counter_instance/c_0)
+     LUT3:I0->O            1   0.704   0.000  Inst_display_seven_segments/cathodes_instance/Mmux_nibble_4 (Inst_display_seven_segments/cathodes_instance/Mmux_nibble_4)
+     MUXF5:I0->O           7   0.321   0.883  Inst_display_seven_segments/cathodes_instance/Mmux_nibble_2_f5 (Inst_display_seven_segments/cathodes_instance/nibble<0>)
+     LUT4:I0->O            1   0.704   0.420  Inst_display_seven_segments/cathodes_instance/Mrom_cathodes_for_digit31 (CATHODES_3_OBUF)
+     OBUF:I->O                 3.272          CATHODES_3_OBUF (CATHODES<3>)
+    ----------------------------------------
+    Total                      7.952ns (5.592ns logic, 2.360ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.98 secs
+ 
+--> 
+
+Total memory usage is 4518972 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   25 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

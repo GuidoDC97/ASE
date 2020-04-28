@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit_tb_isim_beh.exe -prj C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit_tb_beh.prj work.MUX_8_1_Nbit_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_2_1_Nbit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_4_1_Nbit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity MUX_2_1_Nbit [\MUX_2_1_Nbit(1)\]
+Compiling architecture structural of entity MUX_4_1_Nbit [\MUX_4_1_Nbit(1)\]
+Compiling architecture structural of entity MUX_8_1_Nbit [\MUX_8_1_Nbit(1)\]
+Compiling architecture behavior of entity mux_8_1_nbit_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Impossibile trovare il percorso specificato, "isim\MUX_8_1_Nbit_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit_tb_isim_beh.exe
+Fuse Memory Usage: 29912 KB
+Fuse CPU Usage: 452 ms

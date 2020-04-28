@@ -1,0 +1,17 @@
+ISim log file
+Running: C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio11\Esercizio11_c\UART_On_Board_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board_tb_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1s
+Stopped at time : 277699300 ns : File "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/RS232RefComp2.vhd" Line 331

@@ -1,0 +1,55 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board_tb_isim_beh.exe" -prj "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board_tb_beh.prj" "work.Divider_On_Board_tb" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RCA_Nbit .vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterSAQ.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterM.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter_mod4.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Adder_Subtractor_Nbit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Seven_segment_array.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Debouncer.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Converter.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_filter_display.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_Filter.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity RegisterM [\RegisterM(4)\]
+Compiling architecture behavioral of entity RegisterSAQ [\RegisterSAQ(4)\]
+Compiling architecture dataflow of entity FULL_ADDER [full_adder_default]
+Compiling architecture structural of entity RCA_Nbit [\RCA_Nbit(5)\]
+Compiling architecture structural of entity ADDER_SUBTRACTOR_Nbit [\ADDER_SUBTRACTOR_Nbit(5)\]
+Compiling architecture behavioral of entity Counter [\Counter(4,3)\]
+Compiling architecture structural of entity Datapath [\Datapath(4)\]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity Clock_Filter [\Clock_Filter(50000000,500)\]
+Compiling architecture behavioral of entity Debouncer [\Debouncer(4)\]
+Compiling architecture behavioral of entity CLOCK_FILTER_DISPLAY [\CLOCK_FILTER_DISPLAY(50000000,5...]
+Compiling architecture behavioral of entity COUNTER_MOD4 [counter_mod4_default]
+Compiling architecture behavioral of entity CATHODES_MANAGER [cathodes_manager_default]
+Compiling architecture behavioral of entity ANODES_MANAGER [anodes_manager_default]
+Compiling architecture structural of entity DISPLAY_SEVEN_SEGMENTS [display_seven_segments_default]
+Compiling architecture behavioral of entity bin2bcd_12bit [bin2bcd_12bit_default]
+Compiling architecture structural of entity Divider_On_Board [\Divider_On_Board(4)\]
+Compiling architecture behavior of entity divider_on_board_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Impossibile trovare il percorso specificato, "isim\Divider_On_Board_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 40 VHDL Units
+Built simulation executable C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board_tb_isim_beh.exe
+Fuse Memory Usage: 38096 KB
+Fuse CPU Usage: 811 ms

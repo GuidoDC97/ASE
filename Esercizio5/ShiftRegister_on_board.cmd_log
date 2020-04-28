@@ -1,0 +1,262 @@
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister_on_board.ngc ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister_on_board.ngc ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister_on_board.ngc ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister_on_board.ngc ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 ShiftRegister_on_board.ngc ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "ShiftRegister_on_board.ngc" ShiftRegister_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ngd ShiftRegister_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 ShiftRegister_on_board_map.ncd ShiftRegister_on_board.ncd ShiftRegister_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ShiftRegister_on_board.twx ShiftRegister_on_board.ncd -o ShiftRegister_on_board.twr ShiftRegister_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f ShiftRegister_on_board.ut ShiftRegister_on_board.ncd 
+netgen -intstyle ise -s 4  -pcf ShiftRegister_on_board.pcf -rpw 100 -tpw 0 -ar Structure -tm ShiftRegister_on_board -w -dir netgen/map -ofmt vhdl -sim ShiftRegister_on_board_map.ncd ShiftRegister_on_board_map.vhd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.syr" 

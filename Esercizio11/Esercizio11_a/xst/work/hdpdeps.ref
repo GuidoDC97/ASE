@@ -1,0 +1,42 @@
+V3 23
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio11/Clock_filter.vhd 2020/01/22.10:13:04 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio11/Control_Unit.vhd 2020/01/22.11:56:36 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio11/RS232RefComp2.vhd 2020/01/22.08:59:15 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.vhd 2020/01/22.11:50:11 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd" 2020/02/03.19:16:12 P.58f
+EN work/CLOCK_FILTER 1580757405 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/CLOCK_FILTER/behavioral 1580757406 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd" \
+      EN work/CLOCK_FILTER 1580757405
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd" 2020/02/03.19:29:49 P.58f
+EN work/CONTROL_UNIT 1580757401 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/CONTROL_UNIT/behavioral 1580757402 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd" \
+      EN work/CONTROL_UNIT 1580757401
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd" 2020/02/03.20:16:36 P.58f
+EN work/Debouncer 1580757403 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Debouncer/behavioral 1580757404 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd" \
+      EN work/Debouncer 1580757403
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd" 2020/01/22.03:24:20 P.58f
+EN work/UARTcomponent 1580757399 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/UARTcomponent/Behavioral 1580757400 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd" \
+      EN work/UARTcomponent 1580757399
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" 2020/02/03.17:47:55 P.58f
+EN work/UART_Tappo 1580757407 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/UART_Tappo/structural 1580757408 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" \
+      EN work/UART_Tappo 1580757407 CP UARTcomponent CP CONTROL_UNIT CP Debouncer \
+      CP CLOCK_FILTER

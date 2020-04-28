@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="divider_on_board_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/Inst_Counter/count_temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count_temp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count_temp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/uut/Inst_Clock_Filter/clock_fx" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clock_fx</obj_property>
+      <obj_property name="ObjectShortName">clock_fx</obj_property>
+      <obj_property name="label">clock_fx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/uut/Inst_CLOCK_FILTER_DISPLAY/clock_fx" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clock_fx</obj_property>
+      <obj_property name="ObjectShortName">clock_fx</obj_property>
+      <obj_property name="label">clock_display</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/switch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">switch[3:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/btn_saq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_saq</obj_property>
+      <obj_property name="ObjectShortName">btn_saq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/btn_m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_m</obj_property>
+      <obj_property name="ObjectShortName">btn_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/btn_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_start</obj_property>
+      <obj_property name="ObjectShortName">btn_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Risultati</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group95" type="group">
+         <obj_property name="label">R</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[7]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">value[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[6]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">value[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[5]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">value[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[4]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">value[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[3]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">value[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[2]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">value[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[1]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">value[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[0]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">value[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group86" type="group">
+         <obj_property name="label">Q</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[15]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">value[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[14]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">value[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[13]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">value[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[12]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">value[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[11]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">value[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[10]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">value[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[9]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">value[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/divider_on_board_tb/uut/Inst_DISPLAY_SEVEN_SEGMENTS/value[8]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">value[8]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/q" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">q[3:0]</obj_property>
+         <obj_property name="ObjectShortName">q[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">Q_temp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/r" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">R_temp</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">ControlUnit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/jcnt" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">jcnt</obj_property>
+         <obj_property name="ObjectShortName">jcnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/jop" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">jop</obj_property>
+         <obj_property name="ObjectShortName">jop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/sub" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sub</obj_property>
+         <obj_property name="ObjectShortName">sub</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/load_sa" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">load_sa</obj_property>
+         <obj_property name="ObjectShortName">load_sa</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/load_q" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">load_q</obj_property>
+         <obj_property name="ObjectShortName">load_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/en_cnt" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en_cnt</obj_property>
+         <obj_property name="ObjectShortName">en_cnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/en_ex" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en_ex</obj_property>
+         <obj_property name="ObjectShortName">en_ex</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/en_sh" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en_sh</obj_property>
+         <obj_property name="ObjectShortName">en_sh</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/s_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_buf[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_buf[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Control_Unit/count" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">count</obj_property>
+         <obj_property name="ObjectShortName">count</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group44" type="group">
+      <obj_property name="label">Adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/op_0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">op_0[4:0]</obj_property>
+         <obj_property name="ObjectShortName">op_0[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/op_1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">op_1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">op_1[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/ris" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ris[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ris[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">Registri</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/enable_m" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">enable_m</obj_property>
+         <obj_property name="ObjectShortName">enable_m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/Inst_RegisterM/y" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">y[3:0]</obj_property>
+         <obj_property name="ObjectShortName">y[3:0]</obj_property>
+         <obj_property name="label">M</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/init" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">init</obj_property>
+         <obj_property name="ObjectShortName">init</obj_property>
+      </wvobject>
+      <wvobject fp_name="/divider_on_board_tb/uut/Inst_Datapath/Inst_RegisterSAQ/y" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">y[9:0]</obj_property>
+         <obj_property name="ObjectShortName">y[9:0]</obj_property>
+         <obj_property name="label">SAQ</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/anodes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">anodes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anodes[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/divider_on_board_tb/cathodes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cathodes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cathodes[7:0]</obj_property>
+   </wvobject>
+</wave_config>

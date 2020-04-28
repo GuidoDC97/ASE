@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml ShiftRegister.twx ShiftRegister.ncd -o ShiftRegister.twr
+ShiftRegister.pcf -ucf BasysRevEGeneral.ucf
+
+Design file:              ShiftRegister.ncd
+Physical constraint file: ShiftRegister.pcf
+Device,package,speed:     xc3s250e,tq144,-4 (PRODUCTION 1.27 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+LOAD        |    2.868(R)|   -0.413(R)|CLK_BUFGP         |   0.000|
+SHIFT       |    1.971(R)|    0.074(R)|CLK_BUFGP         |   0.000|
+X<0>        |    2.566(R)|   -0.859(R)|CLK_BUFGP         |   0.000|
+X<1>        |    2.291(R)|   -0.640(R)|CLK_BUFGP         |   0.000|
+X<2>        |    2.024(R)|   -0.426(R)|CLK_BUFGP         |   0.000|
+X<3>        |    1.747(R)|   -0.204(R)|CLK_BUFGP         |   0.000|
+X<4>        |    1.597(R)|   -0.084(R)|CLK_BUFGP         |   0.000|
+X<5>        |    1.107(R)|    0.302(R)|CLK_BUFGP         |   0.000|
+X<6>        |    0.956(R)|    0.422(R)|CLK_BUFGP         |   0.000|
+X<7>        |    1.285(R)|    0.165(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Y<0>        |    8.544(R)|CLK_BUFGP         |   0.000|
+Y<1>        |    8.496(R)|CLK_BUFGP         |   0.000|
+Y<2>        |    8.795(R)|CLK_BUFGP         |   0.000|
+Y<3>        |    8.222(R)|CLK_BUFGP         |   0.000|
+Y<4>        |    8.706(R)|CLK_BUFGP         |   0.000|
+Y<5>        |    8.601(R)|CLK_BUFGP         |   0.000|
+Y<6>        |    8.576(R)|CLK_BUFGP         |   0.000|
+Y<7>        |    8.711(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    2.064|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Nov 25 15:31:57 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4507 MB
+
+
+

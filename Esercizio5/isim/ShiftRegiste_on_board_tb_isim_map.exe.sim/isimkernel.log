@@ -1,0 +1,30 @@
+Command line:
+   ShiftRegiste_on_board_tb_isim_map.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/map/ShiftRegister_on_board_map.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  50346
+
+Fri Jan 31 11:15:36 2020
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5483.79 Meg
+
+ Total Signals          : 2367
+ Total Nets             : 1442
+ Total Signal Drivers   : 1405
+ Total Blocks           : 667
+ Total Primitive Blocks : 358
+ Total Processes        : 1405
+ Total Traceable Variables  : 3381
+ Total Scalar Nets and Variables : 14299
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5483.79 Meg
+
+Fri Jan 31 11:15:57 2020
+

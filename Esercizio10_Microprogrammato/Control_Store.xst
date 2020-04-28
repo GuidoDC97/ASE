@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Guido Di Chiara/Desktop/Esercizio10/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Guido Di Chiara/Desktop/Esercizio10/xst"
+elaborate
+-ifn Control_Store.prj
+-ifmt mixed

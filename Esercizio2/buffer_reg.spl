@@ -1,0 +1,8 @@
+[Inputs]
+clock
+reset
+load_value
+=in_value[3:0]=
+[Outputs]
+=value[3:0]=
+[BiDir]

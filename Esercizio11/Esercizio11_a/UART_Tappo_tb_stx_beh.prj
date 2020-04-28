@@ -1,0 +1,6 @@
+vhdl isim_temp "RS232RefComp2.vhd"
+vhdl isim_temp "Debouncer.vhd"
+vhdl isim_temp "Control_Unit.vhd"
+vhdl isim_temp "Clock_filter.vhd"
+vhdl isim_temp "UART_Tappo.vhd"
+vhdl isim_temp "UART_Tappo_tb.vhd"

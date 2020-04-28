@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "display_on_board.ngc" display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "display_on_board.ngc" display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "display_on_board.ngc" display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 

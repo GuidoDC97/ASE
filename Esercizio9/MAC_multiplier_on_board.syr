@@ -1,0 +1,607 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: MAC_multiplier_on_board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MAC_multiplier_on_board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MAC_multiplier_on_board"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : MAC_multiplier_on_board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd" in Library work.
+Architecture dataflow of Entity full_adder is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd" in Library work.
+Architecture behavioral of Entity mac_cell is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd" in Library work.
+Architecture behavioral of Entity counter_mod4 is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" in Library work.
+Architecture behavioral of Entity cathodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" in Library work.
+Architecture behavioral of Entity anodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd" in Library work.
+Architecture structural of Entity display_seven_segments is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd" in Library work.
+Architecture behavioral of Entity clock_filter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd" in Library work.
+Architecture behavioral of Entity mac_multiplier is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd" in Library work.
+Architecture behavioral of Entity buffer_reg is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd" in Library work.
+Entity <mac_multiplier_on_board> compiled.
+Entity <mac_multiplier_on_board> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MAC_multiplier_on_board> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <display_seven_segments> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_filter> in library <work> (architecture <behavioral>) with generics.
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+
+Analyzing hierarchy for entity <MAC_multiplier> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <buffer_reg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_mod4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <cathodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <anodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MAC_cell> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <dataflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MAC_multiplier_on_board> in library <work> (Architecture <structural>).
+Entity <MAC_multiplier_on_board> analyzed. Unit <MAC_multiplier_on_board> generated.
+
+Analyzing Entity <display_seven_segments> in library <work> (Architecture <structural>).
+Entity <display_seven_segments> analyzed. Unit <display_seven_segments> generated.
+
+Analyzing Entity <counter_mod4> in library <work> (Architecture <behavioral>).
+Entity <counter_mod4> analyzed. Unit <counter_mod4> generated.
+
+Analyzing Entity <cathodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" line 52: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" line 76: Mux is complete : default of case is discarded
+Entity <cathodes_manager> analyzed. Unit <cathodes_manager> generated.
+
+Analyzing Entity <anodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" line 28: Mux is complete : default of case is discarded
+Entity <anodes_manager> analyzed. Unit <anodes_manager> generated.
+
+Analyzing Entity <Debouncer> in library <work> (Architecture <behavioral>).
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+Analyzing generic Entity <clock_filter> in library <work> (Architecture <behavioral>).
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+Entity <clock_filter> analyzed. Unit <clock_filter> generated.
+
+Analyzing Entity <MAC_multiplier> in library <work> (Architecture <behavioral>).
+Entity <MAC_multiplier> analyzed. Unit <MAC_multiplier> generated.
+
+Analyzing Entity <MAC_cell> in library <work> (Architecture <behavioral>).
+Entity <MAC_cell> analyzed. Unit <MAC_cell> generated.
+
+Analyzing Entity <full_adder> in library <work> (Architecture <dataflow>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+Analyzing Entity <buffer_reg> in library <work> (Architecture <behavioral>).
+Entity <buffer_reg> analyzed. Unit <buffer_reg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd".
+    Found 8-bit register for signal <op_0_temp>.
+    Found 8-bit register for signal <op_1_temp>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <clock_filter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd".
+    Found 1-bit register for signal <clockfx>.
+    Found 17-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clock_filter> synthesized.
+
+
+Synthesizing Unit <buffer_reg>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd".
+    Found 16-bit register for signal <value>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <buffer_reg> synthesized.
+
+
+Synthesizing Unit <counter_mod4>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd".
+    Found 2-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_mod4> synthesized.
+
+
+Synthesizing Unit <cathodes_manager>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd".
+    Found 16x7-bit ROM for signal <cathodes_for_digit>.
+    Found 4-bit 4-to-1 multiplexer for signal <nibble>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <cathodes_manager> synthesized.
+
+
+Synthesizing Unit <anodes_manager>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd".
+    Found 1-of-4 decoder for signal <anodes_switching>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <anodes_manager> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd".
+    Found 1-bit xor2 for signal <z>.
+    Found 1-bit xor2 for signal <c_out$xor0000> created at line 16.
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <display_seven_segments>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd".
+Unit <display_seven_segments> synthesized.
+
+
+Synthesizing Unit <MAC_cell>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd".
+Unit <MAC_cell> synthesized.
+
+
+Synthesizing Unit <MAC_multiplier>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd".
+Unit <MAC_multiplier> synthesized.
+
+
+Synthesizing Unit <MAC_multiplier_on_board>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd".
+Unit <MAC_multiplier_on_board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 4
+ 1-bit register                                        : 1
+ 16-bit register                                       : 1
+ 8-bit register                                        : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 128
+ 1-bit xor2                                            : 128
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 128
+ 1-bit xor2                                            : 128
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MAC_multiplier_on_board> ...
+
+Optimizing unit <Debouncer> ...
+
+Optimizing unit <buffer_reg> ...
+
+Optimizing unit <MAC_multiplier> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MAC_multiplier_on_board, actual ratio is 4.
+FlipFlop Inst_Debouncer/op_0_temp_3 has been replicated 1 time(s)
+FlipFlop Inst_Debouncer/op_0_temp_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 54
+ Flip-Flops                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MAC_multiplier_on_board.ngr
+Top Level Output File Name         : MAC_multiplier_on_board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 321
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 17
+#      LUT2                        : 40
+#      LUT2_D                      : 2
+#      LUT2_L                      : 1
+#      LUT3                        : 17
+#      LUT3_D                      : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 134
+#      LUT4_D                      : 29
+#      LUT4_L                      : 25
+#      MUXCY                       : 21
+#      MUXF5                       : 11
+#      VCC                         : 1
+#      XORCY                       : 17
+# FlipFlops/Latches                : 54
+#      FDC                         : 20
+#      FDCE                        : 34
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 12
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                      143  out of   2448     5%  
+ Number of Slice Flip Flops:             54  out of   4896     1%  
+ Number of 4 input LUTs:                270  out of   4896     5%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    108    23%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 18    |
+clk_filter/clockfx1                | BUFG                   | 36    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 54    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 22.879ns (Maximum Frequency: 43.708MHz)
+   Minimum input arrival time before clock: 4.955ns
+   Maximum output required time after clock: 8.070ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 5.522ns (frequency: 181.094MHz)
+  Total number of paths / destination ports: 459 / 18
+-------------------------------------------------------------------------
+Delay:               5.522ns (Levels of Logic = 18)
+  Source:            clk_filter/counter_1 (FF)
+  Destination:       clk_filter/counter_16 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: clk_filter/counter_1 to clk_filter/counter_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  clk_filter/counter_1 (clk_filter/counter_1)
+     LUT1:I0->O            1   0.704   0.000  clk_filter/Mcount_counter_cy<1>_rt (clk_filter/Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  clk_filter/Mcount_counter_cy<1> (clk_filter/Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<2> (clk_filter/Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<3> (clk_filter/Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<4> (clk_filter/Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<5> (clk_filter/Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<6> (clk_filter/Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<7> (clk_filter/Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<8> (clk_filter/Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<9> (clk_filter/Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<10> (clk_filter/Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<11> (clk_filter/Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<12> (clk_filter/Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<13> (clk_filter/Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<14> (clk_filter/Mcount_counter_cy<14>)
+     MUXCY:CI->O           0   0.059   0.000  clk_filter/Mcount_counter_cy<15> (clk_filter/Mcount_counter_cy<15>)
+     XORCY:CI->O           1   0.804   0.499  clk_filter/Mcount_counter_xor<16> (Result<16>)
+     LUT2:I1->O            1   0.704   0.000  clk_filter/Mcount_counter_eqn_161 (clk_filter/Mcount_counter_eqn_16)
+     FDC:D                     0.308          clk_filter/counter_16
+    ----------------------------------------
+    Total                      5.522ns (4.401ns logic, 1.121ns route)
+                                       (79.7% logic, 20.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_filter/clockfx1'
+  Clock period: 22.879ns (frequency: 43.708MHz)
+  Total number of paths / destination ports: 2175734 / 18
+-------------------------------------------------------------------------
+Delay:               22.879ns (Levels of Logic = 18)
+  Source:            Inst_Debouncer/op_1_temp_1 (FF)
+  Destination:       Inst_buffer_reg/value_15 (FF)
+  Source Clock:      clk_filter/clockfx1 rising
+  Destination Clock: clk_filter/clockfx1 rising
+
+  Data Path: Inst_Debouncer/op_1_temp_1 to Inst_buffer_reg/value_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            23   0.591   1.281  Inst_Debouncer/op_1_temp_1 (Inst_Debouncer/op_1_temp_1)
+     LUT2:I1->O            3   0.704   0.535  Inst_MAC_multiplier/MAC_cell_row[1].r_row.rest_row[1].r_col.rest_col/full_adder_0/Mxor_z_Result1_SW0 (N31)
+     LUT4:I3->O            1   0.704   0.424  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[1].r_col.rest_col/full_adder_0/c_out1_SW0 (N89)
+     LUT4:I3->O            9   0.704   0.824  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[1].r_col.rest_col/full_adder_0/c_out1 (Inst_MAC_multiplier/temp_c<2><1>)
+     LUT4_D:I3->LO         1   0.704   0.104  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[2].r_col.rest_col/full_adder_0/c_out1 (N190)
+     LUT4:I3->O            3   0.704   0.535  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[3].r_col.rest_col/full_adder_0/c_out1 (Inst_MAC_multiplier/temp_c<2><3>)
+     LUT4_D:I3->LO         1   0.704   0.104  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[4].r_col.rest_col/full_adder_0/c_out1 (N189)
+     LUT4:I3->O            2   0.704   0.451  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[5].r_col.rest_col/full_adder_0/c_out1 (Inst_MAC_multiplier/temp_c<2><5>)
+     LUT4_D:I3->O          3   0.704   0.535  Inst_MAC_multiplier/MAC_cell_row[2].r_row.rest_row[7].m_col.most_col/full_adder_0/Mxor_z_Result1 (Inst_MAC_multiplier/temp_s<2><7>)
+     LUT4:I3->O            1   0.704   0.424  Inst_MAC_multiplier/MAC_cell_row[3].r_row.rest_row[6].r_col.rest_col/full_adder_0/c_out1_SW1 (N46)
+     LUT4:I3->O            4   0.704   0.591  Inst_MAC_multiplier/MAC_cell_row[3].r_row.rest_row[7].m_col.most_col/full_adder_0/Mxor_z_Result1 (Inst_MAC_multiplier/temp_s<3><7>)
+     LUT4:I3->O            1   0.704   0.424  Inst_MAC_multiplier/MAC_cell_row[4].r_row.rest_row[6].r_col.rest_col/full_adder_0/c_out1_SW1 (N65)
+     LUT4:I3->O            4   0.704   0.591  Inst_MAC_multiplier/MAC_cell_row[4].r_row.rest_row[7].m_col.most_col/full_adder_0/Mxor_z_Result1 (Inst_MAC_multiplier/temp_s<4><7>)
+     LUT4:I3->O            1   0.704   0.424  Inst_MAC_multiplier/MAC_cell_row[5].r_row.rest_row[6].r_col.rest_col/full_adder_0/c_out1_SW1 (N99)
+     LUT4:I3->O            4   0.704   0.591  Inst_MAC_multiplier/MAC_cell_row[5].r_row.rest_row[7].m_col.most_col/full_adder_0/Mxor_z_Result1 (Inst_MAC_multiplier/temp_s<5><7>)
+     LUT4:I3->O            1   0.704   0.424  Inst_MAC_multiplier/MAC_cell_row[6].r_row.rest_row[6].r_col.rest_col/full_adder_0/c_out1_SW1 (N127)
+     LUT4:I3->O            4   0.704   0.622  Inst_MAC_multiplier/MAC_cell_row[6].r_row.rest_row[7].m_col.most_col/full_adder_0/Mxor_z_Result1 (Inst_MAC_multiplier/temp_s<6><7>)
+     LUT4:I2->O            1   0.704   0.424  Inst_MAC_multiplier/MAC_cell_row[7].r_row.rest_row[6].r_col.rest_col/full_adder_0/c_out1 (Inst_MAC_multiplier/temp_c<7><6>)
+     LUT4:I3->O            1   0.704   0.000  Inst_MAC_multiplier/MAC_cell_row[7].r_row.rest_row[7].m_col.most_col/full_adder_0/c_out1 (buf_in<15>)
+     FDCE:D                    0.308          Inst_buffer_reg/value_15
+    ----------------------------------------
+    Total                     22.879ns (13.571ns logic, 9.308ns route)
+                                       (59.3% logic, 40.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_filter/clockfx1'
+  Total number of paths / destination ports: 76 / 52
+-------------------------------------------------------------------------
+Offset:              4.955ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       Inst_buffer_reg/value_15 (FF)
+  Destination Clock: clk_filter/clockfx1 rising
+
+  Data Path: reset to Inst_buffer_reg/value_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            55   1.218   1.444  reset_IBUF (reset_IBUF)
+     LUT2:I0->O           16   0.704   1.034  calc1 (calc)
+     FDCE:CE                   0.555          Inst_buffer_reg/value_0
+    ----------------------------------------
+    Total                      4.955ns (2.477ns logic, 2.478ns route)
+                                       (50.0% logic, 50.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_filter/clockfx1'
+  Total number of paths / destination ports: 204 / 11
+-------------------------------------------------------------------------
+Offset:              8.070ns (Levels of Logic = 4)
+  Source:            seven_segment_array/counter_instance/c_0 (FF)
+  Destination:       cathodes<6> (PAD)
+  Source Clock:      clk_filter/clockfx1 rising
+
+  Data Path: seven_segment_array/counter_instance/c_0 to cathodes<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             14   0.591   1.175  seven_segment_array/counter_instance/c_0 (seven_segment_array/counter_instance/c_0)
+     LUT3:I0->O            1   0.704   0.000  seven_segment_array/cathodes_instance/Mmux_nibble_31 (seven_segment_array/cathodes_instance/Mmux_nibble_31)
+     MUXF5:I1->O           7   0.321   0.883  seven_segment_array/cathodes_instance/Mmux_nibble_2_f5_0 (seven_segment_array/cathodes_instance/nibble<1>)
+     LUT4:I0->O            1   0.704   0.420  seven_segment_array/cathodes_instance/Mrom_cathodes_for_digit21 (cathodes_2_OBUF)
+     OBUF:I->O                 3.272          cathodes_2_OBUF (cathodes<2>)
+    ----------------------------------------
+    Total                      8.070ns (5.592ns logic, 2.478ns route)
+                                       (69.3% logic, 30.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.51 secs
+ 
+--> 
+
+Total memory usage is 4518956 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

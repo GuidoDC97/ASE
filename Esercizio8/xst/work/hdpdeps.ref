@@ -1,0 +1,90 @@
+V3 51
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/anodes_manager.vhd 2019/11/26.18:47:42 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/cathodes_manager.vhd 2019/11/26.17:48:18 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/Clock_filter.vhd 2019/11/29.13:53:12 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/control_unit.vhd 2019/11/29.14:00:40 P.58f
+EN work/control_unit 1575032457 \
+      FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/control_unit.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/control_unit/Behavioral 1575032458 \
+      FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/control_unit.vhd \
+      EN work/control_unit 1575032457
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/Converter.vhd 2019/11/26.21:15:41 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/counter_mod4.vhd 2019/11/26.17:34:09 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/Counter_mod_M_load.vhd 2019/11/29.14:00:05 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch.vhd 2019/11/28.21:13:28 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.vhd 2019/11/29.13:48:13 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio8/display_seven_segments.vhd 2019/11/26.17:52:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/anodes_manager.vhd" 2020/02/01.11:57:18 P.58f
+EN work/anodes_manager 1580570915 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/anodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/anodes_manager/Behavioral 1580570916 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/anodes_manager.vhd" \
+      EN work/anodes_manager 1580570915
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd" 2020/02/01.12:13:25 P.58f
+EN work/cathodes_manager 1580570913 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/cathodes_manager/Behavioral 1580570914 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd" \
+      EN work/cathodes_manager 1580570913
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Clock_filter.vhd" 2019/11/29.05:12:08 P.58f
+EN work/clock_filter 1580570907 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Clock_filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/clock_filter/Behavioral 1580570908 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Clock_filter.vhd" \
+      EN work/clock_filter 1580570907
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Converter.vhd" 2020/02/01.11:05:23 P.58f
+EN work/bin2bcd_12bit 1580570923 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Converter.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/bin2bcd_12bit/Behavioral 1580570924 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Converter.vhd" \
+      EN work/bin2bcd_12bit 1580570923
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/counter_mod4.vhd" 2020/02/01.16:25:12 P.58f
+EN work/counter_mod4 1580570911 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/counter_mod4.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/counter_mod4/Behavioral 1580570912 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/counter_mod4.vhd" \
+      EN work/counter_mod4 1580570911
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Counter_mod_M_load.vhd" 2020/02/01.16:00:02 P.58f
+EN work/Counter_mod_M_load 1580570909 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Counter_mod_M_load.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221 PB ieee/NUMERIC_STD 1364358223
+AR work/Counter_mod_M_load/Behavioral 1580570910 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Counter_mod_M_load.vhd" \
+      EN work/Counter_mod_M_load 1580570909
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Debouncer.vhd" 2020/02/01.13:43:04 P.58f
+EN work/Debouncer 1580570919 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Debouncer/behavioral 1580570920 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Debouncer.vhd" \
+      EN work/Debouncer 1580570919
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch.vhd" 2020/02/01.11:44:27 P.58f
+EN work/Digital_watch 1580570921 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Digital_watch/Structural 1580570922 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch.vhd" \
+      EN work/Digital_watch 1580570921 CP clock_filter CP Counter_mod_M_load
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd" 2020/02/01.16:28:03 P.58f
+EN work/Digital_watch_on_board 1580570925 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Digital_watch_on_board/Behavioral 1580570926 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd" \
+      EN work/Digital_watch_on_board 1580570925 CP display_seven_segments \
+      CP Debouncer CP Digital_watch CP clock_filter CP bin2bcd_12bit
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/display_seven_segments.vhd" 2020/02/01.16:28:23 P.58f
+EN work/display_seven_segments 1580570917 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/display_seven_segments.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/display_seven_segments/Structural 1580570918 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/display_seven_segments.vhd" \
+      EN work/display_seven_segments 1580570917 CP counter_mod4 \
+      CP cathodes_manager CP anodes_manager

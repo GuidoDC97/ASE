@@ -1,0 +1,4 @@
+vhdl isim_temp "Counter_mod_M_load.vhd"
+vhdl isim_temp "Clock_filter.vhd"
+vhdl isim_temp "Digital_watch.vhd"
+vhdl isim_temp "Digital_watch_tb.vhd"

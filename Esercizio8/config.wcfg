@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="digital_watch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="1059999990000000" label="" />
+      <marker time="60000000000000" label="" />
+      <marker time="2059999990000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/digital_watch_tb/sec_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sec_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_in[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/min_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">min_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">min_in[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/h_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">h_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">h_in[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/uut/clk_filter/clockfx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clockfx</obj_property>
+      <obj_property name="ObjectShortName">clockfx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/load_sec" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load_sec</obj_property>
+      <obj_property name="ObjectShortName">load_sec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/load_min" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load_min</obj_property>
+      <obj_property name="ObjectShortName">load_min</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/load_h" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load_h</obj_property>
+      <obj_property name="ObjectShortName">load_h</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/sec_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sec_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_out[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/min_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">min_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">min_out[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/digital_watch_tb/h_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">h_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">h_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

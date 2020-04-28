@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_tb_isim_beh.exe" -prj "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_tb_beh.prj" "work.MAC_multiplier_tb" 

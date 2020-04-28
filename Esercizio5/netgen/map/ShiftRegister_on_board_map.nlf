@@ -1,0 +1,38 @@
+Release 14.5 - netgen P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -s 4 -pcf ShiftRegister_on_board.pcf -rpw
+100 -tpw 0 -ar Structure -tm ShiftRegister_on_board -w -dir netgen/map -ofmt
+vhdl -sim ShiftRegister_on_board_map.ncd ShiftRegister_on_board_map.vhd  
+
+Read and Annotate design 'ShiftRegister_on_board_map.ncd' ...
+Loading device for application Rf_Device from file '3s250e.nph' in environment
+C:\Xilinx\14.5\ISE_DS\ISE\.
+   "ShiftRegister_on_board" is an NCD, version 3.2, device xc3s250e, package
+tq144, speed -4
+Loading constraints from 'ShiftRegister_on_board.pcf'...
+The speed grade (-4) differs from the speed grade specified in the .ncd file
+(-4).
+The number of routable networks is 72
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist 'C:\Users\Guido Di Chiara\Documents\Semestre
+Corrente\Architettura dei Sistemi di
+Elaborazione\Tesina\Esercizio5\netgen\map\ShiftRegister_on_board_map.vhd' ...
+Writing VHDL SDF file 'C:\Users\Guido Di Chiara\Documents\Semestre
+Corrente\Architettura dei Sistemi di
+Elaborazione\Tesina\Esercizio5\netgen\map\ShiftRegister_on_board_map.sdf' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM library for correct
+   compilation and simulation. 
+INFO:NetListWriters - Xilinx recommends running separate simulations to check
+   for setup by specifying the MAX field in the SDF file and for hold by
+   specifying the MIN field in the SDF file. Please refer to Simulator
+   documentation for more details on specifying MIN and MAX field in the SDF.
+INFO:NetListWriters:665 - For more information on how to pass the SDF switches
+   to the simulator, see your Simulator tool documentation.
+Number of warnings: 0
+Number of info messages: 3
+Total memory usage is 4449504 kilobytes

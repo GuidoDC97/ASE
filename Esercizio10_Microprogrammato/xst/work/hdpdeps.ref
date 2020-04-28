@@ -1,0 +1,173 @@
+V3 107
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Adder_Subtractor_Nbit.vhd" 2020/01/28.13:16:00 P.58f
+EN work/ADDER_SUBTRACTOR_Nbit 1582291789 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Adder_Subtractor_Nbit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ADDER_SUBTRACTOR_Nbit/structural 1582291790 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Adder_Subtractor_Nbit.vhd" \
+      EN work/ADDER_SUBTRACTOR_Nbit 1582291789 CP RCA_Nbit
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Anodes_manager.vhd" 2020/01/25.01:23:40 P.58f
+EN work/ANODES_MANAGER 1582291781 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Anodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ANODES_MANAGER/behavioral 1582291782 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Anodes_manager.vhd" \
+      EN work/ANODES_MANAGER 1582291781
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Cathodes_manager.vhd" 2020/02/03.13:32:11 P.58f
+EN work/CATHODES_MANAGER 1582291779 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Cathodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/CATHODES_MANAGER/behavioral 1582291780 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Cathodes_manager.vhd" \
+      EN work/CATHODES_MANAGER 1582291779
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Clock_Filter.vhd" 2020/01/25.01:23:40 P.58f
+EN work/Clock_Filter 1582291797 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Clock_Filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Clock_Filter/Behavioral 1582291798 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Clock_Filter.vhd" \
+      EN work/Clock_Filter 1582291797
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Clock_filter_display.vhd" 2020/01/25.01:23:40 P.58f
+EN work/CLOCK_FILTER_DISPLAY 1582291801 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Clock_filter_display.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/CLOCK_FILTER_DISPLAY/behavioral 1582291802 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Clock_filter_display.vhd" \
+      EN work/CLOCK_FILTER_DISPLAY 1582291801
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.vhd" 2020/02/20.22:13:56 P.58f
+EN work/Control_Store 1582291783 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/Control_Store/dataflow 1582291784 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Store.vhd" \
+      EN work/Control_Store 1582291783
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Unit.vhd" 2020/02/21.14:29:23 P.58f
+EN work/Control_Unit 1582291795 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Unit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Control_Unit/Behavioral 1582291796 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Unit.vhd" \
+      EN work/Control_Unit 1582291795 CP Control_Store
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Converter.vhd" 2020/02/11.16:39:28 P.58f
+EN work/bin2bcd_12bit 1582291805 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Converter.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/bin2bcd_12bit/Behavioral 1582291806 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Converter.vhd" \
+      EN work/bin2bcd_12bit 1582291805
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Counter.vhd" 2020/02/20.22:44:27 P.58f
+EN work/Counter 1582291791 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Counter.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221 PB ieee/NUMERIC_STD 1364358223
+AR work/Counter/Behavioral 1582291792 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Counter.vhd" \
+      EN work/Counter 1582291791
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Counter_mod4.vhd" 2020/02/03.13:27:38 P.58f
+EN work/COUNTER_MOD4 1582291777 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Counter_mod4.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/COUNTER_MOD4/behavioral 1582291778 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Counter_mod4.vhd" \
+      EN work/COUNTER_MOD4 1582291777
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Datapath.vhd" 2020/02/03.15:18:58 P.58f
+EN work/Datapath 1582291793 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Datapath.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Datapath/Structural 1582291794 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Datapath.vhd" \
+      EN work/Datapath 1582291793 CP RegisterM CP RegisterSAQ \
+      CP ADDER_SUBTRACTOR_Nbit CP Counter
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Debouncer.vhd" 2020/02/13.19:27:45 P.58f
+EN work/Debouncer 1582291799 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221 PB ieee/NUMERIC_STD 1364358223
+AR work/Debouncer/Behavioral 1582291800 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Debouncer.vhd" \
+      EN work/Debouncer 1582291799
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.vhd" 2020/02/20.22:19:44 P.58f
+EN work/Divider_On_Board 1582291807 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Divider_On_Board/Structural 1582291808 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Divider_On_Board.vhd" \
+      EN work/Divider_On_Board 1582291807 CP Datapath CP Control_Unit \
+      CP Clock_Filter CP Debouncer CP CLOCK_FILTER_DISPLAY \
+      CP DISPLAY_SEVEN_SEGMENTS CP bin2bcd_12bit
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Full_adder.vhd" 2020/01/25.01:23:44 P.58f
+EN work/FULL_ADDER 1582291773 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Full_adder.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/FULL_ADDER/dataflow 1582291774 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Full_adder.vhd" \
+      EN work/FULL_ADDER 1582291773
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RCA_Nbit .vhd" 2020/01/25.01:23:44 P.58f
+EN work/RCA_Nbit 1582291775 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RCA_Nbit .vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/RCA_Nbit/structural 1582291776 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RCA_Nbit .vhd" \
+      EN work/RCA_Nbit 1582291775 CP FULL_ADDER
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RegisterM.vhd" 2020/01/25.01:23:44 P.58f
+EN work/RegisterM 1582291785 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RegisterM.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/RegisterM/behavioral 1582291786 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RegisterM.vhd" \
+      EN work/RegisterM 1582291785
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RegisterSAQ.vhd" 2020/02/13.18:42:27 P.58f
+EN work/RegisterSAQ 1582291787 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RegisterSAQ.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/RegisterSAQ/behavioral 1582291788 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/RegisterSAQ.vhd" \
+      EN work/RegisterSAQ 1582291787
+FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Seven_segment_array.vhd" 2020/02/13.18:42:33 P.58f
+EN work/DISPLAY_SEVEN_SEGMENTS 1582291803 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Seven_segment_array.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/DISPLAY_SEVEN_SEGMENTS/structural 1582291804 \
+      FL "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Seven_segment_array.vhd" \
+      EN work/DISPLAY_SEVEN_SEGMENTS 1582291803 CP COUNTER_MOD4 \
+      CP CATHODES_MANAGER CP ANODES_MANAGER
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Adder_Subtractor_Nbit.vhd" 2020/01/28.13:16:00 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Anodes_manager.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Cathodes_manager.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Clock_Filter.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Clock_filter_display.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/ControlUnit.vhd" 2020/01/28.11:58:26 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Converter.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Counter.vhd" 2020/01/28.16:31:38 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Counter_mod4.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Datapath.vhd" 2020/01/28.13:30:14 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Debouncer.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Divider_On_Board.vhd" 2020/01/28.12:13:02 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Full_adder.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/RCA_Nbit .vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/RegisterM.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/RegisterSAQ.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio10/Seven_segment_array.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Adder_Subtractor_Nbit.vhd" 2020/01/28.13:16:00 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd" 2020/02/03.13:32:11 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_Filter.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_filter_display.vhd" 2020/01/25.01:23:40 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" 2020/02/08.11:12:31 P.58f
+EN work/ControlUnit 1581618330 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ControlUnit/Behavioral 1581618331 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" \
+      EN work/ControlUnit 1581618330
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Converter.vhd" 2020/02/11.16:39:28 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter.vhd" 2020/02/03.12:59:14 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter_mod4.vhd" 2020/02/03.13:27:38 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd" 2020/02/03.15:18:58 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Debouncer.vhd" 2020/02/13.19:25:05 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" 2020/02/11.16:46:13 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Full_adder.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RCA_Nbit .vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterM.vhd" 2020/01/25.01:23:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterSAQ.vhd" 2020/02/13.18:42:27 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Seven_segment_array.vhd" 2020/02/13.18:42:33 P.58f

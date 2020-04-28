@@ -1,0 +1,28 @@
+Command line:
+   Contatatore_mod16_parallelo_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58675
+
+Tue Nov 26 16:49:59 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5471.47 Meg
+
+ Total Signals          : 24
+ Total Nets             : 17
+ Total Signal Drivers   : 14
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 14
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 378
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 4999.61 Meg
+
+Tue Nov 26 16:51:03 2019
+

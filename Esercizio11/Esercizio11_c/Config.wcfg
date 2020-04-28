@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/fabio/Desktop/Elaborato Finale  05.02.20/Esercizio11/Esercizio11_c/UART_On_Board_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="uart_on_board_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/uart_on_board_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/uut/Inst_Debounce/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/btn_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_reset</obj_property>
+      <obj_property name="ObjectShortName">btn_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/btn_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_wr</obj_property>
+      <obj_property name="ObjectShortName">btn_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/btn_rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_rd</obj_property>
+      <obj_property name="ObjectShortName">btn_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/switch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">switch[7:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/uut/UART/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/uut/UART/tbe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tbe</obj_property>
+      <obj_property name="ObjectShortName">tbe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/uut/UART/rda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rda</obj_property>
+      <obj_property name="ObjectShortName">rda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_on_board_tb/uut/UART/rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,6 @@
+work	"Debouncer.vhd"
+work	"FF_D.vhd"
+work	"MUX_2_1_Nbit.vhd"
+work	"ShiftRegister.vhd"
+work	"ShiftRegister_on_board.vhd"
+work	"clock_filter.vhd"

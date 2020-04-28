@@ -1,0 +1,1 @@
+vhdtdtfi -prj Switch -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Switch/Switch/Mux_4_1.vhi" -module Mux_4_1 -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux_4_1.vhd 

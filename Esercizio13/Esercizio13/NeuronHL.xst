@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/xst"
+elaborate
+-ifn NeuronHL.prj
+-ifmt mixed

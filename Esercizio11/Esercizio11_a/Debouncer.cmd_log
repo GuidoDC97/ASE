@@ -1,0 +1,1 @@
+vhdtdtfi -prj Esercizio11 -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhi" -module Debouncer -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Debouncer.vhd 

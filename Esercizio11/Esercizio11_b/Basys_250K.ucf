@@ -1,0 +1,26 @@
+# clock pin for Basys rev E Board                                                                                                                        
+ NET "CLOCK"      LOC = "P54"; 
+ 
+#  Leds                                                                                                                        
+ NET "LED<0>"    LOC = "P15"; 
+ NET "LED<1>"    LOC = "P14"; 
+ NET "LED<2>"    LOC = "P8";  
+ NET "LED<3>"    LOC = "P7";  
+ NET "LED<4>"    LOC = "P5";  
+ NET "LED<5>"    LOC = "P4";  
+ NET "LED<6>"    LOC = "P3";  
+ NET "LED<7>"    LOC = "P2";  
+                                                                                                                        
+# Switches                                                                                                                        
+ NET "SWITCH<0>"     LOC = "P38"; 
+ NET "SWITCH<1>"     LOC = "P36"; 
+ NET "SWITCH<2>"     LOC = "P29"; 
+ NET "SWITCH<3>"     LOC = "P24"; 
+ NET "SWITCH<4>"     LOC = "P18"; 
+ NET "SWITCH<5>"     LOC = "P12";
+ NET "SWITCH<6>"     LOC = "P10";
+ NET "SWITCH<7>"     LOC = "P6";  
+                                                                                                                        
+# Buttons                                                                                                                        
+ NET "BTN_LOAD"    LOC = "P69"; 
+ NET "BTN_RESET"    LOC = "P48"; 

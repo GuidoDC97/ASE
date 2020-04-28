@@ -1,0 +1,140 @@
+V3 82
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Adder.vhd" 2020/02/04.11:54:23 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/anodes_manager.vhd" 2020/02/04.11:21:49 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/cathodes_manager.vhd" 2020/02/04.11:21:37 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Clock_Filter.vhd" 2020/02/04.11:13:01 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Clock_filter_display.vhd" 2020/02/04.01:31:58 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/ControlUnit.vhd" 2020/02/04.12:26:03 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/counter_mod4.vhd" 2020/02/04.11:16:55 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Datapath.vhd" 2020/02/04.12:26:03 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Debouncer.vhd" 2020/02/04.11:16:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd" 2020/02/04.11:11:01 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/Multiplier.vhd" 2020/02/04.11:09:00 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd" 2020/02/04.11:16:44 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/NeuronHL.vhd" 2020/02/04.12:59:52 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/NeuronOL.vhd" 2020/02/04.12:26:03 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/RegisterN.vhd" 2020/02/04.11:19:51 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Esercizio13/Esercizio13/seven_segment_array.vhd" 2020/02/04.11:17:14 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd" 2020/02/04.11:54:23 P.58f
+EN work/Adder 1582556787 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219
+AR work/Adder/dataflow 1582556788 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd" \
+      EN work/Adder 1582556787
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd" 2020/02/04.11:21:49 P.58f
+EN work/anodes_manager 1582556795 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/anodes_manager/Behavioral 1582556796 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd" \
+      EN work/anodes_manager 1582556795
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" 2020/02/04.11:21:37 P.58f
+EN work/cathodes_manager 1582556793 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/cathodes_manager/Behavioral 1582556794 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" \
+      EN work/cathodes_manager 1582556793
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_Filter.vhd" 2020/02/04.11:13:01 P.58f
+EN work/Clock_Filter 1582556809 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_Filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Clock_Filter/Behavioral 1582556810 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_Filter.vhd" \
+      EN work/Clock_Filter 1582556809
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_filter_display.vhd" 2020/02/04.01:31:58 P.58f
+EN work/CLOCK_FILTER_DISPLAY 1582556811 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_filter_display.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/CLOCK_FILTER_DISPLAY/behavioral 1582556812 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_filter_display.vhd" \
+      EN work/CLOCK_FILTER_DISPLAY 1582556811
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/ControlUnit.vhd" 2020/02/04.12:26:03 P.58f
+EN work/ControlUnit 1582371398 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/ControlUnit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ControlUnit/Behavioral 1582371399 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/ControlUnit.vhd" \
+      EN work/ControlUnit 1582371398
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Control_Unit.vhd" 2020/02/24.16:06:21 P.58f
+EN work/Control_Unit 1582556803 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Control_Unit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Control_Unit/Behavioral 1582556804 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Control_Unit.vhd" \
+      EN work/Control_Unit 1582556803
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/counter_mod4.vhd" 2020/02/04.11:16:55 P.58f
+EN work/counter_mod4 1582556791 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/counter_mod4.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/counter_mod4/Behavioral 1582556792 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/counter_mod4.vhd" \
+      EN work/counter_mod4 1582556791
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Datapath.vhd" 2020/02/04.12:26:03 P.58f
+EN work/Datapath 1582556805 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Datapath.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Datapath/Structural 1582556806 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Datapath.vhd" \
+      EN work/Datapath 1582556805 CP RegisterN CP NeuronHL CP NeuronOL
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Debouncer.vhd" 2020/02/04.11:16:44 P.58f
+EN work/Debouncer 1582556807 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221 PB ieee/NUMERIC_STD 1364358223
+AR work/Debouncer/Behavioral 1582556808 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Debouncer.vhd" \
+      EN work/Debouncer 1582556807
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd" 2020/02/04.11:11:01 P.58f
+EN work/Multiplexer_2_1_Nbit 1582556789 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Multiplexer_2_1_Nbit/dataflow 1582556790 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd" \
+      EN work/Multiplexer_2_1_Nbit 1582556789
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd" 2020/02/04.11:09:00 P.58f
+EN work/Multiplier 1582556785 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219
+AR work/Multiplier/dataflow 1582556786 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd" \
+      EN work/Multiplier 1582556785
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd" 2020/02/24.16:04:19 P.58f
+EN work/NeuralNetwork_On_Board 1582556815 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/NeuralNetwork_On_Board/structural 1582556816 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd" \
+      EN work/NeuralNetwork_On_Board 1582556815 CP Control_Unit CP Datapath \
+      CP Debouncer CP Clock_Filter CP CLOCK_FILTER_DISPLAY \
+      CP display_seven_segments
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd" 2020/02/04.16:14:35 P.58f
+EN work/NeuronHL 1582556799 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/NeuronHL/structural 1582556800 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd" \
+      EN work/NeuronHL 1582556799 CP Multiplier CP Adder CP Multiplexer_2_1_Nbit
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronOL.vhd" 2020/02/04.12:26:03 P.58f
+EN work/NeuronOL 1582556801 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronOL.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/NeuronOL/Behavioral 1582556802 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronOL.vhd" \
+      EN work/NeuronOL 1582556801 CP Multiplier CP Adder CP Multiplexer_2_1_Nbit
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd" 2020/02/04.11:19:51 P.58f
+EN work/RegisterN 1582556797 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/RegisterN/behavioral 1582556798 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd" \
+      EN work/RegisterN 1582556797
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/seven_segment_array.vhd" 2020/02/04.11:17:14 P.58f
+EN work/display_seven_segments 1582556813 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/seven_segment_array.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/display_seven_segments/Structural 1582556814 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/seven_segment_array.vhd" \
+      EN work/display_seven_segments 1582556813 CP counter_mod4 \
+      CP cathodes_manager CP anodes_manager

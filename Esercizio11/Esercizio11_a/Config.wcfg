@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="uart_tappo_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/uart_tappo_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tappo_tb/uut/clock_fx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_fx</obj_property>
+      <obj_property name="ObjectShortName">clock_fx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tappo_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tappo_tb/load" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+      <obj_property name="label">load_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tappo_tb/uut/Inst_Debouncer/load" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+      <obj_property name="label">load_cu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tappo_tb/in_value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_value[7:0]</obj_property>
+      <obj_property name="label">Switch</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tappo_tb/out_value" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_value[7:0]</obj_property>
+      <obj_property name="label">Led</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">Control Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/uart_tappo_tb/uut/Inst_CONTROL_UNIT/value_tx" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">value_tx[7:0]</obj_property>
+         <obj_property name="ObjectShortName">value_tx[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tappo_tb/uut/Inst_CONTROL_UNIT/wr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tappo_tb/uut/Inst_CONTROL_UNIT/tbe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tbe</obj_property>
+         <obj_property name="ObjectShortName">tbe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tappo_tb/uut/Inst_CONTROL_UNIT/rd" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd</obj_property>
+         <obj_property name="ObjectShortName">rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tappo_tb/uut/Inst_CONTROL_UNIT/rda" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rda</obj_property>
+         <obj_property name="ObjectShortName">rda</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tappo_tb/uut/Inst_CONTROL_UNIT/in_value_rx" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">in_value_rx[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_value_rx[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

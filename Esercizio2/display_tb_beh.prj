@@ -1,0 +1,4 @@
+vhdl work "cathodes_manager.vhd"
+vhdl work "anodes_manager.vhd"
+vhdl work "display_seven_segments.vhd"
+vhdl work "display_tb.vhd"

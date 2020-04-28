@@ -1,0 +1,39 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system_tb_isim_beh.exe" -prj "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system_tb_beh.prj" "work.system_tb" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/common_defs.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_store.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/alu.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/datapath.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/pwm.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/processor.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/device_mux.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package common_defs
+Compiling package numeric_std
+Compiling architecture dataflow of entity control_store [control_store_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity datapath [datapath_default]
+Compiling architecture structural of entity processor [processor_default]
+Compiling architecture behavioral of entity dp_ar_ram [dp_ar_ram_default]
+Compiling architecture behavioral of entity pwm [pwm_default]
+Compiling architecture dataflow of entity device_mux [device_mux_default]
+Compiling architecture structural of entity system [system_default]
+Compiling architecture behavior of entity system_tb
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Impossibile trovare il percorso specificato, "isim\system_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 23 VHDL Units
+Built simulation executable C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system_tb_isim_beh.exe
+Fuse Memory Usage: 37148 KB
+Fuse CPU Usage: 733 ms

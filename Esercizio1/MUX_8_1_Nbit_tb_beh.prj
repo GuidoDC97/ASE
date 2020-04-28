@@ -1,0 +1,4 @@
+vhdl work "MUX_2_1_Nbit.vhd"
+vhdl work "MUX_4_1_Nbit.vhd"
+vhdl work "MUX_8_1_Nbit.vhd"
+vhdl work "MUX_8_1_Nbit_tb.vhd"

@@ -1,0 +1,1 @@
+vhdtdtfi -prj Switch -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Switch/Switch/DeMux_1_2.vhi" -module DeMux_1_2 -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DeMux_1_2.vhd 

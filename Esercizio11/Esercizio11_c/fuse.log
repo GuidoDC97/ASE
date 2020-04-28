@@ -1,0 +1,30 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board_tb_isim_beh.exe" -prj "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board_tb_beh.prj" "work.UART_On_Board_tb" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/RS232RefComp2.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/Debounce.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/Control_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/Clk_filter.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/Uart_On_Board_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity UARTcomponent [\UARTcomponent(26,417)\]
+Compiling architecture behavioral of entity Control_Unit [control_unit_default]
+Compiling architecture behavioral of entity Debounce [debounce_default]
+Compiling architecture behavioral of entity clock_filter [\clock_filter(50000000,500)\]
+Compiling architecture structural of entity UART_On_Board [uart_on_board_default]
+Compiling architecture behavior of entity uart_on_board_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Impossibile trovare il percorso specificato, "isim\UART_On_Board_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board_tb_isim_beh.exe
+Fuse Memory Usage: 34468 KB
+Fuse CPU Usage: 531 ms

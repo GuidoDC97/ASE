@@ -1,0 +1,7 @@
+vhdl work "MUX_2_1_Nbit.vhd"
+vhdl work "FF_D.vhd"
+vhdl work "ShiftRegister.vhd"
+vhdl work "Debouncer.vhd"
+vhdl work "clock_filter.vhd"
+vhdl work "ShiftRegister_on_board.vhd"
+vhdl work "ShiftRegiste_on_board_tb.vhd"

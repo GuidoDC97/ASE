@@ -1,0 +1,49 @@
+V3 28
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio2/anodes_manager.vhd 2019/11/19.16:11:05 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio2/cathodes_manager.vhd 2019/11/19.16:07:59 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio2/control_unit.vhd 2019/11/19.15:59:56 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_on_board.vhd 2019/11/19.16:32:08 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio2/display_seven_segments.vhd 2019/11/19.16:31:33 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/anodes_manager.vhd" 2020/01/29.17:19:37 P.58f
+EN work/anodes_manager 1580315887 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/anodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/anodes_manager/Behavioral 1580315888 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/anodes_manager.vhd" \
+      EN work/anodes_manager 1580315887
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.vhd" 2020/01/29.17:37:56 P.58f
+EN work/buffer_reg 1580315891 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/buffer_reg/Behavioral 1580315892 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.vhd" \
+      EN work/buffer_reg 1580315891
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/cathodes_manager.vhd" 2020/01/29.17:20:34 P.58f
+EN work/cathodes_manager 1580315885 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/cathodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/cathodes_manager/Behavioral 1580315886 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/cathodes_manager.vhd" \
+      EN work/cathodes_manager 1580315885
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/control_unit.vhd" 2020/01/29.17:34:04 P.58f
+EN work/control_unit 1580315659 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/control_unit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/control_unit/Behavioral 1580315660 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/control_unit.vhd" \
+      EN work/control_unit 1580315659
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.vhd" 2020/01/29.17:36:19 P.58f
+EN work/display_on_board 1580315893 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/display_on_board/Structural 1580315894 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.vhd" \
+      EN work/display_on_board 1580315893 CP display_seven_segments CP buffer_reg
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_seven_segments.vhd" 2020/01/29.17:21:45 P.58f
+EN work/display_seven_segments 1580315889 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_seven_segments.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/display_seven_segments/Structural 1580315890 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_seven_segments.vhd" \
+      EN work/display_seven_segments 1580315889 CP cathodes_manager \
+      CP anodes_manager

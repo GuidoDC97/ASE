@@ -1,0 +1,28 @@
+Command line:
+   Contatore_mod16_seriale_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51394
+
+Fri Jan 31 16:13:47 2020
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5470.88 Meg
+
+ Total Signals          : 23
+ Total Nets             : 14
+ Total Signal Drivers   : 11
+ Total Blocks           : 15
+ Total Primitive Blocks : 5
+ Total Processes        : 11
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 380
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4841.73 Meg
+
+Fri Jan 31 16:15:10 2020
+

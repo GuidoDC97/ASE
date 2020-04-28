@@ -1,0 +1,22 @@
+V3 11
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_2_1_Nbit.vhd" 2020/01/29.14:38:23 P.58f
+EN work/MUX_2_1_Nbit 1580311409 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_2_1_Nbit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MUX_2_1_Nbit/dataflow 1580311410 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_2_1_Nbit.vhd" \
+      EN work/MUX_2_1_Nbit 1580311409
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_4_1_Nbit.vhd" 2020/01/29.15:40:14 P.58f
+EN work/MUX_4_1_Nbit 1580311411 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_4_1_Nbit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MUX_4_1_Nbit/structural 1580311412 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_4_1_Nbit.vhd" \
+      EN work/MUX_4_1_Nbit 1580311411 CP MUX_2_1_Nbit
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit.vhd" 2020/01/29.16:08:54 P.58f
+EN work/MUX_8_1_Nbit 1580311413 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MUX_8_1_Nbit/structural 1580311414 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit.vhd" \
+      EN work/MUX_8_1_Nbit 1580311413 CP MUX_2_1_Nbit CP MUX_4_1_Nbit

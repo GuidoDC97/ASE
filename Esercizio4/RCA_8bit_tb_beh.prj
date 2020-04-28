@@ -1,0 +1,4 @@
+vhdl work "full_adder.vhd"
+vhdl work "RCA_4bit.vhd"
+vhdl work "RCA_8bit.vhd"
+vhdl work "RCA_8bit_tb.vhd"

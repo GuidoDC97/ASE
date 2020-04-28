@@ -1,0 +1,4 @@
+vhdl work "Multiplier.vhd"
+vhdl work "Multiplexer_2_1_Nbit.vhd"
+vhdl work "Adder.vhd"
+vhdl work "NeuronHL.vhd"

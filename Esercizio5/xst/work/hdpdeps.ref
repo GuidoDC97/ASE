@@ -1,0 +1,64 @@
+V3 35
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio5/clock_filter.vhd 2019/11/25.16:59:33 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio5/ControlUnit.vhd 2019/11/25.16:14:38 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio5/FF_D.vhd 2019/11/25.16:15:08 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio5/mux_2_1.vhd 2019/11/25.11:01:53 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister.vhd 2019/11/25.16:02:12 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio5/ShiftRegister_on_board.vhd 2019/11/25.16:59:39 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd" 2020/01/31.14:22:18 P.58f
+EN work/clock_filter 1581099923 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/clock_filter/Behavioral 1581099924 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd" \
+      EN work/clock_filter 1581099923
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ControlUnit.vhd" 2019/11/25.08:15:56 P.58f
+EN work/ControlUnit 1580407265 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ControlUnit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ControlUnit/Behavioral 1580407266 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ControlUnit.vhd" \
+      EN work/ControlUnit 1580407265
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd" 2020/01/31.10:59:24 P.58f
+EN work/Debouncer 1581099921 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Debouncer/behavioral 1581099922 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd" \
+      EN work/Debouncer 1581099921
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd" 2020/01/31.11:58:39 P.58f
+EN work/FF_D 1581099917 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/FF_D/Behavioral 1581099918 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd" \
+      EN work/FF_D 1581099917
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/mux_2_1.vhd" 2019/11/25.08:16:00 P.58f
+EN work/mux_2_1 1580408701 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/mux_2_1.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux_2_1/dataflow 1580408702 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/mux_2_1.vhd" \
+      EN work/mux_2_1 1580408701
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd" 2020/01/30.21:51:34 P.58f
+EN work/MUX_2_1_Nbit 1581099915 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MUX_2_1_Nbit/dataflow 1581099916 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd" \
+      EN work/MUX_2_1_Nbit 1581099915
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd" 2020/02/07.15:24:29 P.58f
+EN work/ShiftRegister 1581099919 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ShiftRegister/Structural 1581099920 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd" \
+      EN work/ShiftRegister 1581099919 CP MUX_2_1_Nbit CP FF_D
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd" 2020/01/30.21:30:12 P.58f
+EN work/ShiftRegister_on_board 1581099925 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ShiftRegister_on_board/Behavioral 1581099926 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd" \
+      EN work/ShiftRegister_on_board 1581099925 CP ShiftRegister CP Debouncer \
+      CP clock_filter

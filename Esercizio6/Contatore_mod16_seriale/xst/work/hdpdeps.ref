@@ -1,0 +1,91 @@
+V3 52
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd" 2019/11/25.14:31:35 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/bin2bcd_12bit.vhd" 2019/12/02.10:31:59 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" 2019/12/02.13:59:51 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/Clk_filter.vhd" 2019/12/02.13:36:45 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale.vhd" 2019/11/26.15:49:09 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" 2019/12/02.14:12:11 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/Counter_instance.vhd" 2019/12/02.13:38:06 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/cu.vhd" 2019/12/02.14:10:20 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/Flip_Flop_T_etd.vhd" 2019/12/02.11:25:04 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio6/Contatore_mod16_seriale/seven_segment_array.vhd" 2019/12/02.13:01:32 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd" 2020/01/31.15:29:31 P.58f
+EN work/anodes_manager 1580485690 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/anodes_manager/Behavioral 1580485691 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd" \
+      EN work/anodes_manager 1580485690
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/bin2bcd_12bit.vhd" 2019/12/02.05:14:14 P.58f
+EN work/bin2bcd_12bit 1580485700 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/bin2bcd_12bit.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/bin2bcd_12bit/Behavioral 1580485701 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/bin2bcd_12bit.vhd" \
+      EN work/bin2bcd_12bit 1580485700
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" 2019/12/02.05:14:14 P.58f
+EN work/cathodes_manager 1580485688 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/cathodes_manager/Behavioral 1580485689 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" \
+      EN work/cathodes_manager 1580485688
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Clk_filter.vhd" 2019/12/02.05:14:14 P.58f
+EN work/clock_filter 1580485694 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Clk_filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/clock_filter/Behavioral 1580485695 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Clk_filter.vhd" \
+      EN work/clock_filter 1580485694
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale.vhd" 2020/01/31.15:01:39 P.58f
+EN work/Contatore_mod16_seriale 1580485698 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Contatore_mod16_seriale/structural 1580485699 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale.vhd" \
+      EN work/Contatore_mod16_seriale 1580485698 CP Flip_Flop_T_etd
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" 2020/01/31.16:47:34 P.58f
+EN work/Contatore_mod16_seriale_on_board 1580485702 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Contatore_mod16_seriale_on_board/Structural 1580485703 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" \
+      EN work/Contatore_mod16_seriale_on_board 1580485702 \
+      CP display_seven_segments CP clock_filter CP Debouncer \
+      CP Contatore_mod16_seriale CP bin2bcd_12bit
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Counter_instance.vhd" 2020/01/31.16:41:21 P.58f
+EN work/counter_mod2 1580485686 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Counter_instance.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/counter_mod2/Behavioral 1580485687 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Counter_instance.vhd" \
+      EN work/counter_mod2 1580485686
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cu.vhd" 2019/12/02.05:14:34 P.58f
+EN work/control_unit 1580479096 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cu.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/control_unit/Behavioral 1580479097 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cu.vhd" \
+      EN work/control_unit 1580479096
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Debouncer.vhd" 2020/01/31.15:57:17 P.58f
+EN work/Debouncer 1580485696 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Debouncer/behavioral 1580485697 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Debouncer.vhd" \
+      EN work/Debouncer 1580485696
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Flip_Flop_T_etd.vhd" 2020/01/31.15:27:47 P.58f
+EN work/Flip_Flop_T_etd 1580485684 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Flip_Flop_T_etd.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Flip_Flop_T_etd/Behavioral 1580485685 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Flip_Flop_T_etd.vhd" \
+      EN work/Flip_Flop_T_etd 1580485684
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/seven_segment_array.vhd" 2020/01/31.16:42:33 P.58f
+EN work/display_seven_segments 1580485692 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/seven_segment_array.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/display_seven_segments/Structural 1580485693 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/seven_segment_array.vhd" \
+      EN work/display_seven_segments 1580485692 CP counter_mod2 \
+      CP cathodes_manager CP anodes_manager

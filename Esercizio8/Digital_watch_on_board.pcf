@@ -1,0 +1,37 @@
+//! **************************************************************************
+// Written by: Map P.58f on Sat Feb 01 16:08:10 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<4>" LOCATE = SITE "P5" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "P4" LEVEL 1;
+COMP "cathodes<0>" LOCATE = SITE "P25" LEVEL 1;
+COMP "anodes<0>" LOCATE = SITE "P34" LEVEL 1;
+COMP "load_h" LOCATE = SITE "P41" LEVEL 1;
+COMP "cathodes<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "anodes<1>" LOCATE = SITE "P33" LEVEL 1;
+COMP "cathodes<2>" LOCATE = SITE "P23" LEVEL 1;
+COMP "anodes<2>" LOCATE = SITE "P32" LEVEL 1;
+COMP "cathodes<3>" LOCATE = SITE "P21" LEVEL 1;
+COMP "anodes<3>" LOCATE = SITE "P26" LEVEL 1;
+COMP "cathodes<4>" LOCATE = SITE "P20" LEVEL 1;
+COMP "cathodes<5>" LOCATE = SITE "P17" LEVEL 1;
+COMP "cathodes<6>" LOCATE = SITE "P83" LEVEL 1;
+COMP "cathodes<7>" LOCATE = SITE "P22" LEVEL 1;
+COMP "clock" LOCATE = SITE "P54" LEVEL 1;
+COMP "in_value<0>" LOCATE = SITE "P38" LEVEL 1;
+COMP "in_value<1>" LOCATE = SITE "P36" LEVEL 1;
+COMP "in_value<2>" LOCATE = SITE "P29" LEVEL 1;
+COMP "in_value<3>" LOCATE = SITE "P24" LEVEL 1;
+COMP "in_value<4>" LOCATE = SITE "P18" LEVEL 1;
+COMP "reset" LOCATE = SITE "P69" LEVEL 1;
+COMP "in_value<5>" LOCATE = SITE "P12" LEVEL 1;
+COMP "load_min" LOCATE = SITE "P47" LEVEL 1;
+COMP "load_sec" LOCATE = SITE "P48" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "led<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "P14" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P8" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P7" LEVEL 1;
+SCHEMATIC END;
+

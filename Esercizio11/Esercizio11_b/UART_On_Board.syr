@@ -1,0 +1,654 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: UART_On_Board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UART_On_Board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UART_On_Board"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : UART_On_Board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/RS232RefComp2.vhd" in Library work.
+Architecture behavioral of Entity uartcomponent is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Control_Unit.vhd" in Library work.
+Architecture behavioral of Entity control_unit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Debounce.vhd" in Library work.
+Architecture behavioral of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Clk_filter.vhd" in Library work.
+Architecture behavioral of Entity clock_filter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" in Library work.
+Architecture structural of Entity uart_on_board is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <UART_On_Board> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <UARTcomponent> in library <work> (architecture <behavioral>) with generics.
+	BAUD_DIVIDE_G = 14
+	BAUD_RATE_G = 231
+
+Analyzing hierarchy for entity <Control_Unit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Debounce> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_filter> in library <work> (architecture <behavioral>) with generics.
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <UART_On_Board> in library <work> (Architecture <structural>).
+WARNING:Xst:754 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 80: Unconnected inout port 'RDA' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 80: Unconnected output port 'DBOUT' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 80: Unconnected output port 'PE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 80: Unconnected output port 'FE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 80: Unconnected output port 'OE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 91: Unconnected output port 'TXD' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 91: Unconnected output port 'TBE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 91: Unconnected output port 'PE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 91: Unconnected output port 'FE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" line 91: Unconnected output port 'OE' of component 'UARTcomponent'.
+Entity <UART_On_Board> analyzed. Unit <UART_On_Board> generated.
+
+Analyzing generic Entity <UARTcomponent> in library <work> (Architecture <behavioral>).
+	BAUD_DIVIDE_G = 14
+	BAUD_RATE_G = 231
+Entity <UARTcomponent> analyzed. Unit <UARTcomponent> generated.
+
+Analyzing Entity <Control_Unit> in library <work> (Architecture <behavioral>).
+Entity <Control_Unit> analyzed. Unit <Control_Unit> generated.
+
+Analyzing Entity <Debounce> in library <work> (Architecture <behavioral>).
+Entity <Debounce> analyzed. Unit <Debounce> generated.
+
+Analyzing generic Entity <clock_filter> in library <work> (Architecture <behavioral>).
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+Entity <clock_filter> analyzed. Unit <clock_filter> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UARTcomponent>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/RS232RefComp2.vhd".
+    Found finite state machine <FSM_0> for signal <sttCur>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | sttidle                                        |
+    | Power Up State     | sttidle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <strCur>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | stridle                                        |
+    | Power Up State     | stridle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <FE>.
+    Found 1-bit register for signal <OE>.
+    Found 1-bit register for signal <PE>.
+    Found 1-bit register for signal <RDA>.
+    Found 10-bit up counter for signal <clkDiv>.
+    Found 4-bit up counter for signal <ctr>.
+    Found 4-bit up counter for signal <dataCtr>.
+    Found 1-bit xor8 for signal <par$xor0000> created at line 249.
+    Found 1-bit xor9 for signal <parError$xor0000> created at line 243.
+    Found 8-bit register for signal <rdReg>.
+    Found 10-bit register for signal <rdSReg>.
+    Found 13-bit up counter for signal <tDelayCtr>.
+    Found 4-bit up counter for signal <tfCtr>.
+    Found 11-bit register for signal <tfSReg>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   5 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   2 Xor(s).
+Unit <UARTcomponent> synthesized.
+
+
+Synthesizing Unit <Control_Unit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Control_Unit.vhd".
+    Found 1-bit register for signal <RD>.
+    Found 1-bit register for signal <WR>.
+    Found 8-bit register for signal <DBIN>.
+    Found 8-bit register for signal <LED>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+Unit <Control_Unit> synthesized.
+
+
+Synthesizing Unit <Debounce>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Debounce.vhd".
+    Found 1-bit register for signal <LOAD>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Debounce> synthesized.
+
+
+Synthesizing Unit <clock_filter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Clk_filter.vhd".
+    Found 1-bit register for signal <clockfx>.
+    Found 17-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clock_filter> synthesized.
+
+
+Synthesizing Unit <UART_On_Board>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd".
+WARNING:Xst:653 - Signal <high_vol> is used but never assigned. This sourceless signal will be automatically connected to value 1.
+WARNING:Xst:653 - Signal <gnd_val> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <UART_On_Board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 11
+ 10-bit up counter                                     : 2
+ 13-bit up counter                                     : 2
+ 17-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
+# Registers                                            : 20
+ 1-bit register                                        : 12
+ 10-bit register                                       : 2
+ 11-bit register                                       : 2
+ 8-bit register                                        : 4
+# Xors                                                 : 4
+ 1-bit xor8                                            : 2
+ 1-bit xor9                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <TX/strCur/FSM> on signal <strCur[1:3]> with gray encoding.
+Optimizing FSM <RX/strCur/FSM> on signal <strCur[1:3]> with gray encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ stridle       | 000
+ streightdelay | 001
+ strgetdata    | 010
+ strwaitfor0   | 011
+ strwaitfor1   | 111
+ strcheckstop  | 110
+---------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <TX/sttCur/FSM> on signal <sttCur[1:3]> with gray encoding.
+Optimizing FSM <RX/sttCur/FSM> on signal <sttCur[1:3]> with gray encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ sttidle      | 000
+ stttransfer  | 001
+ sttshift     | 110
+ sttdelay     | 011
+ sttwaitwrite | 010
+--------------------------
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <TX>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Counters                                             : 11
+ 10-bit up counter                                     : 2
+ 13-bit up counter                                     : 2
+ 17-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
+# Registers                                            : 86
+ Flip-Flops                                            : 86
+# Xors                                                 : 4
+ 1-bit xor8                                            : 2
+ 1-bit xor9                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <UARTcomponent>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <UART_On_Board> ...
+
+Optimizing unit <UARTcomponent> ...
+
+Optimizing unit <Control_Unit> ...
+WARNING:Xst:2677 - Node <RX/sttCur_FSM_FFd2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/sttCur_FSM_FFd1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/sttCur_FSM_FFd3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfCtr_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfCtr_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfCtr_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfCtr_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_12> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_11> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_10> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_9> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_8> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_7> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_6> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_5> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_4> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tDelayCtr_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/PE> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/OE> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/FE> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_9> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_8> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_7> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_6> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_5> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_4> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <RX/tfSReg_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/strCur_FSM_FFd2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/strCur_FSM_FFd1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/strCur_FSM_FFd3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/dataCtr_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/dataCtr_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/dataCtr_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/dataCtr_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/ctr_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/ctr_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/ctr_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/ctr_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_9> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_8> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_7> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_6> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_5> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_4> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/clkDiv_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_7> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_6> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_5> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_4> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdReg_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/PE> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/OE> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_9> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_8> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_7> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_6> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_5> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_4> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_3> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_2> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_1> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/rdSReg_0> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/FE> of sequential type is unconnected in block <UART_On_Board>.
+WARNING:Xst:2677 - Node <TX/RDA> of sequential type is unconnected in block <UART_On_Board>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block UART_On_Board, actual ratio is 3.
+
+Final Macro Processing ...
+
+Processing Unit <UART_On_Board> :
+	Found 3-bit shift register for signal <RX/rdSReg_7>.
+Unit <UART_On_Board> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 104
+ Flip-Flops                                            : 104
+# Shift Registers                                      : 1
+ 3-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : UART_On_Board.ngr
+Top Level Output File Name         : UART_On_Board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 203
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 38
+#      LUT2                        : 25
+#      LUT2_L                      : 1
+#      LUT3                        : 11
+#      LUT4                        : 33
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 42
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 105
+#      FDC                         : 20
+#      FDCE                        : 17
+#      FDE                         : 26
+#      FDPE                        : 1
+#      FDR                         : 27
+#      FDRE                        : 12
+#      FDRS                        : 2
+# Shift Registers                  : 1
+#      SRL16E                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                       76  out of   2448     3%  
+ Number of Slice Flip Flops:            104  out of   4896     2%  
+ Number of 4 input LUTs:                118  out of   4896     2%  
+    Number used as logic:               117
+    Number used as Shift registers:       1
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    108    17%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)   | Load  |
+-----------------------------------+-------------------------+-------+
+Inst_clock_filter/clockfx          | NONE(Inst_Debounce/LOAD)| 1     |
+CLOCK                              | BUFGP                   | 105   |
+-----------------------------------+-------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN_RESET                          | IBUF                   | 37    |
+RX/FE_or0000(RX/FE_or00001:O)      | NONE(RX/RDA)           | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.210ns (Maximum Frequency: 161.031MHz)
+   Minimum input arrival time before clock: 4.579ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 6.210ns (frequency: 161.031MHz)
+  Total number of paths / destination ports: 1262 / 181
+-------------------------------------------------------------------------
+Delay:               6.210ns (Levels of Logic = 3)
+  Source:            RX/clkDiv_2 (FF)
+  Destination:       RX/clkDiv_9 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: RX/clkDiv_2 to RX/clkDiv_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  RX/clkDiv_2 (RX/clkDiv_2)
+     LUT4:I0->O            1   0.704   0.424  RX/ctr_cmp_eq00007 (RX/ctr_cmp_eq00007)
+     LUT4:I3->O            5   0.704   0.668  RX/ctr_cmp_eq000033 (RX/ctr_cmp_eq0000)
+     LUT3:I2->O           10   0.704   0.882  RX/clkDiv_or00001 (RX/clkDiv_or0000)
+     FDR:R                     0.911          RX/clkDiv_0
+    ----------------------------------------
+    Total                      6.210ns (3.614ns logic, 2.596ns route)
+                                       (58.2% logic, 41.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_clock_filter/clockfx'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            BTN_LOAD (PAD)
+  Destination:       Inst_Debounce/LOAD (FF)
+  Destination Clock: Inst_clock_filter/clockfx rising
+
+  Data Path: BTN_LOAD to Inst_Debounce/LOAD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  BTN_LOAD_IBUF (BTN_LOAD_IBUF)
+     FDC:D                     0.308          Inst_Debounce/LOAD
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              4.579ns (Levels of Logic = 2)
+  Source:            BTN_RESET (PAD)
+  Destination:       RX/rdReg_7 (FF)
+  Destination Clock: CLOCK rising
+
+  Data Path: BTN_RESET to RX/rdReg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            45   1.218   1.345  BTN_RESET_IBUF (BTN_RESET_IBUF)
+     LUT4:I1->O            8   0.704   0.757  RX/rdReg_and00001 (RX/rdReg_and0000)
+     FDE:CE                    0.555          RX/rdReg_0
+    ----------------------------------------
+    Total                      4.579ns (2.477ns logic, 2.102ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            Inst_Control_Unit/LED_7 (FF)
+  Destination:       LED<7> (PAD)
+  Source Clock:      CLOCK rising
+
+  Data Path: Inst_Control_Unit/LED_7 to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.591   0.420  Inst_Control_Unit/LED_7 (Inst_Control_Unit/LED_7)
+     OBUF:I->O                 3.272          LED_7_OBUF (LED<7>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.32 secs
+ 
+--> 
+
+Total memory usage is 4519008 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   90 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

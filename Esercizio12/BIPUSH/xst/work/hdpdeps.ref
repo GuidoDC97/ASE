@@ -1,0 +1,58 @@
+V3 29
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/alu.vhd" 2020/02/04.04:38:26 P.58f
+EN work/alu 1582549667 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/alu.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1582549666
+AR work/alu/behavioral 1582549668 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/alu.vhd" \
+      EN work/alu 1582549667
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/common_defs.vhd" 2020/02/04.04:38:28 P.58f
+PH work/common_defs 1582549666 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/common_defs.vhd" \
+      PB ieee/std_logic_1164 1364358218
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_store.vhd" 2020/02/04.04:38:28 P.58f
+EN work/control_store 1582549669 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_store.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1582549666
+AR work/control_store/dataflow 1582549670 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_store.vhd" \
+      EN work/control_store 1582549669
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_unit.vhd" 2020/02/20.22:49:04 P.58f
+EN work/control_unit 1582549671 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_unit.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1582549666
+AR work/control_unit/behavioral 1582549672 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_unit.vhd" \
+      EN work/control_unit 1582549671 CP work/control_store
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/datapath.vhd" 2020/02/04.04:38:30 P.58f
+EN work/datapath 1582549673 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/datapath.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1582549666
+AR work/datapath/behavioral 1582549674 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/datapath.vhd" \
+      EN work/datapath 1582549673 CP work/alu
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/dp_ar_ram.vhd" 2020/02/04.04:38:30 P.58f
+EN work/dp_ar_ram 1582549677 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/dp_ar_ram.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1582549666
+AR work/dp_ar_ram/behavioral 1582549678 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/dp_ar_ram.vhd" \
+      EN work/dp_ar_ram 1582549677
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/processor.vhd" 2020/02/04.04:38:32 P.58f
+EN work/processor 1582549675 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/processor.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1582549666
+AR work/processor/structural 1582549676 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/processor.vhd" \
+      EN work/processor 1582549675 CP work/control_unit CP work/datapath
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/system.vhd" 2020/02/04.04:38:32 P.58f
+EN work/system 1582549679 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/system.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1582549666
+AR work/system/structural 1582549680 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/system.vhd" \
+      EN work/system 1582549679 CP work/processor CP work/dp_ar_ram

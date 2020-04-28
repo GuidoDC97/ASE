@@ -1,0 +1,60 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board_tb_isim_beh.exe" -prj "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board_tb_beh.prj" "work.NeuralNetwork_On_Board_tb" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplier.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Multiplexer_2_1_Nbit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/RegisterN.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronOL.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuronHL.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/counter_mod4.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/cathodes_manager.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/anodes_manager.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/seven_segment_array.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Debouncer.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Datapath.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Control_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_filter_display.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/Clock_Filter.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board.vhd" into library work
+Parsing VHDL file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity Control_Unit [control_unit_default]
+Compiling architecture behavioral of entity RegisterN [\RegisterN(4)\]
+Compiling architecture dataflow of entity Multiplier [\Multiplier(4)\]
+Compiling architecture dataflow of entity Adder [\Adder(8)\]
+Compiling architecture dataflow of entity Multiplexer_2_1_Nbit [\Multiplexer_2_1_Nbit(8)\]
+Compiling architecture structural of entity NeuronHL [\NeuronHL(1,4)\]
+Compiling architecture structural of entity NeuronHL [\NeuronHL(2,4)\]
+Compiling architecture structural of entity NeuronHL [\NeuronHL(3,4)\]
+Compiling architecture behavioral of entity RegisterN [\RegisterN(8)\]
+Compiling architecture dataflow of entity Multiplier [\Multiplier(8)\]
+Compiling architecture dataflow of entity Adder [\Adder(16)\]
+Compiling architecture dataflow of entity Multiplexer_2_1_Nbit [\Multiplexer_2_1_Nbit(16)\]
+Compiling architecture behavioral of entity NeuronOL [\NeuronOL(4)\]
+Compiling architecture behavioral of entity RegisterN [\RegisterN(16)\]
+Compiling architecture structural of entity Datapath [\Datapath(4)\]
+Compiling architecture behavioral of entity Debouncer [\Debouncer(4)\]
+Compiling architecture behavioral of entity Clock_Filter [\Clock_Filter(50000000,500)\]
+Compiling architecture behavioral of entity CLOCK_FILTER_DISPLAY [\CLOCK_FILTER_DISPLAY(50000000,5...]
+Compiling architecture behavioral of entity counter_mod4 [counter_mod4_default]
+Compiling architecture behavioral of entity cathodes_manager [cathodes_manager_default]
+Compiling architecture behavioral of entity anodes_manager [anodes_manager_default]
+Compiling architecture structural of entity display_seven_segments [display_seven_segments_default]
+Compiling architecture structural of entity NeuralNetwork_On_Board [\NeuralNetwork_On_Board(4)\]
+Compiling architecture behavior of entity neuralnetwork_on_board_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Impossibile trovare il percorso specificato, "isim\NeuralNetwork_On_Board_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 52 VHDL Units
+Built simulation executable C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/NeuralNetwork_On_Board_tb_isim_beh.exe
+Fuse Memory Usage: 38140 KB
+Fuse CPU Usage: 812 ms

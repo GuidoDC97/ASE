@@ -1,0 +1,28 @@
+Command line:
+   arbitro_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49823
+
+Tue Nov 19 14:14:27 2019
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5471.44 Meg
+
+ Total Signals          : 8
+ Total Nets             : 4
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 364
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4685.01 Meg
+
+Tue Nov 19 14:21:59 2019
+

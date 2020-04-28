@@ -1,0 +1,7 @@
+vhdl isim_temp "MUX_2_1_Nbit.vhd"
+vhdl isim_temp "FF_D.vhd"
+vhdl isim_temp "ShiftRegister.vhd"
+vhdl isim_temp "Debouncer.vhd"
+vhdl isim_temp "clock_filter.vhd"
+vhdl isim_temp "ShiftRegister_on_board.vhd"
+vhdl isim_temp "ShiftRegiste_on_board_tb.vhd"

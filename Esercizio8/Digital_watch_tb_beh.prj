@@ -1,0 +1,4 @@
+vhdl work "Counter_mod_M_load.vhd"
+vhdl work "Clock_filter.vhd"
+vhdl work "Digital_watch.vhd"
+vhdl work "Digital_watch_tb.vhd"

@@ -1,0 +1,73 @@
+V3 37
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/alu.vhd" 2020/02/13.00:29:50 P.58f
+EN work/alu 1581609346 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/alu.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1581609345
+AR work/alu/behavioral 1581609347 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/alu.vhd" \
+      EN work/alu 1581609346
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/common_defs.vhd" 2020/02/13.00:29:50 P.58f
+PH work/common_defs 1581609345 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/common_defs.vhd" \
+      PB ieee/std_logic_1164 1364358218
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_store.vhd" 2020/02/13.00:29:52 P.58f
+EN work/control_store 1581609348 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_store.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1581609345
+AR work/control_store/dataflow 1581609349 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_store.vhd" \
+      EN work/control_store 1581609348
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd" 2020/02/13.00:29:52 P.58f
+EN work/control_unit 1581609350 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1581609345
+AR work/control_unit/behavioral 1581609351 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd" \
+      EN work/control_unit 1581609350 CP work/control_store
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/datapath.vhd" 2020/02/13.00:29:52 P.58f
+EN work/datapath 1581609352 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/datapath.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1581609345
+AR work/datapath/behavioral 1581609353 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/datapath.vhd" \
+      EN work/datapath 1581609352 CP work/alu
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/device_mux.vhd" 2020/02/13.00:29:52 P.58f
+EN work/device_mux 1581609360 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/device_mux.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1581609345
+AR work/device_mux/dataflow 1581609361 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/device_mux.vhd" \
+      EN work/device_mux 1581609360
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" 2020/02/13.00:29:54 P.58f
+EN work/dp_ar_ram 1581609356 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/common_defs 1581609345
+AR work/dp_ar_ram/behavioral 1581609357 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" \
+      EN work/dp_ar_ram 1581609356
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/processor.vhd" 2020/02/13.00:29:56 P.58f
+EN work/processor 1581609354 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/processor.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1581609345
+AR work/processor/structural 1581609355 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/processor.vhd" \
+      EN work/processor 1581609354 CP work/control_unit CP work/datapath
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/pwm.vhd" 2020/02/13.00:29:56 P.58f
+EN work/pwm 1581609358 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/pwm.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/pwm/behavioral 1581609359 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/pwm.vhd" \
+      EN work/pwm 1581609358
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system.vhd" 2020/02/13.00:29:56 P.58f
+EN work/system 1581609362 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system.vhd" \
+      PB ieee/std_logic_1164 1364358218 PH work/common_defs 1581609345
+AR work/system/structural 1581609363 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system.vhd" \
+      EN work/system 1581609362 CP work/processor CP work/dp_ar_ram CP work/pwm \
+      CP work/device_mux

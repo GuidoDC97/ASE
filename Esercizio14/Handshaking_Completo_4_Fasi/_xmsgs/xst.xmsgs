@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="Xst" num="842" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio14/Handshaking_Completo_4_Fasi/Entita_A.vhd</arg>&quot; line <arg fmt="%d" index="2">19</arg>: Same wait conditions expected in all Multiple Waits.
+</msg>
+
+</messages>
+

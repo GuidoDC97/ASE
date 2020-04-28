@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina nuova\Esercizio7\arbitro.ncd
+OUTFILE=C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina nuova\Esercizio7\arbitro.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4tq144
+WORKINGDIR=C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina nuova\Esercizio7
+LICENSE=WebPack
+USER_INFO=211833282_0_0_349

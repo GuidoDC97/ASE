@@ -1,0 +1,4 @@
+vhdl work "Latch_RS.vhd"
+vhdl work "Latch_D.vhd"
+vhdl work "Derivatore.vhd"
+vhdl work "Flip-Flop_D_ETd_SAMI.vhd"

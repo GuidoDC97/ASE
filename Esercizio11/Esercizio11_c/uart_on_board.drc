@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Thu Feb 13 10:50:05 2020
+
+drc -z UART_On_Board.ncd UART_On_Board.pcf
+
+DRC detected 0 errors and 0 warnings.

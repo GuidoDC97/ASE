@@ -1,0 +1,691 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: system.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "system.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "system"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : system
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/common_defs.vhd" in Library work.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/alu.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_store.vhd" in Library work.
+Architecture dataflow of Entity control_store is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd" in Library work.
+Architecture behavioral of Entity control_unit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/datapath.vhd" in Library work.
+Architecture behavioral of Entity datapath is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/processor.vhd" in Library work.
+Architecture structural of Entity processor is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" in Library work.
+Architecture behavioral of Entity dp_ar_ram is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/pwm.vhd" in Library work.
+Architecture behavioral of Entity pwm is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/device_mux.vhd" in Library work.
+Architecture dataflow of Entity device_mux is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system.vhd" in Library work.
+Architecture structural of Entity system is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <system> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <processor> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <dp_ar_ram> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <pwm> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <device_mux> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <control_unit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <datapath> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control_store> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <alu> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system> in library <work> (Architecture <structural>).
+Entity <system> analyzed. Unit <system> generated.
+
+Analyzing Entity <processor> in library <work> (Architecture <structural>).
+Entity <processor> analyzed. Unit <processor> generated.
+
+Analyzing Entity <control_unit> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd" line 113: Index value(s) does not match array range, simulation mismatch.
+Entity <control_unit> analyzed. Unit <control_unit> generated.
+
+Analyzing Entity <control_store> in library <work> (Architecture <dataflow>).
+Entity <control_store> analyzed. Unit <control_store> generated.
+
+Analyzing Entity <datapath> in library <work> (Architecture <behavioral>).
+Entity <datapath> analyzed. Unit <datapath> generated.
+
+Analyzing Entity <alu> in library <work> (Architecture <behavioral>).
+Entity <alu> analyzed. Unit <alu> generated.
+
+Analyzing Entity <dp_ar_ram> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" line 95: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1432 - Contents of array <mem> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <mem> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" line 97: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1432 - Contents of array <mem> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <mem> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" line 102: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1432 - Contents of array <mem> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <mem> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd" line 103: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1432 - Contents of array <mem> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <mem> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <dp_ar_ram> analyzed. Unit <dp_ar_ram> generated.
+
+Analyzing Entity <pwm> in library <work> (Architecture <behavioral>).
+WARNING:Xst:38 - Value "registers" of property "ram_style" not applicable.
+Entity <pwm> analyzed. Unit <pwm> generated.
+
+Analyzing Entity <device_mux> in library <work> (Architecture <dataflow>).
+Entity <device_mux> analyzed. Unit <device_mux> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <dp_ar_ram>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/dp_ar_ram.vhd".
+WARNING:Xst:646 - Signal <t_address_2<31:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <t_address_1<31:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit 512-to-1 multiplexer for signal <data_out_1>.
+    Found 8-bit 4-to-1 multiplexer for signal <data_out_2>.
+    Found 16384-bit register for signal <mem>.
+    Found 32-bit 512-to-1 multiplexer for signal <t_data_out_2>.
+INFO:Xst:738 - HDL ADVISOR - 16384 flip-flops were inferred for signal <mem>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 16384 D-type flip-flop(s).
+	inferred  72 Multiplexer(s).
+Unit <dp_ar_ram> synthesized.
+
+
+Synthesizing Unit <pwm>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/pwm.vhd".
+WARNING:Xst:646 - Signal <address_reg<1:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit 4-to-1 multiplexer for signal <data_out>.
+    Found 4-bit register for signal <address_reg>.
+    Found 128-bit register for signal <control_regs>.
+    Found 32-bit 4-to-1 multiplexer for signal <control_regs_0$mux0000>.
+    Found 32-bit 4-to-1 multiplexer for signal <control_regs_1$mux0000>.
+    Found 32-bit 4-to-1 multiplexer for signal <control_regs_2$mux0000>.
+    Found 32-bit adder for signal <counter_next$addsub0000> created at line 103.
+    Found 32-bit comparator equal for signal <counter_next$cmp_eq0000> created at line 103.
+    Found 32-bit register for signal <counter_reg>.
+    Found 32-bit comparator less for signal <output_next$cmp_lt0000> created at line 105.
+    Found 1-bit register for signal <output_reg>.
+    Found 32-bit adder for signal <precounter_next$addsub0000> created at line 101.
+    Found 32-bit register for signal <precounter_reg>.
+    Summary:
+	inferred 197 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred 128 Multiplexer(s).
+Unit <pwm> synthesized.
+
+
+Synthesizing Unit <device_mux>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/device_mux.vhd".
+Unit <device_mux> synthesized.
+
+
+Synthesizing Unit <control_store>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_store.vhd".
+    Found 512x36-bit ROM for signal <word$rom0000> created at line 565.
+    Summary:
+	inferred   1 ROM(s).
+Unit <control_store> synthesized.
+
+
+Synthesizing Unit <alu>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/alu.vhd".
+    Found 32-bit 4-to-1 multiplexer for signal <sh_result>.
+    Found 32-bit 4-to-1 multiplexer for signal <t_result>.
+    Found 32-bit adder carry in for signal <t_u_sum>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  64 Multiplexer(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <control_unit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/control_unit.vhd".
+WARNING:Xst:646 - Signal <z_ff> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <n_ff> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 36-bit register for signal <mir_reg>.
+    Found 4-bit comparator less for signal <reg_to_b_decoder_out_0$cmp_lt0000> created at line 112.
+    Summary:
+	inferred  36 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <control_unit> synthesized.
+
+
+Synthesizing Unit <datapath>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/datapath.vhd".
+    Found 32-bit register for signal <cpp_reg>.
+    Found 1-bit register for signal <fetch_ff>.
+    Found 32-bit register for signal <h_reg>.
+    Found 32-bit register for signal <lv_reg>.
+    Found 32-bit register for signal <mar_reg>.
+    Found 8-bit register for signal <mbr_reg>.
+    Found 32-bit register for signal <mdr_reg>.
+    Found 32-bit register for signal <opc_reg>.
+    Found 32-bit register for signal <pc_reg>.
+    Found 1-bit register for signal <rd_ff>.
+    Found 32-bit register for signal <sp_reg>.
+    Found 32-bit register for signal <tos_reg>.
+    Found 1-bit register for signal <wr_ff>.
+    Summary:
+	inferred 299 D-type flip-flop(s).
+Unit <datapath> synthesized.
+
+
+Synthesizing Unit <processor>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/processor.vhd".
+Unit <processor> synthesized.
+
+
+Synthesizing Unit <system>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/IO/system.vhd".
+WARNING:Xst:646 - Signal <pwm_data_addr<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 512x36-bit ROM                                        : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit adder carry in                                 : 1
+# Registers                                            : 534
+ 1-bit register                                        : 4
+ 32-bit register                                       : 527
+ 36-bit register                                       : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 3
+ 32-bit comparator equal                               : 1
+ 32-bit comparator less                                : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 9
+ 32-bit 4-to-1 multiplexer                             : 6
+ 32-bit 512-to-1 multiplexer                           : 2
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <mar_reg_10> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_11> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_12> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_13> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_14> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_15> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_16> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_17> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_18> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_19> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_20> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_21> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_22> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_23> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_24> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_25> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_26> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_27> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_28> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_29> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_30> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <mar_reg_31> of sequential type is unconnected in block <datapath>.
+WARNING:Xst:2677 - Node <address_reg_0> of sequential type is unconnected in block <pwm>.
+WARNING:Xst:2677 - Node <address_reg_1> of sequential type is unconnected in block <pwm>.
+
+Synthesizing (advanced) Unit <control_unit>.
+INFO:Xst:3044 - The ROM <control_store/Mrom_word_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <mir_reg>.
+INFO:Xst:3225 - The RAM <control_store/Mrom_word_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 36-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <jmpc_addr>     |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <mir_reg>       |          |
+    |     dorstA         | connected to signal <reset>         | high     |
+    | reset value        | 000000001000000000000000000000001001           |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <control_unit> synthesized (advanced).
+WARNING:Xst:2677 - Node <address_reg_0> of sequential type is unconnected in block <pwm>.
+WARNING:Xst:2677 - Node <address_reg_1> of sequential type is unconnected in block <pwm>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x36-bit single-port block RAM                      : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit adder carry in                                 : 1
+# Registers                                            : 16878
+ Flip-Flops                                            : 16878
+# Comparators                                          : 3
+ 32-bit comparator equal                               : 1
+ 32-bit comparator less                                : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 102
+ 1-bit 4-to-1 multiplexer                              : 32
+ 1-bit 512-to-1 multiplexer                            : 64
+ 32-bit 4-to-1 multiplexer                             : 5
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system> ...
+
+Optimizing unit <dp_ar_ram> ...
+
+Optimizing unit <pwm> ...
+
+Optimizing unit <alu> ...
+
+Optimizing unit <control_unit> ...
+
+Optimizing unit <datapath> ...
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_31> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_30> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_29> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_28> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_27> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_26> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_25> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_24> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_23> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_22> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_21> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_20> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_19> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_18> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_17> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_16> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_15> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_14> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_13> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_12> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_11> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <processor/datapath/mar_reg_10> of sequential type is unconnected in block <system>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block system, actual ratio is 756.
+Optimizing block <system> to meet ratio 100 (+ 5) of 2448 slices :
+WARNING:Xst:2254 - Area constraint could not be met for block <system>, final ratio is 752.
+FlipFlop processor/datapath/mar_reg_0 has been replicated 16 time(s)
+FlipFlop processor/datapath/mar_reg_9 has been replicated 17 time(s)
+FlipFlop processor/datapath/pc_reg_2 has been replicated 16 time(s)
+FlipFlop processor/datapath/pc_reg_3 has been replicated 8 time(s)
+FlipFlop processor/datapath/pc_reg_4 has been replicated 4 time(s)
+FlipFlop processor/datapath/pc_reg_5 has been replicated 2 time(s)
+FlipFlop processor/datapath/pc_reg_6 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16920
+ Flip-Flops                                            : 16920
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : system.ngr
+Top Level Output File Name         : system
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 34656
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 62
+#      LUT2                        : 163
+#      LUT2_D                      : 1
+#      LUT2_L                      : 7
+#      LUT3                        : 8804
+#      LUT3_D                      : 1
+#      LUT3_L                      : 36
+#      LUT4                        : 9337
+#      LUT4_D                      : 11
+#      LUT4_L                      : 42
+#      MUXCY                       : 141
+#      MUXF5                       : 8575
+#      MUXF6                       : 4224
+#      MUXF7                       : 2112
+#      MUXF8                       : 1040
+#      VCC                         : 1
+#      XORCY                       : 96
+# FlipFlops/Latches                : 16920
+#      FD                          : 2
+#      FDE                         : 16577
+#      FDR                         : 3
+#      FDRE                        : 334
+#      FDSE                        : 4
+# RAMS                             : 1
+#      RAMB16_S36                  : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                    18478  out of   2448   754% (*) 
+ Number of Slice Flip Flops:          16920  out of   4896   345% (*) 
+ Number of 4 input LUTs:              18466  out of   4896   377% (*) 
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    108     2%  
+ Number of BRAMs:                         1  out of     12     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 16921 |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 17.863ns (Maximum Frequency: 55.983MHz)
+   Minimum input arrival time before clock: 5.286ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 17.863ns (frequency: 55.983MHz)
+  Total number of paths / destination ports: 1704774 / 33844
+-------------------------------------------------------------------------
+Delay:               17.863ns (Levels of Logic = 33)
+  Source:            processor/control_unit/control_store/Mrom_word_rom0000 (RAM)
+  Destination:       processor/control_unit/control_store/Mrom_word_rom0000 (RAM)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: processor/control_unit/control_store/Mrom_word_rom0000 to processor/control_unit/control_store/Mrom_word_rom0000
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S36:CLK->DO0   39   2.800   1.439  processor/control_unit/control_store/Mrom_word_rom0000 (processor/control_unit/mir_reg<0>)
+     LUT4:I0->O           32   0.704   1.297  processor/control_unit/reg_to_b_decoder_out_0_mux00011 (processor/datapath/b_bus_cmp_eq0000)
+     LUT4:I2->O            1   0.704   0.455  processor/datapath/alu/t_operand_b<0>4 (processor/datapath/alu/t_operand_b<0>4)
+     LUT3:I2->O            3   0.704   0.535  processor/datapath/alu/t_operand_b<0>23 (processor/datapath/alu/t_operand_b<0>23)
+     LUT4:I3->O            1   0.704   0.000  processor/datapath/alu/Madd_t_u_sum_lut<0> (processor/datapath/alu/Madd_t_u_sum_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  processor/datapath/alu/Madd_t_u_sum_cy<0> (processor/datapath/alu/Madd_t_u_sum_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<1> (processor/datapath/alu/Madd_t_u_sum_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<2> (processor/datapath/alu/Madd_t_u_sum_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<3> (processor/datapath/alu/Madd_t_u_sum_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<4> (processor/datapath/alu/Madd_t_u_sum_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<5> (processor/datapath/alu/Madd_t_u_sum_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<6> (processor/datapath/alu/Madd_t_u_sum_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<7> (processor/datapath/alu/Madd_t_u_sum_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<8> (processor/datapath/alu/Madd_t_u_sum_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<9> (processor/datapath/alu/Madd_t_u_sum_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<10> (processor/datapath/alu/Madd_t_u_sum_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<11> (processor/datapath/alu/Madd_t_u_sum_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<12> (processor/datapath/alu/Madd_t_u_sum_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<13> (processor/datapath/alu/Madd_t_u_sum_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<14> (processor/datapath/alu/Madd_t_u_sum_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<15> (processor/datapath/alu/Madd_t_u_sum_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<16> (processor/datapath/alu/Madd_t_u_sum_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<17> (processor/datapath/alu/Madd_t_u_sum_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<18> (processor/datapath/alu/Madd_t_u_sum_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<19> (processor/datapath/alu/Madd_t_u_sum_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<20> (processor/datapath/alu/Madd_t_u_sum_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<21> (processor/datapath/alu/Madd_t_u_sum_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  processor/datapath/alu/Madd_t_u_sum_cy<22> (processor/datapath/alu/Madd_t_u_sum_cy<22>)
+     XORCY:CI->O           1   0.804   0.424  processor/datapath/alu/Madd_t_u_sum_xor<23> (processor/datapath/alu/t_u_sum<23>)
+     LUT4:I3->O            1   0.704   0.000  processor/datapath/alu/Mmux_t_result_315 (processor/datapath/alu/Mmux_t_result_315)
+     MUXF5:I1->O           6   0.321   0.673  processor/datapath/alu/Mmux_t_result_2_f5_14 (processor/datapath/alu/t_result<23>)
+     LUT4:I3->O            1   0.704   0.424  processor/control_unit/mpc_virtual_reg_or0000142 (processor/control_unit/mpc_virtual_reg_or0000142)
+     LUT4:I3->O            1   0.704   0.499  processor/control_unit/mpc_virtual_reg_or0000172 (processor/control_unit/mpc_virtual_reg_or0000172)
+     LUT4:I1->O            1   0.704   0.420  processor/control_unit/mpc_virtual_reg_or0000267 (processor/control_unit/mpc_virtual_reg<8>)
+     RAMB16_S36:ADDR8          0.377          processor/control_unit/control_store/Mrom_word_rom0000
+    ----------------------------------------
+    Total                     17.863ns (11.696ns logic, 6.167ns route)
+                                       (65.5% logic, 34.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 503 / 503
+-------------------------------------------------------------------------
+Offset:              5.286ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       pwm/output_reg (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to pwm/output_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           346   1.218   1.536  reset_IBUF (reset_IBUF)
+     LUT2:I0->O           65   0.704   1.273  pwm/precounter_reg_not00011 (pwm/precounter_reg_not0001)
+     FDE:CE                    0.555          pwm/precounter_reg_0
+    ----------------------------------------
+    Total                      5.286ns (2.477ns logic, 2.809ns route)
+                                       (46.9% logic, 53.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            pwm/output_reg (FF)
+  Destination:       pulse (PAD)
+  Source Clock:      clk rising
+
+  Data Path: pwm/output_reg to pulse
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.420  pwm/output_reg (pwm/output_reg)
+     OBUF:I->O                 3.272          pulse_OBUF (pulse)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 265.00 secs
+Total CPU time to Xst completion: 264.43 secs
+ 
+--> 
+
+Total memory usage is 5088504 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   62 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

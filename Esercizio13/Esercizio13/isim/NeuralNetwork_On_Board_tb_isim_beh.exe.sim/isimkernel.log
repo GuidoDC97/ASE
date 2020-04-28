@@ -1,0 +1,28 @@
+Command line:
+   NeuralNetwork_On_Board_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50359
+
+Mon Feb 24 16:09:14 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5471.09 Meg
+
+ Total Signals          : 279
+ Total Nets             : 678
+ Total Signal Drivers   : 98
+ Total Blocks           : 47
+ Total Primitive Blocks : 39
+ Total Processes        : 90
+ Total Traceable Variables  : 108
+ Total Scalar Nets and Variables : 1521
+
+ Total Simulation Time: 2.57813 sec
+
+ Current Memory Usage: 5471.09 Meg
+
+Mon Feb 24 16:09:27 2020
+

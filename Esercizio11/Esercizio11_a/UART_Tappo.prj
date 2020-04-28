@@ -1,0 +1,5 @@
+vhdl work "RS232RefComp2.vhd"
+vhdl work "Debouncer.vhd"
+vhdl work "Control_Unit.vhd"
+vhdl work "Clock_filter.vhd"
+vhdl work "UART_Tappo.vhd"

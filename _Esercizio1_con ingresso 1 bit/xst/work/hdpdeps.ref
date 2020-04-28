@@ -1,0 +1,22 @@
+V3 11
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_2_1.vhd" 2019/11/13.07:11:36 P.58f
+EN work/mux_2_1 1580302535 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_2_1.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux_2_1/dataflow 1580302536 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_2_1.vhd" \
+      EN work/mux_2_1 1580302535
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_4_1.vhd" 2019/11/13.07:11:34 P.58f
+EN work/mux_4_1 1580302537 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_4_1.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux_4_1/structural 1580302538 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_4_1.vhd" \
+      EN work/mux_4_1 1580302537 CP mux_2_1
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_8_1.vhd" 2019/11/13.07:11:36 P.58f
+EN work/mux_8_1 1580302539 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_8_1.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/mux_8_1/structural 1580302540 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio1/mux_8_1.vhd" \
+      EN work/mux_8_1 1580302539 CP mux_2_1 CP mux_4_1

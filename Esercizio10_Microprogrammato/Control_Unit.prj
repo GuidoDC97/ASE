@@ -1,0 +1,2 @@
+vhdl work "Control_Store.vhd"
+vhdl work "Control_Unit.vhd"

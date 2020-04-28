@@ -1,0 +1,506 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: ShiftRegister_on_board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ShiftRegister_on_board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ShiftRegister_on_board"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : ShiftRegister_on_board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd" in Library work.
+Architecture dataflow of Entity mux_2_1_nbit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd" in Library work.
+Architecture behavioral of Entity ff_d is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd" in Library work.
+Entity <shiftregister> compiled.
+Entity <shiftregister> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd" in Library work.
+Entity <clock_filter> compiled.
+Entity <clock_filter> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd" in Library work.
+Architecture behavioral of Entity shiftregister_on_board is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ShiftRegister_on_board> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ShiftRegister> in library <work> (architecture <structural>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_filter> in library <work> (architecture <behavioral>) with generics.
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+
+Analyzing hierarchy for entity <MUX_2_1_Nbit> in library <work> (architecture <dataflow>) with generics.
+	N = 1
+
+Analyzing hierarchy for entity <FF_D> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ShiftRegister_on_board> in library <work> (Architecture <behavioral>).
+Entity <ShiftRegister_on_board> analyzed. Unit <ShiftRegister_on_board> generated.
+
+Analyzing generic Entity <ShiftRegister> in library <work> (Architecture <structural>).
+	N = 8
+Entity <ShiftRegister> analyzed. Unit <ShiftRegister> generated.
+
+Analyzing generic Entity <MUX_2_1_Nbit> in library <work> (Architecture <dataflow>).
+	N = 1
+Entity <MUX_2_1_Nbit> analyzed. Unit <MUX_2_1_Nbit> generated.
+
+Analyzing Entity <FF_D> in library <work> (Architecture <behavioral>).
+Entity <FF_D> analyzed. Unit <FF_D> generated.
+
+Analyzing Entity <Debouncer> in library <work> (Architecture <behavioral>).
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+Analyzing generic Entity <clock_filter> in library <work> (Architecture <behavioral>).
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+Entity <clock_filter> analyzed. Unit <clock_filter> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/Debouncer.vhd".
+    Found 1-bit register for signal <LOAD_OUT>.
+    Found 1-bit register for signal <SHIFT_OUT>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <clock_filter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/clock_filter.vhd".
+    Found 1-bit register for signal <clockfx>.
+    Found 17-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clock_filter> synthesized.
+
+
+Synthesizing Unit <MUX_2_1_Nbit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhd".
+Unit <MUX_2_1_Nbit> synthesized.
+
+
+Synthesizing Unit <FF_D>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/FF_D.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FF_D> synthesized.
+
+
+Synthesizing Unit <ShiftRegister>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister.vhd".
+Unit <ShiftRegister> synthesized.
+
+
+Synthesizing Unit <ShiftRegister_on_board>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/ShiftRegister_on_board.vhd".
+Unit <ShiftRegister_on_board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 17-bit up counter                                     : 1
+# Registers                                            : 11
+ 1-bit register                                        : 11
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 17-bit up counter                                     : 1
+# Registers                                            : 11
+ Flip-Flops                                            : 11
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ShiftRegister_on_board> ...
+
+Optimizing unit <ShiftRegister> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ShiftRegister_on_board, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ShiftRegister_on_board.ngr
+Top Level Output File Name         : ShiftRegister_on_board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 89
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 17
+#      LUT2                        : 18
+#      LUT3                        : 8
+#      LUT4                        : 4
+#      MUXCY                       : 21
+#      VCC                         : 1
+#      XORCY                       : 17
+# FlipFlops/Latches                : 28
+#      FDC                         : 18
+#      FDC_1                       : 8
+#      FDR                         : 1
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 11
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                       30  out of   2448     1%  
+ Number of Slice Flip Flops:             28  out of   4896     0%  
+ Number of 4 input LUTs:                 49  out of   4896     1%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    108    18%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                     | Load  |
+-----------------------------------+-------------------------------------------+-------+
+clk_filter/clockfx                 | NONE(Inst_Debouncer/SHIFT_OUT)            | 2     |
+CLK                                | BUFGP                                     | 18    |
+Inst_Debouncer/SHIFT_OUT           | NONE(ShiftRegister_0/FF_D_all[0].FF_D_i/Q)| 8     |
+-----------------------------------+-------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 26    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.522ns (Maximum Frequency: 181.094MHz)
+   Minimum input arrival time before clock: 3.848ns
+   Maximum output required time after clock: 4.310ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.522ns (frequency: 181.094MHz)
+  Total number of paths / destination ports: 459 / 18
+-------------------------------------------------------------------------
+Delay:               5.522ns (Levels of Logic = 18)
+  Source:            clk_filter/counter_1 (FF)
+  Destination:       clk_filter/counter_16 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: clk_filter/counter_1 to clk_filter/counter_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  clk_filter/counter_1 (clk_filter/counter_1)
+     LUT1:I0->O            1   0.704   0.000  clk_filter/Mcount_counter_cy<1>_rt (clk_filter/Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  clk_filter/Mcount_counter_cy<1> (clk_filter/Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<2> (clk_filter/Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<3> (clk_filter/Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<4> (clk_filter/Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<5> (clk_filter/Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<6> (clk_filter/Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<7> (clk_filter/Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<8> (clk_filter/Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<9> (clk_filter/Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<10> (clk_filter/Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<11> (clk_filter/Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<12> (clk_filter/Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<13> (clk_filter/Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<14> (clk_filter/Mcount_counter_cy<14>)
+     MUXCY:CI->O           0   0.059   0.000  clk_filter/Mcount_counter_cy<15> (clk_filter/Mcount_counter_cy<15>)
+     XORCY:CI->O           1   0.804   0.499  clk_filter/Mcount_counter_xor<16> (Result<16>)
+     LUT2:I1->O            1   0.704   0.000  clk_filter/Mcount_counter_eqn_161 (clk_filter/Mcount_counter_eqn_16)
+     FDC:D                     0.308          clk_filter/counter_16
+    ----------------------------------------
+    Total                      5.522ns (4.401ns logic, 1.121ns route)
+                                       (79.7% logic, 20.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_Debouncer/SHIFT_OUT'
+  Clock period: 2.085ns (frequency: 479.616MHz)
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Delay:               2.085ns (Levels of Logic = 1)
+  Source:            ShiftRegister_0/FF_D_all[7].FF_D_i/Q (FF)
+  Destination:       ShiftRegister_0/FF_D_all[0].FF_D_i/Q (FF)
+  Source Clock:      Inst_Debouncer/SHIFT_OUT falling
+  Destination Clock: Inst_Debouncer/SHIFT_OUT falling
+
+  Data Path: ShiftRegister_0/FF_D_all[7].FF_D_i/Q to ShiftRegister_0/FF_D_all[0].FF_D_i/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.591   0.482  ShiftRegister_0/FF_D_all[7].FF_D_i/Q (ShiftRegister_0/FF_D_all[7].FF_D_i/Q)
+     LUT3:I2->O            1   0.704   0.000  ShiftRegister_0/mux_2_1_all[0].m.most/Y_0_mux00001 (ShiftRegister_0/MUX_OUT<0>)
+     FDC_1:D                   0.308          ShiftRegister_0/FF_D_all[0].FF_D_i/Q
+    ----------------------------------------
+    Total                      2.085ns (1.603ns logic, 0.482ns route)
+                                       (76.9% logic, 23.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_filter/clockfx'
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Offset:              3.848ns (Levels of Logic = 2)
+  Source:            SHIFT (PAD)
+  Destination:       Inst_Debouncer/SHIFT_OUT (FF)
+  Destination Clock: clk_filter/clockfx rising
+
+  Data Path: SHIFT to Inst_Debouncer/SHIFT_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  SHIFT_IBUF (SHIFT_IBUF)
+     LUT2:I0->O            1   0.704   0.420  Inst_Debouncer/SHIFT_OUT_or00001 (Inst_Debouncer/SHIFT_OUT_or0000)
+     FDS:S                     0.911          Inst_Debouncer/SHIFT_OUT
+    ----------------------------------------
+    Total                      3.848ns (2.833ns logic, 1.015ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_Debouncer/SHIFT_OUT'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.729ns (Levels of Logic = 2)
+  Source:            X<0> (PAD)
+  Destination:       ShiftRegister_0/FF_D_all[0].FF_D_i/Q (FF)
+  Destination Clock: Inst_Debouncer/SHIFT_OUT falling
+
+  Data Path: X<0> to ShiftRegister_0/FF_D_all[0].FF_D_i/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.499  X_0_IBUF (X_0_IBUF)
+     LUT3:I1->O            1   0.704   0.000  ShiftRegister_0/mux_2_1_all[0].m.most/Y_0_mux00001 (ShiftRegister_0/MUX_OUT<0>)
+     FDC_1:D                   0.308          ShiftRegister_0/FF_D_all[0].FF_D_i/Q
+    ----------------------------------------
+    Total                      2.729ns (2.230ns logic, 0.499ns route)
+                                       (81.7% logic, 18.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_Debouncer/SHIFT_OUT'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            ShiftRegister_0/FF_D_all[7].FF_D_i/Q (FF)
+  Destination:       Y<7> (PAD)
+  Source Clock:      Inst_Debouncer/SHIFT_OUT falling
+
+  Data Path: ShiftRegister_0/FF_D_all[7].FF_D_i/Q to Y<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.591   0.447  ShiftRegister_0/FF_D_all[7].FF_D_i/Q (ShiftRegister_0/FF_D_all[7].FF_D_i/Q)
+     OBUF:I->O                 3.272          Y_7_OBUF (Y<7>)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.97 secs
+ 
+--> 
+
+Total memory usage is 4518936 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,28 @@
+# This file is a general .ucf for Basys rev E board
+# To use it in a project:
+# - remove or comment the lines corresponding to unused pins
+# - rename the used signals according to the project
+
+
+# clock pin for Basys rev E Board                                                                                                                        
+ NET "clock"      LOC = "P54"; # Bank = 2,  Pin name = IO_L5N_2/D3/GCLK31, Sch name = CLK1
+ 
+# onBoard 7seg display                                                                                                                        
+ NET "cathodes<0>"    LOC = "P25"; # Bank = 3, Pin name = IO_L8P_3,            Sch name = CA
+ NET "cathodes<1>"    LOC = "P16"; # Bank = 3, Pin name = IO_L5P_3/GCLK22,     Sch name = CB
+ NET "cathodes<2>"    LOC = "P23"; # Bank = 3, Pin name = IO_L7N_3/GCLK27      Sch name = CC
+ NET "cathodes<3>"    LOC = "P21"; # Bank = 3, Pin name = IO_L6N_3/GCLK25,     Sch name = CD
+ NET "cathodes<4>"    LOC = "P20"; # Bank = 3, Pin name = IO_L6P_3/GCLK24/TRDY2,Sch name = CE
+ NET "cathodes<5>"    LOC = "P17"; # Bank = 3, Pin name = IO_L5N_3/GCLK23/IRDY2,Sch name = CF
+ NET "cathodes<6>"    LOC = "P83"; # Bank = 1, Pin name = IO/VREF_1,           Sch name = CG
+ NET "cathodes<7>"    LOC = "P22"; 
+ 
+ NET "anodes<0>"     LOC = "P34"; # Bank = 3, Pin name = IO_L10P_3,           Sch name = AN1
+ NET "anodes<1>"     LOC = "P33"; # Bank = 3, Pin name = IO_L9N_3,            Sch name = AN2
+ NET "anodes<2>"     LOC = "P32"; # Bank = 3, Pin name = IO_L9P_3,            Sch name = AN3
+ NET "anodes<3>"     LOC = "P26"; # Bank = 3, Pin name = IO_L8N_3,            Sch name = AN4
+                                                                                                                                                                                                                                                                                                                                                               
+# Buttons                                                                                                                        
+ NET "btn_reset"    LOC = "P69"; # Bank = 2, Pin name = IP,                   Sch name = BTN0
+ NET "btn_incr"    LOC = "P48"; # Bank = 2, Pin name = IP_L3N_2/VREF_2       Sch name = BTN1
+ 

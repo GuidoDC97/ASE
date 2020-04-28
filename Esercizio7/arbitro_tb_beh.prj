@@ -1,0 +1,2 @@
+vhdl work "arbitro.vhd"
+vhdl work "arbitro_tb.vhd"

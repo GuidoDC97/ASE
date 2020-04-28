@@ -1,0 +1,15 @@
+AR control_unit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_unit.vhd" sub00/vhpl06 1582549672
+AR dp_ar_ram behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/dp_ar_ram.vhd" sub00/vhpl12 1582549678
+EN datapath NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/datapath.vhd" sub00/vhpl07 1582549673
+EN dp_ar_ram NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/dp_ar_ram.vhd" sub00/vhpl11 1582549677
+AR processor structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/processor.vhd" sub00/vhpl10 1582549676
+EN system NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/system.vhd" sub00/vhpl13 1582549679
+EN processor NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/processor.vhd" sub00/vhpl09 1582549675
+AR system structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/system.vhd" sub00/vhpl14 1582549680
+PH common_defs NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/common_defs.vhd" sub00/vhpl00 1582549666
+AR alu behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/alu.vhd" sub00/vhpl02 1582549668
+EN control_store NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_store.vhd" sub00/vhpl03 1582549669
+EN control_unit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_unit.vhd" sub00/vhpl05 1582549671
+AR control_store dataflow "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/control_store.vhd" sub00/vhpl04 1582549670
+AR datapath behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/datapath.vhd" sub00/vhpl08 1582549674
+EN alu NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio12/BIPUSH/alu.vhd" sub00/vhpl01 1582549667

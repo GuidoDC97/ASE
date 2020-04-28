@@ -1,0 +1,12 @@
+EN display_seven_segments NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_seven_segments.vhd" sub00/vhpl04 1580315889
+EN cathodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/cathodes_manager.vhd" sub00/vhpl00 1580315885
+AR control_unit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/control_unit.vhd" sub00/vhpl07 1580315660
+AR buffer_reg behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.vhd" sub00/vhpl11 1580315892
+EN display_on_board NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.vhd" sub00/vhpl08 1580315893
+AR anodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/anodes_manager.vhd" sub00/vhpl03 1580315888
+AR display_on_board structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_on_board.vhd" sub00/vhpl09 1580315894
+EN buffer_reg NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/buffer_reg.vhd" sub00/vhpl10 1580315891
+AR cathodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/cathodes_manager.vhd" sub00/vhpl01 1580315886
+EN control_unit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/control_unit.vhd" sub00/vhpl06 1580315659
+EN anodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/anodes_manager.vhd" sub00/vhpl02 1580315887
+AR display_seven_segments structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio2/display_seven_segments.vhd" sub00/vhpl05 1580315890

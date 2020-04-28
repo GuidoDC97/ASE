@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s250e-tq144-4 "UART_On_Board.ngc" UART_On_Board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_On_Board_map.ncd UART_On_Board.ngd UART_On_Board.pcf 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_c/UART_On_Board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-4 "UART_On_Board.ngc" UART_On_Board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o UART_On_Board_map.ncd UART_On_Board.ngd UART_On_Board.pcf 
+par -w -intstyle ise -ol high -t 1 UART_On_Board_map.ncd UART_On_Board.ncd UART_On_Board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_On_Board.twx UART_On_Board.ncd -o UART_On_Board.twr UART_On_Board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f UART_On_Board.ut UART_On_Board.ncd 

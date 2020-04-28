@@ -1,0 +1,3 @@
+vhdl isim_temp "Flip_Flop_T_etd.vhd"
+vhdl isim_temp "Contatore_mod16_parallelo.vhd"
+vhdl isim_temp "Contatatore_mod16_parallelo_tb.vhd"

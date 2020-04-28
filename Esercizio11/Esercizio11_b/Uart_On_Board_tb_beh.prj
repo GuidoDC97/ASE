@@ -1,0 +1,6 @@
+vhdl work "RS232RefComp2.vhd"
+vhdl work "Debounce.vhd"
+vhdl work "Control_Unit.vhd"
+vhdl work "Clk_filter.vhd"
+vhdl work "UART_On_Board.vhd"
+vhdl work "Uart_On_Board_tb.vhd"

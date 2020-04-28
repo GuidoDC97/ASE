@@ -1,0 +1,10 @@
+Command line:
+   D_et_Mazzeo_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57748
+
+Mon Nov 18 17:52:20 2019
+
+
+ Elaboration Time: 0.015625 sec

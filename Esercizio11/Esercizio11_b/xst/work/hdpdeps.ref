@@ -1,0 +1,43 @@
+V3 24
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Clk_filter.vhd" 2019/12/02.13:36:45 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Control_Unit.vhd" 2020/01/22.11:44:18 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Debounce.vhd" 2020/01/22.12:21:34 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/RS232RefComp2.vhd" 2020/01/22.09:59:20 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/UART_On_Board.vhd" 2020/01/22.12:17:10 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Clk_filter.vhd" 2020/01/22.04:23:16 P.58f
+EN work/clock_filter 1580806706 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Clk_filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/clock_filter/Behavioral 1580806707 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Clk_filter.vhd" \
+      EN work/clock_filter 1580806706
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Control_Unit.vhd" 2020/02/04.09:38:11 P.58f
+EN work/Control_Unit 1580806702 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Control_Unit.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Control_Unit/Behavioral 1580806703 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Control_Unit.vhd" \
+      EN work/Control_Unit 1580806702
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Debounce.vhd" 2020/02/04.09:34:29 P.58f
+EN work/Debounce 1580806704 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Debounce.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Debounce/Behavioral 1580806705 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/Debounce.vhd" \
+      EN work/Debounce 1580806704
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/RS232RefComp2.vhd" 2020/01/22.04:23:26 P.58f
+EN work/UARTcomponent 1580806700 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/RS232RefComp2.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/UARTcomponent/Behavioral 1580806701 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/RS232RefComp2.vhd" \
+      EN work/UARTcomponent 1580806700
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" 2020/02/04.09:41:23 P.58f
+EN work/UART_On_Board 1580806708 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/UART_On_Board/structural 1580806709 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_b/UART_On_Board.vhd" \
+      EN work/UART_On_Board 1580806708 CP UARTcomponent CP Control_Unit CP Debounce \
+      CP clock_filter

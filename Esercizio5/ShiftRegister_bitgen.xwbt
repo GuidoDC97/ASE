@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\fabio\Desktop\Elaborato\Esercizio5\ShiftRegister.ncd
+OUTFILE=C:\Users\fabio\Desktop\Elaborato\Esercizio5\ShiftRegister.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4tq144
+WORKINGDIR=C:\Users\fabio\Desktop\Elaborato\Esercizio5
+LICENSE=WebPack
+USER_INFO=211833125_0_0_337

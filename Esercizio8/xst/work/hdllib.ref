@@ -1,0 +1,22 @@
+AR digital_watch_on_board behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd" sub00/vhpl19 1580570926
+EN display_seven_segments NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/display_seven_segments.vhd" sub00/vhpl10 1580570917
+EN clock_filter NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Clock_filter.vhd" sub00/vhpl00 1580570907
+EN cathodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd" sub00/vhpl06 1580570913
+AR control_unit behavioral C:/Users/fabio/Desktop/Elaborato/Esercizio8/control_unit.vhd sub00/vhpl13 1575032458
+AR debouncer behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Debouncer.vhd" sub00/vhpl21 1580570920
+AR anodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/anodes_manager.vhd" sub00/vhpl09 1580570916
+EN counter_mod4 NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/counter_mod4.vhd" sub00/vhpl04 1580570911
+EN digital_watch NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch.vhd" sub00/vhpl14 1580570921
+EN digital_watch_on_board NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.vhd" sub00/vhpl18 1580570925
+AR clock_filter behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Clock_filter.vhd" sub00/vhpl01 1580570908
+AR cathodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/cathodes_manager.vhd" sub00/vhpl07 1580570914
+AR digital_watch structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch.vhd" sub00/vhpl15 1580570922
+EN bin2bcd_12bit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Converter.vhd" sub00/vhpl16 1580570923
+EN counter_mod_m_load NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Counter_mod_M_load.vhd" sub00/vhpl02 1580570909
+EN debouncer NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Debouncer.vhd" sub00/vhpl20 1580570919
+EN control_unit NULL C:/Users/fabio/Desktop/Elaborato/Esercizio8/control_unit.vhd sub00/vhpl12 1575032457
+AR bin2bcd_12bit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Converter.vhd" sub00/vhpl17 1580570924
+AR counter_mod4 behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/counter_mod4.vhd" sub00/vhpl05 1580570912
+EN anodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/anodes_manager.vhd" sub00/vhpl08 1580570915
+AR display_seven_segments structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/display_seven_segments.vhd" sub00/vhpl11 1580570918
+AR counter_mod_m_load behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Counter_mod_M_load.vhd" sub00/vhpl03 1580570910

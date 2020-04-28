@@ -1,0 +1,3 @@
+vhdtdtfi -prj Esercizio10 -o "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Unit.vhi" -module Control_Unit -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Store.vhd -lib work Control_Unit.vhd 
+vhdtdtfi -prj Esercizio10 -o "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Unit.vhi" -module Control_Unit -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Store.vhd -lib work Control_Unit.vhd 
+vhdtdtfi -prj Esercizio10 -o "C:/Users/Guido Di Chiara/Desktop/Esercizio10/Control_Unit.vhi" -module Control_Unit -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Store.vhd -lib work Control_Unit.vhd 

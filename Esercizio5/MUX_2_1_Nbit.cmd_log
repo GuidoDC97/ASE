@@ -1,0 +1,2 @@
+vhdtdtfi -prj Esercizio5 -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhi" -module MUX_2_1_Nbit -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX_2_1_Nbit.vhd 
+vhdtdtfi -prj Esercizio5 -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio5/MUX_2_1_Nbit.vhi" -module MUX_2_1_Nbit -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX_2_1_Nbit.vhd 

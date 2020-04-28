@@ -1,0 +1,4 @@
+vhdl work "RS.vhd"
+vhdl work "Flip-Flop_D_ETd_Mazzeo.vhd"
+vhdl work "Flip-Flop_D_MS_ideale.vhd"
+vhdl work "Flip-Flop_D_MS_ideale_tb.vhd"

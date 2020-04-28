@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/fabio/Desktop/Elaborato/Esercizio3/Flip-Flop_D_MS_ideale/Flip-Flop_D_MS_ideale.vhd" Line 55: Actual for formal port <arg fmt="%s" index="1">clk2</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: Impossibile trovare il percorso specificato, &quot;isim\D_MS_ideale_tb_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

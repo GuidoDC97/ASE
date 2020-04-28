@@ -1,0 +1,133 @@
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 Digital_watch_on_board.ngc Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "Digital_watch_on_board.ngc" Digital_watch_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o Digital_watch_on_board_map.ncd Digital_watch_on_board.ngd Digital_watch_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_watch_on_board_map.ncd Digital_watch_on_board.ncd Digital_watch_on_board.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Digital_watch_on_board.twx Digital_watch_on_board.ncd -o Digital_watch_on_board.twr Digital_watch_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f Digital_watch_on_board.ut Digital_watch_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio8/Digital_watch_on_board.syr" 

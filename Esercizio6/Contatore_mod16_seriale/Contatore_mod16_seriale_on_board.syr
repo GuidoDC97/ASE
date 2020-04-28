@@ -1,0 +1,768 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Contatore_mod16_seriale_on_board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Contatore_mod16_seriale_on_board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Contatore_mod16_seriale_on_board"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : Contatore_mod16_seriale_on_board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Flip_Flop_T_etd.vhd" in Library work.
+Architecture behavioral of Entity flip_flop_t_etd is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Counter_instance.vhd" in Library work.
+Architecture behavioral of Entity counter_mod2 is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" in Library work.
+Architecture behavioral of Entity cathodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd" in Library work.
+Architecture behavioral of Entity anodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/seven_segment_array.vhd" in Library work.
+Architecture structural of Entity display_seven_segments is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Clk_filter.vhd" in Library work.
+Architecture behavioral of Entity clock_filter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Debouncer.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale.vhd" in Library work.
+Architecture structural of Entity contatore_mod16_seriale is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/bin2bcd_12bit.vhd" in Library work.
+Architecture behavioral of Entity bin2bcd_12bit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" in Library work.
+Entity <contatore_mod16_seriale_on_board> compiled.
+Entity <contatore_mod16_seriale_on_board> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Contatore_mod16_seriale_on_board> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <display_seven_segments> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <clock_filter> in library <work> (architecture <behavioral>) with generics.
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contatore_mod16_seriale> in library <work> (architecture <structural>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <bin2bcd_12bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_mod2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <cathodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <anodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Flip_Flop_T_etd> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Contatore_mod16_seriale_on_board> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" line 98: Unconnected output port 'hundreds' of component 'bin2bcd_12bit'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd" line 98: Unconnected output port 'thousands' of component 'bin2bcd_12bit'.
+Entity <Contatore_mod16_seriale_on_board> analyzed. Unit <Contatore_mod16_seriale_on_board> generated.
+
+Analyzing Entity <display_seven_segments> in library <work> (Architecture <structural>).
+Entity <display_seven_segments> analyzed. Unit <display_seven_segments> generated.
+
+Analyzing Entity <counter_mod2> in library <work> (Architecture <behavioral>).
+Entity <counter_mod2> analyzed. Unit <counter_mod2> generated.
+
+Analyzing Entity <cathodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" line 48: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd" line 89: Mux is complete : default of case is discarded
+Entity <cathodes_manager> analyzed. Unit <cathodes_manager> generated.
+
+Analyzing Entity <anodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd" line 25: Mux is complete : default of case is discarded
+Entity <anodes_manager> analyzed. Unit <anodes_manager> generated.
+
+Analyzing generic Entity <clock_filter> in library <work> (Architecture <behavioral>).
+	clock_frequency_in = 50000000
+	clock_frequency_out = 500
+Entity <clock_filter> analyzed. Unit <clock_filter> generated.
+
+Analyzing Entity <Debouncer> in library <work> (Architecture <behavioral>).
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+Analyzing generic Entity <Contatore_mod16_seriale> in library <work> (Architecture <structural>).
+	n = 4
+Entity <Contatore_mod16_seriale> analyzed. Unit <Contatore_mod16_seriale> generated.
+
+Analyzing Entity <Flip_Flop_T_etd> in library <work> (Architecture <behavioral>).
+Entity <Flip_Flop_T_etd> analyzed. Unit <Flip_Flop_T_etd> generated.
+
+Analyzing Entity <bin2bcd_12bit> in library <work> (Architecture <behavioral>).
+Entity <bin2bcd_12bit> analyzed. Unit <bin2bcd_12bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock_filter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Clk_filter.vhd".
+    Found 1-bit register for signal <clockfx>.
+    Found 17-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clock_filter> synthesized.
+
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Debouncer.vhd".
+    Found 1-bit register for signal <INCR_OUT>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <bin2bcd_12bit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/bin2bcd_12bit.vhd".
+    Found 4-bit comparator greater for signal <bcd_10$cmp_gt0000> created at line 55.
+    Found 4-bit comparator greater for signal <bcd_10$cmp_gt0001> created at line 55.
+    Found 4-bit comparator greater for signal <bcd_10$cmp_gt0002> created at line 55.
+    Found 4-bit adder for signal <bcd_11_8$add0000> created at line 56.
+    Found 4-bit adder for signal <bcd_11_8$add0001> created at line 56.
+    Found 4-bit adder for signal <bcd_11_8$add0002> created at line 56.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0000> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0001> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0002> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0003> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0004> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0005> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0006> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0007> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0008> created at line 47.
+    Found 4-bit adder for signal <bcd_3_0$add0000> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0001> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0002> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0003> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0004> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0005> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0006> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0007> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0008> created at line 48.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0000> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0001> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0002> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0003> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0004> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0005> created at line 51.
+    Found 4-bit adder for signal <bcd_7_4$add0000> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0001> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0002> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0003> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0004> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0005> created at line 52.
+    Summary:
+	inferred  18 Adder/Subtractor(s).
+	inferred  18 Comparator(s).
+Unit <bin2bcd_12bit> synthesized.
+
+
+Synthesizing Unit <counter_mod2>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Counter_instance.vhd".
+    Found 1-bit register for signal <c>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <counter_mod2> synthesized.
+
+
+Synthesizing Unit <cathodes_manager>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/cathodes_manager.vhd".
+    Found 16x7-bit ROM for signal <cathodes_for_digit>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <cathodes_manager> synthesized.
+
+
+Synthesizing Unit <anodes_manager>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/anodes_instance.vhd".
+WARNING:Xst:646 - Signal <anodes_switching<3:2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <anodes_manager> synthesized.
+
+
+Synthesizing Unit <Flip_Flop_T_etd>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Flip_Flop_T_etd.vhd".
+    Found 1-bit register for signal <Qint>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Flip_Flop_T_etd> synthesized.
+
+
+Synthesizing Unit <display_seven_segments>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/seven_segment_array.vhd".
+Unit <display_seven_segments> synthesized.
+
+
+Synthesizing Unit <Contatore_mod16_seriale>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale.vhd".
+Unit <Contatore_mod16_seriale> synthesized.
+
+
+Synthesizing Unit <Contatore_mod16_seriale_on_board>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio6/Contatore_mod16_seriale/Contatore_mod16_seriale_on_board.vhd".
+Unit <Contatore_mod16_seriale_on_board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 18
+ 4-bit adder                                           : 18
+# Counters                                             : 1
+ 17-bit up counter                                     : 1
+# Registers                                            : 7
+ 1-bit register                                        : 7
+# Comparators                                          : 18
+ 4-bit comparator greater                              : 18
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 18
+ 4-bit adder                                           : 18
+# Counters                                             : 1
+ 17-bit up counter                                     : 1
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+# Comparators                                          : 18
+ 4-bit comparator greater                              : 18
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Contatore_mod16_seriale_on_board> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Contatore_mod16_seriale_on_board, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Contatore_mod16_seriale_on_board.ngr
+Top Level Output File Name         : Contatore_mod16_seriale_on_board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 103
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 17
+#      LUT2                        : 17
+#      LUT3                        : 1
+#      LUT4                        : 14
+#      MUXCY                       : 21
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 17
+# FlipFlops/Latches                : 24
+#      FDC                         : 19
+#      FDC_1                       : 4
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 2
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                       34  out of   2448     1%  
+ Number of Slice Flip Flops:             24  out of   4896     0%  
+ Number of 4 input LUTs:                 56  out of   4896     1%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    108    13%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------+------------------------------------------------+-------+
+Clock Signal                             | Clock buffer(FF name)                          | Load  |
+-----------------------------------------+------------------------------------------------+-------+
+clock                                    | BUFGP                                          | 18    |
+clk_filter/clockfx                       | NONE(Inst_Debouncer/INCR_OUT)                  | 2     |
+Inst_Debouncer/INCR_OUT                  | NONE(Contatore/Flip_Flop_T_all[0].l.least/Qint)| 1     |
+Contatore/Flip_Flop_T_all[0].l.least/Qint| NONE(Contatore/Flip_Flop_T_all[1].r.rest/Qint) | 1     |
+Contatore/Flip_Flop_T_all[1].r.rest/Qint | NONE(Contatore/Flip_Flop_T_all[2].r.rest/Qint) | 1     |
+Contatore/Flip_Flop_T_all[2].r.rest/Qint | NONE(Contatore/Flip_Flop_T_all[3].r.rest/Qint) | 1     |
+-----------------------------------------+------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+btn_reset                          | IBUF                   | 23    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.522ns (Maximum Frequency: 181.094MHz)
+   Minimum input arrival time before clock: 3.673ns
+   Maximum output required time after clock: 6.444ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 5.522ns (frequency: 181.094MHz)
+  Total number of paths / destination ports: 459 / 18
+-------------------------------------------------------------------------
+Delay:               5.522ns (Levels of Logic = 18)
+  Source:            clk_filter/counter_1 (FF)
+  Destination:       clk_filter/counter_16 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: clk_filter/counter_1 to clk_filter/counter_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  clk_filter/counter_1 (clk_filter/counter_1)
+     LUT1:I0->O            1   0.704   0.000  clk_filter/Mcount_counter_cy<1>_rt (clk_filter/Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  clk_filter/Mcount_counter_cy<1> (clk_filter/Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<2> (clk_filter/Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<3> (clk_filter/Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<4> (clk_filter/Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<5> (clk_filter/Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<6> (clk_filter/Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<7> (clk_filter/Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<8> (clk_filter/Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<9> (clk_filter/Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<10> (clk_filter/Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<11> (clk_filter/Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<12> (clk_filter/Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<13> (clk_filter/Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  clk_filter/Mcount_counter_cy<14> (clk_filter/Mcount_counter_cy<14>)
+     MUXCY:CI->O           0   0.059   0.000  clk_filter/Mcount_counter_cy<15> (clk_filter/Mcount_counter_cy<15>)
+     XORCY:CI->O           1   0.804   0.499  clk_filter/Mcount_counter_xor<16> (Result<16>)
+     LUT2:I1->O            1   0.704   0.000  clk_filter/Mcount_counter_eqn_161 (clk_filter/Mcount_counter_eqn_16)
+     FDC:D                     0.308          clk_filter/counter_16
+    ----------------------------------------
+    Total                      5.522ns (4.401ns logic, 1.121ns route)
+                                       (79.7% logic, 20.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_filter/clockfx'
+  Clock period: 3.011ns (frequency: 332.116MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               3.011ns (Levels of Logic = 1)
+  Source:            seven_segment/counter_instance/c (FF)
+  Destination:       seven_segment/counter_instance/c (FF)
+  Source Clock:      clk_filter/clockfx rising
+  Destination Clock: clk_filter/clockfx rising
+
+  Data Path: seven_segment/counter_instance/c to seven_segment/counter_instance/c
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   0.961  seven_segment/counter_instance/c (seven_segment/counter_instance/c)
+     INV:I->O              2   0.704   0.447  anodes<1>1_INV_0 (anodes_1_OBUF)
+     FDC:D                     0.308          seven_segment/counter_instance/c
+    ----------------------------------------
+    Total                      3.011ns (1.603ns logic, 1.408ns route)
+                                       (53.2% logic, 46.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_Debouncer/INCR_OUT'
+  Clock period: 2.956ns (frequency: 338.295MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.956ns (Levels of Logic = 1)
+  Source:            Contatore/Flip_Flop_T_all[0].l.least/Qint (FF)
+  Destination:       Contatore/Flip_Flop_T_all[0].l.least/Qint (FF)
+  Source Clock:      Inst_Debouncer/INCR_OUT falling
+  Destination Clock: Inst_Debouncer/INCR_OUT falling
+
+  Data Path: Contatore/Flip_Flop_T_all[0].l.least/Qint to Contatore/Flip_Flop_T_all[0].l.least/Qint
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           11   0.591   0.933  Contatore/Flip_Flop_T_all[0].l.least/Qint (Contatore/Flip_Flop_T_all[0].l.least/Qint)
+     INV:I->O              1   0.704   0.420  Contatore/Flip_Flop_T_all[0].l.least/Qint_not00011_INV_0 (Contatore/Flip_Flop_T_all[0].l.least/Qint_not0001)
+     FDC_1:D                   0.308          Contatore/Flip_Flop_T_all[0].l.least/Qint
+    ----------------------------------------
+    Total                      2.956ns (1.603ns logic, 1.353ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Contatore/Flip_Flop_T_all[0].l.least/Qint'
+  Clock period: 2.956ns (frequency: 338.295MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.956ns (Levels of Logic = 1)
+  Source:            Contatore/Flip_Flop_T_all[1].r.rest/Qint (FF)
+  Destination:       Contatore/Flip_Flop_T_all[1].r.rest/Qint (FF)
+  Source Clock:      Contatore/Flip_Flop_T_all[0].l.least/Qint falling
+  Destination Clock: Contatore/Flip_Flop_T_all[0].l.least/Qint falling
+
+  Data Path: Contatore/Flip_Flop_T_all[1].r.rest/Qint to Contatore/Flip_Flop_T_all[1].r.rest/Qint
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           11   0.591   0.933  Contatore/Flip_Flop_T_all[1].r.rest/Qint (Contatore/Flip_Flop_T_all[1].r.rest/Qint)
+     INV:I->O              1   0.704   0.420  Contatore/Flip_Flop_T_all[1].r.rest/Qint_not00011_INV_0 (Contatore/Flip_Flop_T_all[1].r.rest/Qint_not0001)
+     FDC_1:D                   0.308          Contatore/Flip_Flop_T_all[1].r.rest/Qint
+    ----------------------------------------
+    Total                      2.956ns (1.603ns logic, 1.353ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Contatore/Flip_Flop_T_all[1].r.rest/Qint'
+  Clock period: 3.006ns (frequency: 332.668MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               3.006ns (Levels of Logic = 1)
+  Source:            Contatore/Flip_Flop_T_all[2].r.rest/Qint (FF)
+  Destination:       Contatore/Flip_Flop_T_all[2].r.rest/Qint (FF)
+  Source Clock:      Contatore/Flip_Flop_T_all[1].r.rest/Qint falling
+  Destination Clock: Contatore/Flip_Flop_T_all[1].r.rest/Qint falling
+
+  Data Path: Contatore/Flip_Flop_T_all[2].r.rest/Qint to Contatore/Flip_Flop_T_all[2].r.rest/Qint
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           13   0.591   0.983  Contatore/Flip_Flop_T_all[2].r.rest/Qint (Contatore/Flip_Flop_T_all[2].r.rest/Qint)
+     INV:I->O              1   0.704   0.420  Contatore/Flip_Flop_T_all[2].r.rest/Qint_not00011_INV_0 (Contatore/Flip_Flop_T_all[2].r.rest/Qint_not0001)
+     FDC_1:D                   0.308          Contatore/Flip_Flop_T_all[2].r.rest/Qint
+    ----------------------------------------
+    Total                      3.006ns (1.603ns logic, 1.403ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Contatore/Flip_Flop_T_all[2].r.rest/Qint'
+  Clock period: 2.984ns (frequency: 335.121MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.984ns (Levels of Logic = 1)
+  Source:            Contatore/Flip_Flop_T_all[3].r.rest/Qint (FF)
+  Destination:       Contatore/Flip_Flop_T_all[3].r.rest/Qint (FF)
+  Source Clock:      Contatore/Flip_Flop_T_all[2].r.rest/Qint falling
+  Destination Clock: Contatore/Flip_Flop_T_all[2].r.rest/Qint falling
+
+  Data Path: Contatore/Flip_Flop_T_all[3].r.rest/Qint to Contatore/Flip_Flop_T_all[3].r.rest/Qint
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           12   0.591   0.961  Contatore/Flip_Flop_T_all[3].r.rest/Qint (Contatore/Flip_Flop_T_all[3].r.rest/Qint)
+     INV:I->O              1   0.704   0.420  Contatore/Flip_Flop_T_all[3].r.rest/Qint_not00011_INV_0 (Contatore/Flip_Flop_T_all[3].r.rest/Qint_not0001)
+     FDC_1:D                   0.308          Contatore/Flip_Flop_T_all[3].r.rest/Qint
+    ----------------------------------------
+    Total                      2.984ns (1.603ns logic, 1.381ns route)
+                                       (53.7% logic, 46.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_filter/clockfx'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.673ns (Levels of Logic = 2)
+  Source:            btn_incr (PAD)
+  Destination:       Inst_Debouncer/INCR_OUT (FF)
+  Destination Clock: clk_filter/clockfx rising
+
+  Data Path: btn_incr to Inst_Debouncer/INCR_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  btn_incr_IBUF (btn_incr_IBUF)
+     INV:I->O              1   0.704   0.420  Inst_Debouncer/INCR_IN_inv1_INV_0 (Inst_Debouncer/INCR_IN_inv)
+     FDR:R                     0.911          Inst_Debouncer/INCR_OUT
+    ----------------------------------------
+    Total                      3.673ns (2.833ns logic, 0.840ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_filter/clockfx'
+  Total number of paths / destination ports: 12 / 9
+-------------------------------------------------------------------------
+Offset:              6.348ns (Levels of Logic = 3)
+  Source:            seven_segment/counter_instance/c (FF)
+  Destination:       cathodes<5> (PAD)
+  Source Clock:      clk_filter/clockfx rising
+
+  Data Path: seven_segment/counter_instance/c to cathodes<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   1.040  seven_segment/counter_instance/c (seven_segment/counter_instance/c)
+     LUT4:I1->O            1   0.704   0.000  seven_segment/cathodes_instance/Mrom_cathodes_for_digit5_G (N22)
+     MUXF5:I1->O           1   0.321   0.420  seven_segment/cathodes_instance/Mrom_cathodes_for_digit5 (cathodes_5_OBUF)
+     OBUF:I->O                 3.272          cathodes_5_OBUF (cathodes<5>)
+    ----------------------------------------
+    Total                      6.348ns (4.888ns logic, 1.460ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Contatore/Flip_Flop_T_all[2].r.rest/Qint'
+  Total number of paths / destination ports: 11 / 7
+-------------------------------------------------------------------------
+Offset:              6.444ns (Levels of Logic = 3)
+  Source:            Contatore/Flip_Flop_T_all[3].r.rest/Qint (FF)
+  Destination:       cathodes<6> (PAD)
+  Source Clock:      Contatore/Flip_Flop_T_all[2].r.rest/Qint falling
+
+  Data Path: Contatore/Flip_Flop_T_all[3].r.rest/Qint to cathodes<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           12   0.591   1.136  Contatore/Flip_Flop_T_all[3].r.rest/Qint (Contatore/Flip_Flop_T_all[3].r.rest/Qint)
+     LUT4:I0->O            1   0.704   0.000  seven_segment/cathodes_instance/Mrom_cathodes_for_digit4_F (N17)
+     MUXF5:I0->O           1   0.321   0.420  seven_segment/cathodes_instance/Mrom_cathodes_for_digit4 (cathodes_4_OBUF)
+     OBUF:I->O                 3.272          cathodes_4_OBUF (cathodes<4>)
+    ----------------------------------------
+    Total                      6.444ns (4.888ns logic, 1.556ns route)
+                                       (75.9% logic, 24.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Contatore/Flip_Flop_T_all[1].r.rest/Qint'
+  Total number of paths / destination ports: 11 / 7
+-------------------------------------------------------------------------
+Offset:              6.370ns (Levels of Logic = 3)
+  Source:            Contatore/Flip_Flop_T_all[2].r.rest/Qint (FF)
+  Destination:       cathodes<6> (PAD)
+  Source Clock:      Contatore/Flip_Flop_T_all[1].r.rest/Qint falling
+
+  Data Path: Contatore/Flip_Flop_T_all[2].r.rest/Qint to cathodes<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           13   0.591   1.062  Contatore/Flip_Flop_T_all[2].r.rest/Qint (Contatore/Flip_Flop_T_all[2].r.rest/Qint)
+     LUT4:I1->O            1   0.704   0.000  seven_segment/cathodes_instance/Mrom_cathodes_for_digit4_F (N17)
+     MUXF5:I0->O           1   0.321   0.420  seven_segment/cathodes_instance/Mrom_cathodes_for_digit4 (cathodes_4_OBUF)
+     OBUF:I->O                 3.272          cathodes_4_OBUF (cathodes<4>)
+    ----------------------------------------
+    Total                      6.370ns (4.888ns logic, 1.482ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Contatore/Flip_Flop_T_all[0].l.least/Qint'
+  Total number of paths / destination ports: 9 / 7
+-------------------------------------------------------------------------
+Offset:              6.320ns (Levels of Logic = 3)
+  Source:            Contatore/Flip_Flop_T_all[1].r.rest/Qint (FF)
+  Destination:       cathodes<4> (PAD)
+  Source Clock:      Contatore/Flip_Flop_T_all[0].l.least/Qint falling
+
+  Data Path: Contatore/Flip_Flop_T_all[1].r.rest/Qint to cathodes<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           11   0.591   1.012  Contatore/Flip_Flop_T_all[1].r.rest/Qint (Contatore/Flip_Flop_T_all[1].r.rest/Qint)
+     LUT3:I1->O            1   0.704   0.000  seven_segment/cathodes_instance/Mrom_cathodes_for_digit4_G (N18)
+     MUXF5:I1->O           1   0.321   0.420  seven_segment/cathodes_instance/Mrom_cathodes_for_digit4 (cathodes_4_OBUF)
+     OBUF:I->O                 3.272          cathodes_4_OBUF (cathodes<4>)
+    ----------------------------------------
+    Total                      6.320ns (4.888ns logic, 1.432ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_Debouncer/INCR_OUT'
+  Total number of paths / destination ports: 9 / 7
+-------------------------------------------------------------------------
+Offset:              6.320ns (Levels of Logic = 3)
+  Source:            Contatore/Flip_Flop_T_all[0].l.least/Qint (FF)
+  Destination:       cathodes<0> (PAD)
+  Source Clock:      Inst_Debouncer/INCR_OUT falling
+
+  Data Path: Contatore/Flip_Flop_T_all[0].l.least/Qint to cathodes<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           11   0.591   1.012  Contatore/Flip_Flop_T_all[0].l.least/Qint (Contatore/Flip_Flop_T_all[0].l.least/Qint)
+     LUT4:I1->O            1   0.704   0.000  seven_segment/cathodes_instance/Mrom_cathodes_for_digit1_F (N19)
+     MUXF5:I0->O           1   0.321   0.420  seven_segment/cathodes_instance/Mrom_cathodes_for_digit1 (cathodes_0_OBUF)
+     OBUF:I->O                 3.272          cathodes_0_OBUF (cathodes<0>)
+    ----------------------------------------
+    Total                      6.320ns (4.888ns logic, 1.432ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.51 secs
+ 
+--> 
+
+Total memory usage is 4518904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

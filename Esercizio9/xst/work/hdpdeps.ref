@@ -1,0 +1,96 @@
+V3 55
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/anodes_manager.vhd 2019/11/26.18:47:42 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/cathodes_manager.vhd 2019/12/02.19:14:39 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/Clk_filter.vhd 2019/12/02.08:42:34 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/ControlUnit.vhd 2019/12/02.17:53:01 P.58f
+EN work/control_unit 1575310866 \
+      FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/ControlUnit.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/control_unit/Behavioral 1575310867 \
+      FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/ControlUnit.vhd \
+      EN work/control_unit 1575310866
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/counter_mod4.vhd 2019/12/02.18:54:20 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/full_adder.vhd 2019/11/25.09:36:04 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/MAC_cell.vhd 2019/12/02.08:42:40 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/MAC_multiplier.vhd 2019/12/02.18:44:10 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/MAC_multiplier_on_board.vhd 2019/12/02.19:19:12 P.58f
+FL C:/Users/fabio/Desktop/Elaborato/Esercizio9/seven_segment_array.vhd 2019/12/02.18:52:05 P.58f
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" 2020/02/01.17:32:32 P.58f
+EN work/anodes_manager 1580575821 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/anodes_manager/Behavioral 1580575822 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" \
+      EN work/anodes_manager 1580575821
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd" 2020/02/01.17:46:20 P.58f
+EN work/buffer_reg 1580575831 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/buffer_reg/Behavioral 1580575832 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd" \
+      EN work/buffer_reg 1580575831
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" 2020/02/01.17:36:02 P.58f
+EN work/cathodes_manager 1580575819 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/cathodes_manager/Behavioral 1580575820 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" \
+      EN work/cathodes_manager 1580575819
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd" 2020/02/01.17:36:01 P.58f
+EN work/clock_filter 1580575827 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/clock_filter/Behavioral 1580575828 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd" \
+      EN work/clock_filter 1580575827
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd" 2020/02/01.17:32:14 P.58f
+EN work/counter_mod4 1580575817 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/counter_mod4/Behavioral 1580575818 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd" \
+      EN work/counter_mod4 1580575817
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd" 2020/02/01.17:45:00 P.58f
+EN work/Debouncer 1580575825 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Debouncer/behavioral 1580575826 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd" \
+      EN work/Debouncer 1580575825
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd" 2019/12/02.10:26:18 P.58f
+EN work/full_adder 1580575813 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/full_adder/dataflow 1580575814 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd" \
+      EN work/full_adder 1580575813
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd" 2019/12/02.10:26:18 P.58f
+EN work/MAC_cell 1580575815 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MAC_cell/Behavioral 1580575816 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd" \
+      EN work/MAC_cell 1580575815 CP full_adder
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd" 2020/02/01.17:40:33 P.58f
+EN work/MAC_multiplier 1580575829 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MAC_multiplier/Behavioral 1580575830 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd" \
+      EN work/MAC_multiplier 1580575829 CP MAC_cell
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd" 2020/02/01.17:50:11 P.58f
+EN work/MAC_multiplier_on_board 1580575833 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/MAC_multiplier_on_board/structural 1580575834 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd" \
+      EN work/MAC_multiplier_on_board 1580575833 CP display_seven_segments \
+      CP Debouncer CP clock_filter CP MAC_multiplier CP buffer_reg
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd" 2020/02/01.17:48:49 P.58f
+EN work/display_seven_segments 1580575823 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/display_seven_segments/Structural 1580575824 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd" \
+      EN work/display_seven_segments 1580575823 CP counter_mod4 \
+      CP cathodes_manager CP anodes_manager

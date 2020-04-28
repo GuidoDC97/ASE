@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.58f
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.58f
+DATE            02/15/2020 - 15:23
+SOURCE          C:\Users\Guido Di Chiara\Documents\Semestre Corrente\Architettura dei Sistemi di Elaborazione\Tesina\Esercizio2\Untitled.mcs
+DEVICE          512K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x00ABF35F
+START_ADDRESS   0x00000000 END_ADDRESS 0x00075393 DIRECTION_UP   "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/RandomProjects/mux.bit" 3s1200efg320

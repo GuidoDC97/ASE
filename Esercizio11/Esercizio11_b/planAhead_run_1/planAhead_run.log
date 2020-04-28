@@ -1,0 +1,101 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/pa.fromNetlist.tcl}
+# create_project -name Esercizio11_b -dir "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/planAhead_run_1" -part xc3s250etq144-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/UART_On_Board.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b} }
+# set_property target_constrs_file "Basys_250K.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf' to fileset 'constrs_1'
+# add_files [list {Basys_250K.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s250etq144-4
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design UART_On_Board.ngc ...
+WARNING:NetListWriters:298 - No output is written to UART_On_Board.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file UART_On_Board.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Esercizio11_b.data/cache/UART_On_Board_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Esercizio11_b.data/cache/UART_On_Board_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/tq144/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/tq144/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'CLK1' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:8]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:21]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:22]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:23]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<3>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:24]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<4>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:25]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<5>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:26]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<6>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:27]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw<7>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:28]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'btn<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:31]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'btn<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:32]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'btn<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:33]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'btn<3>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:34]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PS2C' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:37]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PS2D' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:38]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'HSYNC' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:41]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'VSYNC' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:42]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutRed<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:43]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutRed<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:44]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutRed<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:45]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutGreen<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:46]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutGreen<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:47]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutGreen<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:48]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutBlue<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:49]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OutBlue<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:50]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JA<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:53]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JA<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:54]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JA<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:55]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JA<3>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:56]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JB<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:57]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JB<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:58]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JB<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:59]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JB<3>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:60]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JC<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:61]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JC<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:62]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JC<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:63]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JC<3>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:64]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JD<0>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:65]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JD<1>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:66]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JD<2>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:67]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'JD<3>' [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf:68]
+Finished Parsing UCF File [C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina nuova/Esercizio11/Esercizio11_b/Basys_250K.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: f44a8151
+link_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 535.926 ; gain = 129.098
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Jan 22 11:33:34 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

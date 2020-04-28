@@ -1,0 +1,868 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: Divider_On_Board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Divider_On_Board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Divider_On_Board"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : Divider_On_Board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Full_adder.vhd" in Library work.
+Architecture dataflow of Entity full_adder is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RCA_Nbit .vhd" in Library work.
+Architecture structural of Entity rca_nbit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter_mod4.vhd" in Library work.
+Architecture behavioral of Entity counter_mod4 is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd" in Library work.
+Architecture behavioral of Entity cathodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd" in Library work.
+Architecture behavioral of Entity anodes_manager is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterM.vhd" in Library work.
+Architecture behavioral of Entity registerm is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterSAQ.vhd" in Library work.
+Architecture behavioral of Entity registersaq is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Adder_Subtractor_Nbit.vhd" in Library work.
+Architecture structural of Entity adder_subtractor_nbit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd" in Library work.
+Architecture structural of Entity datapath is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" in Library work.
+Architecture behavioral of Entity controlunit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_Filter.vhd" in Library work.
+Architecture behavioral of Entity clock_filter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Debouncer.vhd" in Library work.
+Entity <debouncer> compiled.
+Entity <debouncer> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_filter_display.vhd" in Library work.
+Architecture behavioral of Entity clock_filter_display is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Seven_segment_array.vhd" in Library work.
+Architecture structural of Entity display_seven_segments is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Converter.vhd" in Library work.
+Architecture behavioral of Entity bin2bcd_12bit is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" in Library work.
+Architecture structural of Entity divider_on_board is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Divider_On_Board> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Datapath> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <ControlUnit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock_Filter> in library <work> (architecture <behavioral>) with generics.
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <CLOCK_FILTER_DISPLAY> in library <work> (architecture <behavioral>) with generics.
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+
+Analyzing hierarchy for entity <DISPLAY_SEVEN_SEGMENTS> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <bin2bcd_12bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RegisterM> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <RegisterSAQ> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <ADDER_SUBTRACTOR_Nbit> in library <work> (architecture <structural>) with generics.
+	N = 5
+
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavioral>) with generics.
+	M = 4
+	N = 3
+
+Analyzing hierarchy for entity <COUNTER_MOD4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CATHODES_MANAGER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ANODES_MANAGER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RCA_Nbit> in library <work> (architecture <structural>) with generics.
+	N = 5
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <dataflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Divider_On_Board> in library <work> (Architecture <structural>).
+	N = 4
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" line 230: Unconnected output port 'hundreds' of component 'bin2bcd_12bit'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" line 230: Unconnected output port 'thousands' of component 'bin2bcd_12bit'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" line 237: Unconnected output port 'hundreds' of component 'bin2bcd_12bit'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" line 237: Unconnected output port 'thousands' of component 'bin2bcd_12bit'.
+Entity <Divider_On_Board> analyzed. Unit <Divider_On_Board> generated.
+
+Analyzing generic Entity <Datapath> in library <work> (Architecture <structural>).
+	N = 4
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd" line 142: Unconnected output port 'C_OUT' of component 'ADDER_SUBTRACTOR_Nbit'.
+Entity <Datapath> analyzed. Unit <Datapath> generated.
+
+Analyzing generic Entity <RegisterM> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <RegisterM> analyzed. Unit <RegisterM> generated.
+
+Analyzing generic Entity <RegisterSAQ> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <RegisterSAQ> analyzed. Unit <RegisterSAQ> generated.
+
+Analyzing generic Entity <ADDER_SUBTRACTOR_Nbit> in library <work> (Architecture <structural>).
+	N = 5
+Entity <ADDER_SUBTRACTOR_Nbit> analyzed. Unit <ADDER_SUBTRACTOR_Nbit> generated.
+
+Analyzing generic Entity <RCA_Nbit> in library <work> (Architecture <structural>).
+	N = 5
+Entity <RCA_Nbit> analyzed. Unit <RCA_Nbit> generated.
+
+Analyzing Entity <FULL_ADDER> in library <work> (Architecture <dataflow>).
+Entity <FULL_ADDER> analyzed. Unit <FULL_ADDER> generated.
+
+Analyzing generic Entity <Counter> in library <work> (Architecture <behavioral>).
+	M = 4
+	N = 3
+Entity <Counter> analyzed. Unit <Counter> generated.
+
+Analyzing Entity <ControlUnit> in library <work> (Architecture <behavioral>).
+Entity <ControlUnit> analyzed. Unit <ControlUnit> generated.
+
+Analyzing generic Entity <Clock_Filter> in library <work> (Architecture <behavioral>).
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+Entity <Clock_Filter> analyzed. Unit <Clock_Filter> generated.
+
+Analyzing generic Entity <Debouncer> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+Analyzing generic Entity <CLOCK_FILTER_DISPLAY> in library <work> (Architecture <behavioral>).
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+Entity <CLOCK_FILTER_DISPLAY> analyzed. Unit <CLOCK_FILTER_DISPLAY> generated.
+
+Analyzing Entity <DISPLAY_SEVEN_SEGMENTS> in library <work> (Architecture <structural>).
+Entity <DISPLAY_SEVEN_SEGMENTS> analyzed. Unit <DISPLAY_SEVEN_SEGMENTS> generated.
+
+Analyzing Entity <COUNTER_MOD4> in library <work> (Architecture <behavioral>).
+Entity <COUNTER_MOD4> analyzed. Unit <COUNTER_MOD4> generated.
+
+Analyzing Entity <CATHODES_MANAGER> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd" line 104: Mux is complete : default of case is discarded
+Entity <CATHODES_MANAGER> analyzed. Unit <CATHODES_MANAGER> generated.
+
+Analyzing Entity <ANODES_MANAGER> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd" line 54: Mux is complete : default of case is discarded
+Entity <ANODES_MANAGER> analyzed. Unit <ANODES_MANAGER> generated.
+
+Analyzing Entity <bin2bcd_12bit> in library <work> (Architecture <behavioral>).
+Entity <bin2bcd_12bit> analyzed. Unit <bin2bcd_12bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ControlUnit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd".
+    Found finite state machine <FSM_0> for signal <CURRENT_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 7                                              |
+    | Clock              | CLOCK                     (rising_edge)        |
+    | Reset              | RESET                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle_s                                         |
+    | Power Up State     | idle_s                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ControlUnit> synthesized.
+
+
+Synthesizing Unit <Clock_Filter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_Filter.vhd".
+    Found 1-bit register for signal <CLOCK_FX>.
+    Found 17-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Clock_Filter> synthesized.
+
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Debouncer.vhd".
+    Found finite state machine <FSM_1> for signal <i>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 41                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CLOCK                     (rising_edge)        |
+    | Clock enable       | i$not0000                 (positive)           |
+    | Reset              | RESET                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000000000000000000000000000000               |
+    | Power Up State     | 00000000000000000000000000000000               |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <START>.
+    Found 4-bit register for signal <M>.
+    Found 1-bit register for signal <ENABLE_M>.
+    Found 1-bit register for signal <ENABLE_SAQ>.
+    Found 7-bit register for signal <SAQ>.
+    Found 1-bit register for signal <ERR_TEMP>.
+    Found 4-bit register for signal <M_TEMP>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  19 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <CLOCK_FILTER_DISPLAY>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_filter_display.vhd".
+    Found 1-bit register for signal <CLOCK_FX>.
+    Found 17-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <CLOCK_FILTER_DISPLAY> synthesized.
+
+
+Synthesizing Unit <bin2bcd_12bit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Converter.vhd".
+    Found 4-bit comparator greater for signal <bcd_10$cmp_gt0000> created at line 55.
+    Found 4-bit comparator greater for signal <bcd_10$cmp_gt0001> created at line 55.
+    Found 4-bit comparator greater for signal <bcd_10$cmp_gt0002> created at line 55.
+    Found 4-bit adder for signal <bcd_11_8$add0000> created at line 56.
+    Found 4-bit adder for signal <bcd_11_8$add0001> created at line 56.
+    Found 4-bit adder for signal <bcd_11_8$add0002> created at line 56.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0000> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0001> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0002> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0003> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0004> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0005> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0006> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0007> created at line 47.
+    Found 4-bit comparator greater for signal <bcd_3$cmp_gt0008> created at line 47.
+    Found 4-bit adder for signal <bcd_3_0$add0000> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0001> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0002> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0003> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0004> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0005> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0006> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0007> created at line 48.
+    Found 4-bit adder for signal <bcd_3_0$add0008> created at line 48.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0000> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0001> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0002> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0003> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0004> created at line 51.
+    Found 4-bit comparator greater for signal <bcd_7$cmp_gt0005> created at line 51.
+    Found 4-bit adder for signal <bcd_7_4$add0000> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0001> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0002> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0003> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0004> created at line 52.
+    Found 4-bit adder for signal <bcd_7_4$add0005> created at line 52.
+    Summary:
+	inferred  18 Adder/Subtractor(s).
+	inferred  18 Comparator(s).
+Unit <bin2bcd_12bit> synthesized.
+
+
+Synthesizing Unit <RegisterM>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterM.vhd".
+    Found 4-bit register for signal <Y>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <RegisterM> synthesized.
+
+
+Synthesizing Unit <RegisterSAQ>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterSAQ.vhd".
+    Found 10-bit register for signal <Y_TEMP>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <RegisterSAQ> synthesized.
+
+
+Synthesizing Unit <Counter>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter.vhd".
+    Found 1-bit register for signal <COUNT>.
+    Found 3-bit register for signal <COUNT_TEMP>.
+    Found 3-bit adder for signal <COUNT_TEMP$addsub0000> created at line 38.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Counter> synthesized.
+
+
+Synthesizing Unit <FULL_ADDER>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Full_adder.vhd".
+    Found 1-bit xor2 for signal <Z>.
+    Found 1-bit xor2 for signal <C_OUT$xor0000> created at line 15.
+Unit <FULL_ADDER> synthesized.
+
+
+Synthesizing Unit <COUNTER_MOD4>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter_mod4.vhd".
+    Found 2-bit up counter for signal <C>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <COUNTER_MOD4> synthesized.
+
+
+Synthesizing Unit <CATHODES_MANAGER>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd".
+    Found 32x7-bit ROM for signal <CATHODES_FOR_DIGIT>.
+    Found 1-bit 4-to-1 multiplexer for signal <DOT>.
+    Found 5-bit 4-to-1 multiplexer for signal <NIBBLE>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   6 Multiplexer(s).
+Unit <CATHODES_MANAGER> synthesized.
+
+
+Synthesizing Unit <ANODES_MANAGER>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd".
+    Found 1-of-4 decoder for signal <ANODES_SWITCHING>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <ANODES_MANAGER> synthesized.
+
+
+Synthesizing Unit <DISPLAY_SEVEN_SEGMENTS>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Seven_segment_array.vhd".
+    Found 1-bit register for signal <ERR_OUT>.
+    Found 16-bit register for signal <TEMP_VAL>.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+Unit <DISPLAY_SEVEN_SEGMENTS> synthesized.
+
+
+Synthesizing Unit <RCA_Nbit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RCA_Nbit .vhd".
+Unit <RCA_Nbit> synthesized.
+
+
+Synthesizing Unit <ADDER_SUBTRACTOR_Nbit>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Adder_Subtractor_Nbit.vhd".
+    Found 5-bit xor2 for signal <OP_1_xor>.
+Unit <ADDER_SUBTRACTOR_Nbit> synthesized.
+
+
+Synthesizing Unit <Datapath>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd".
+Unit <Datapath> synthesized.
+
+
+Synthesizing Unit <Divider_On_Board>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd".
+Unit <Divider_On_Board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 32x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 37
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 36
+# Counters                                             : 3
+ 17-bit up counter                                     : 2
+ 2-bit up counter                                      : 1
+# Registers                                            : 24
+ 1-bit register                                        : 18
+ 16-bit register                                       : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 3
+ 7-bit register                                        : 1
+# Comparators                                          : 36
+ 4-bit comparator greater                              : 36
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 5-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 15
+ 1-bit xor2                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <Inst_Debouncer/i/FSM> on signal <i[1:2]> with sequential encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000000000000000000000000 | 00
+ 00000000000000000000000000000001 | 01
+ 00000000000000000000000000000010 | 10
+----------------------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_ControlUnit/CURRENT_STATE/FSM> on signal <CURRENT_STATE[1:6]> with one-hot encoding.
+---------------------
+ State   | Encoding
+---------------------
+ idle_s  | 000001
+ shift_s | 000010
+ op_s    | 000100
+ load_s  | 001000
+ exit_s  | 010000
+ corr_s  | 100000
+---------------------
+INFO:Xst:2261 - The FF/Latch <SAQ_4> in Unit <Inst_Debouncer> is equivalent to the following 2 FFs/Latches, which will be removed : <SAQ_5> <SAQ_6> 
+WARNING:Xst:1710 - FF/Latch <SAQ_4> (without init value) has a constant value of 0 in block <Inst_Debouncer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <SAQ<6:4>> (without init value) have a constant value of 0 in block <Debouncer>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 1
+ 32x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 37
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 36
+# Counters                                             : 3
+ 17-bit up counter                                     : 2
+ 2-bit up counter                                      : 1
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+# Comparators                                          : 36
+ 4-bit comparator greater                              : 36
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 5-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 15
+ 1-bit xor2                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Divider_On_Board> ...
+
+Optimizing unit <Debouncer> ...
+
+Optimizing unit <bin2bcd_12bit> ...
+
+Optimizing unit <RegisterSAQ> ...
+
+Optimizing unit <Counter> ...
+WARNING:Xst:1710 - FF/Latch <COUNT_TEMP_2> (without init value) has a constant value of 0 in block <Counter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <COUNT_TEMP_2> (without init value) has a constant value of 0 in block <Counter>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <CATHODES_MANAGER> ...
+
+Optimizing unit <DISPLAY_SEVEN_SEGMENTS> ...
+WARNING:Xst:1710 - FF/Latch <Inst_DISPLAY_SEVEN_SEGMENTS/TEMP_VAL_15> (without init value) has a constant value of 0 in block <Divider_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_DISPLAY_SEVEN_SEGMENTS/TEMP_VAL_14> (without init value) has a constant value of 0 in block <Divider_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_DISPLAY_SEVEN_SEGMENTS/TEMP_VAL_13> (without init value) has a constant value of 0 in block <Divider_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_DISPLAY_SEVEN_SEGMENTS/TEMP_VAL_7> (without init value) has a constant value of 0 in block <Divider_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_DISPLAY_SEVEN_SEGMENTS/TEMP_VAL_6> (without init value) has a constant value of 0 in block <Divider_On_Board>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_DISPLAY_SEVEN_SEGMENTS/TEMP_VAL_5> (without init value) has a constant value of 0 in block <Divider_On_Board>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Divider_On_Board, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 90
+ Flip-Flops                                            : 90
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Divider_On_Board.ngr
+Top Level Output File Name         : Divider_On_Board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 21
+
+Cell Usage :
+# BELS                             : 278
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 34
+#      LUT2                        : 60
+#      LUT3                        : 28
+#      LUT3_D                      : 2
+#      LUT4                        : 50
+#      LUT4_D                      : 2
+#      LUT4_L                      : 6
+#      MUXCY                       : 42
+#      MUXF5                       : 14
+#      VCC                         : 1
+#      XORCY                       : 34
+# FlipFlops/Latches                : 90
+#      FDC                         : 42
+#      FDCE                        : 12
+#      FDCE_1                      : 28
+#      FDE                         : 5
+#      FDP                         : 1
+#      FDPE                        : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 8
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                      102  out of   8672     1%  
+ Number of Slice Flip Flops:             90  out of  17344     0%  
+ Number of 4 input LUTs:                186  out of  17344     1%  
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of    250     8%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                 | Load  |
+-----------------------------------+-------------------------------------------------------+-------+
+CLOCK                              | BUFGP                                                 | 36    |
+Inst_Clock_Filter/CLOCK_FX1        | BUFG                                                  | 41    |
+Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX | NONE(Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_1)| 13    |
+-----------------------------------+-------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 85    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 14.150ns (Maximum Frequency: 70.671MHz)
+   Minimum input arrival time before clock: 6.222ns
+   Maximum output required time after clock: 10.163ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 5.618ns (frequency: 177.999MHz)
+  Total number of paths / destination ports: 919 / 37
+-------------------------------------------------------------------------
+Delay:               5.618ns (Levels of Logic = 18)
+  Source:            Inst_Clock_Filter/COUNTER_1 (FF)
+  Destination:       Inst_Clock_Filter/COUNTER_16 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: Inst_Clock_Filter/COUNTER_1 to Inst_Clock_Filter/COUNTER_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  Inst_Clock_Filter/COUNTER_1 (Inst_Clock_Filter/COUNTER_1)
+     LUT1:I0->O            1   0.704   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<1>_rt (Inst_Clock_Filter/Mcount_COUNTER_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<1> (Inst_Clock_Filter/Mcount_COUNTER_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<2> (Inst_Clock_Filter/Mcount_COUNTER_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<3> (Inst_Clock_Filter/Mcount_COUNTER_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<4> (Inst_Clock_Filter/Mcount_COUNTER_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<5> (Inst_Clock_Filter/Mcount_COUNTER_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<6> (Inst_Clock_Filter/Mcount_COUNTER_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<7> (Inst_Clock_Filter/Mcount_COUNTER_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<8> (Inst_Clock_Filter/Mcount_COUNTER_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<9> (Inst_Clock_Filter/Mcount_COUNTER_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<10> (Inst_Clock_Filter/Mcount_COUNTER_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<11> (Inst_Clock_Filter/Mcount_COUNTER_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<12> (Inst_Clock_Filter/Mcount_COUNTER_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<13> (Inst_Clock_Filter/Mcount_COUNTER_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<14> (Inst_Clock_Filter/Mcount_COUNTER_cy<14>)
+     MUXCY:CI->O           0   0.059   0.000  Inst_Clock_Filter/Mcount_COUNTER_cy<15> (Inst_Clock_Filter/Mcount_COUNTER_cy<15>)
+     XORCY:CI->O           1   0.804   0.595  Inst_Clock_Filter/Mcount_COUNTER_xor<16> (Result<16>)
+     LUT2:I0->O            1   0.704   0.000  Inst_Clock_Filter/Mcount_COUNTER_eqn_161 (Inst_Clock_Filter/Mcount_COUNTER_eqn_16)
+     FDC:D                     0.308          Inst_Clock_Filter/COUNTER_16
+    ----------------------------------------
+    Total                      5.618ns (4.401ns logic, 1.217ns route)
+                                       (78.3% logic, 21.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_Clock_Filter/CLOCK_FX1'
+  Clock period: 14.150ns (frequency: 70.671MHz)
+  Total number of paths / destination ports: 346 / 64
+-------------------------------------------------------------------------
+Delay:               7.075ns (Levels of Logic = 5)
+  Source:            Inst_ControlUnit/CURRENT_STATE_FSM_FFd3 (FF)
+  Destination:       Inst_Datapath/Inst_RegisterSAQ/Y_TEMP_8 (FF)
+  Source Clock:      Inst_Clock_Filter/CLOCK_FX1 rising
+  Destination Clock: Inst_Clock_Filter/CLOCK_FX1 falling
+
+  Data Path: Inst_ControlUnit/CURRENT_STATE_FSM_FFd3 to Inst_Datapath/Inst_RegisterSAQ/Y_TEMP_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   0.996  Inst_ControlUnit/CURRENT_STATE_FSM_FFd3 (Inst_ControlUnit/CURRENT_STATE_FSM_FFd3)
+     LUT3_D:I2->O          1   0.704   0.455  Inst_ControlUnit/SUB_SW1 (N44)
+     LUT4:I2->O            3   0.704   0.566  Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/Inst_RCA_Nbit/FULL_ADDER_ALL[1].REST.r/C_OUT (Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/Inst_RCA_Nbit/C<1>)
+     LUT4:I2->O            3   0.704   0.535  Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/Inst_RCA_Nbit/FULL_ADDER_ALL[2].REST.r/C_OUT1 (Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/Inst_RCA_Nbit/C<2>)
+     LUT4_L:I3->LO         1   0.704   0.104  Inst_Datapath/Inst_ADDER_SUBTRACTOR_Nbit/Inst_RCA_Nbit/FULL_ADDER_ALL[4].MOST.M/Mxor_Z_Result11 (N01)
+     LUT4:I3->O            1   0.704   0.000  Inst_Datapath/Inst_RegisterSAQ/Y_TEMP_8_mux0000 (Inst_Datapath/Inst_RegisterSAQ/Y_TEMP_8_mux0000)
+     FDCE_1:D                  0.308          Inst_Datapath/Inst_RegisterSAQ/Y_TEMP_8
+    ----------------------------------------
+    Total                      7.075ns (4.419ns logic, 2.656ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX'
+  Clock period: 3.040ns (frequency: 328.947MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.040ns (Levels of Logic = 1)
+  Source:            Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0 (FF)
+  Destination:       Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0 (FF)
+  Source Clock:      Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX rising
+  Destination Clock: Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX rising
+
+  Data Path: Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0 to Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             15   0.591   1.017  Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0 (Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0)
+     INV:I->O              1   0.704   0.420  Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/Mcount_C_xor<0>11_INV_0 (Inst_DISPLAY_SEVEN_SEGMENTS/Result<0>)
+     FDC:D                     0.308          Inst_DISPLAY_SEVEN_SEGMENTS/COUNTER_INSTANCE/C_0
+    ----------------------------------------
+    Total                      3.040ns (1.603ns logic, 1.437ns route)
+                                       (52.7% logic, 47.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_Clock_Filter/CLOCK_FX1'
+  Total number of paths / destination ports: 49 / 35
+-------------------------------------------------------------------------
+Offset:              6.222ns (Levels of Logic = 4)
+  Source:            BTN_SAQ (PAD)
+  Destination:       Inst_Debouncer/START (FF)
+  Destination Clock: Inst_Clock_Filter/CLOCK_FX1 rising
+
+  Data Path: BTN_SAQ to Inst_Debouncer/START
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.218   0.706  BTN_SAQ_IBUF (BTN_SAQ_IBUF)
+     LUT3:I0->O            7   0.704   0.712  Inst_Debouncer/SAQ_and00001 (Inst_Debouncer/SAQ_and0000)
+     LUT4:I3->O            1   0.704   0.499  Inst_Debouncer/START_and0000_SW0 (N23)
+     LUT4:I1->O            1   0.704   0.420  Inst_Debouncer/START_and0000 (Inst_Debouncer/START_and0000)
+     FDE:CE                    0.555          Inst_Debouncer/START
+    ----------------------------------------
+    Total                      6.222ns (3.885ns logic, 2.337ns route)
+                                       (62.4% logic, 37.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX'
+  Total number of paths / destination ports: 474 / 12
+-------------------------------------------------------------------------
+Offset:              10.163ns (Levels of Logic = 6)
+  Source:            Inst_DISPLAY_SEVEN_SEGMENTS/ERR_OUT (FF)
+  Destination:       CATHODES<1> (PAD)
+  Source Clock:      Inst_CLOCK_FILTER_DISPLAY/CLOCK_FX falling
+
+  Data Path: Inst_DISPLAY_SEVEN_SEGMENTS/ERR_OUT to CATHODES<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          22   0.591   1.339  Inst_DISPLAY_SEVEN_SEGMENTS/ERR_OUT (Inst_DISPLAY_SEVEN_SEGMENTS/ERR_OUT)
+     LUT3:I0->O            1   0.704   0.000  Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mmux_NIBBLE_42 (Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mmux_NIBBLE_42)
+     MUXF5:I0->O          15   0.321   1.192  Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mmux_NIBBLE_2_f5_1 (Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/NIBBLE<2>)
+     LUT4:I0->O            1   0.704   0.000  Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mrom_CATHODES_FOR_DIGIT11211 (Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mrom_CATHODES_FOR_DIGIT11211)
+     MUXF5:I1->O           1   0.321   0.595  Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mrom_CATHODES_FOR_DIGIT1121_f5 (Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mrom_CATHODES_FOR_DIGIT1121)
+     LUT3:I0->O            1   0.704   0.420  Inst_DISPLAY_SEVEN_SEGMENTS/CATHODES_INSTANCE/Mrom_CATHODES_FOR_DIGIT1157 (CATHODES_1_OBUF)
+     OBUF:I->O                 3.272          CATHODES_1_OBUF (CATHODES<1>)
+    ----------------------------------------
+    Total                     10.163ns (6.617ns logic, 3.546ns route)
+                                       (65.1% logic, 34.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.93 secs
+ 
+--> 
+
+Total memory usage is 4518928 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

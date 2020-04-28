@@ -1,0 +1,8 @@
+AR d_latch structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_D.vhd" sub00/vhpl03 1580379712
+EN rs_latch NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_RS.vhd" sub00/vhpl00 1580379709
+AR d_etd_sami structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Flip-Flop_D_ETd_SAMI.vhd" sub00/vhpl07 1580379716
+AR rs_latch behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_RS.vhd" sub00/vhpl01 1580379710
+EN d_latch NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_D.vhd" sub00/vhpl02 1580379711
+AR derivatore dataflow "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Derivatore.vhd" sub00/vhpl05 1580379714
+EN d_etd_sami NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Flip-Flop_D_ETd_SAMI.vhd" sub00/vhpl06 1580379715
+EN derivatore NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Derivatore.vhd" sub00/vhpl04 1580379713

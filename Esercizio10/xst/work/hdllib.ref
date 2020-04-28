@@ -1,0 +1,34 @@
+AR counter behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter.vhd" sub00/vhpl17 1581618327
+EN display_seven_segments NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Seven_segment_array.vhd" sub00/vhpl28 1581618338
+EN clock_filter NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_Filter.vhd" sub00/vhpl22 1581618332
+EN cathodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd" sub00/vhpl06 1581618316
+EN registersaq NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterSAQ.vhd" sub00/vhpl12 1581618322
+EN clock_filter_display NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_filter_display.vhd" sub00/vhpl26 1581618336
+AR datapath structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd" sub00/vhpl19 1581618329
+AR debouncer behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Debouncer.vhd" sub00/vhpl25 1581618335
+EN datapath NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Datapath.vhd" sub00/vhpl18 1581618328
+AR clock_filter_display behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_filter_display.vhd" sub00/vhpl27 1581618337
+AR anodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd" sub00/vhpl09 1581618319
+AR divider_on_board structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" sub00/vhpl33 1581618343
+EN counter_mod4 NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter_mod4.vhd" sub00/vhpl04 1581618314
+AR clock_filter behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Clock_Filter.vhd" sub00/vhpl23 1581618333
+AR registerm behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterM.vhd" sub00/vhpl11 1581618321
+EN counter NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter.vhd" sub00/vhpl16 1581618326
+AR cathodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Cathodes_manager.vhd" sub00/vhpl07 1581618317
+EN adder_subtractor_nbit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Adder_Subtractor_Nbit.vhd" sub00/vhpl14 1581618324
+EN full_adder NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Full_adder.vhd" sub00/vhpl00 1581618310
+EN controlunit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" sub00/vhpl20 1581618330
+EN bin2bcd_12bit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Converter.vhd" sub00/vhpl30 1581618340
+EN rca_nbit NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RCA_Nbit .vhd" sub00/vhpl02 1581618312
+EN debouncer NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Debouncer.vhd" sub00/vhpl24 1581618334
+AR registersaq behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterSAQ.vhd" sub00/vhpl13 1581618323
+AR bin2bcd_12bit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Converter.vhd" sub00/vhpl31 1581618341
+EN divider_on_board NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Divider_On_Board.vhd" sub00/vhpl32 1581618342
+AR counter_mod4 behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Counter_mod4.vhd" sub00/vhpl05 1581618315
+EN anodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Anodes_manager.vhd" sub00/vhpl08 1581618318
+AR rca_nbit structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RCA_Nbit .vhd" sub00/vhpl03 1581618313
+AR controlunit behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/ControlUnit.vhd" sub00/vhpl21 1581618331
+AR full_adder dataflow "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Full_adder.vhd" sub00/vhpl01 1581618311
+EN registerm NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/RegisterM.vhd" sub00/vhpl10 1581618320
+AR adder_subtractor_nbit structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Adder_Subtractor_Nbit.vhd" sub00/vhpl15 1581618325
+AR display_seven_segments structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio10/Seven_segment_array.vhd" sub00/vhpl29 1581618339

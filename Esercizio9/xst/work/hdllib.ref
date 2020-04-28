@@ -1,0 +1,24 @@
+AR mac_multiplier_on_board structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd" sub00/vhpl19 1580575834
+EN mac_multiplier_on_board NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier_on_board.vhd" sub00/vhpl18 1580575833
+AR mac_multiplier behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd" sub00/vhpl17 1580575830
+EN display_seven_segments NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd" sub00/vhpl12 1580575823
+EN clock_filter NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd" sub00/vhpl04 1580575827
+EN cathodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" sub00/vhpl08 1580575819
+AR control_unit behavioral C:/Users/fabio/Desktop/Elaborato/Esercizio9/ControlUnit.vhd sub00/vhpl15 1575310867
+AR buffer_reg behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd" sub00/vhpl23 1580575832
+AR debouncer behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd" sub00/vhpl21 1580575826
+EN mac_multiplier NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_multiplier.vhd" sub00/vhpl16 1580575829
+AR anodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" sub00/vhpl11 1580575822
+EN counter_mod4 NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd" sub00/vhpl06 1580575817
+AR clock_filter behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Clk_filter.vhd" sub00/vhpl05 1580575828
+EN mac_cell NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd" sub00/vhpl02 1580575815
+EN buffer_reg NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/buffer_reg.vhd" sub00/vhpl22 1580575831
+AR cathodes_manager behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/cathodes_manager.vhd" sub00/vhpl09 1580575820
+EN full_adder NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd" sub00/vhpl00 1580575813
+EN debouncer NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/Debouncer.vhd" sub00/vhpl20 1580575825
+EN control_unit NULL C:/Users/fabio/Desktop/Elaborato/Esercizio9/ControlUnit.vhd sub00/vhpl14 1575310866
+AR mac_cell behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/MAC_cell.vhd" sub00/vhpl03 1580575816
+AR counter_mod4 behavioral "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/counter_mod4.vhd" sub00/vhpl07 1580575818
+EN anodes_manager NULL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/anodes_manager.vhd" sub00/vhpl10 1580575821
+AR full_adder dataflow "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/full_adder.vhd" sub00/vhpl01 1580575814
+AR display_seven_segments structural "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio9/seven_segment_array.vhd" sub00/vhpl13 1580575824

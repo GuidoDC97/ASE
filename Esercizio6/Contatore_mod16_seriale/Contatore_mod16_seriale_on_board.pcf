@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.58f on Fri Jan 31 16:48:17 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cathodes<0>" LOCATE = SITE "P25" LEVEL 1;
+COMP "anodes<0>" LOCATE = SITE "P34" LEVEL 1;
+COMP "cathodes<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "anodes<1>" LOCATE = SITE "P33" LEVEL 1;
+COMP "btn_incr" LOCATE = SITE "P48" LEVEL 1;
+COMP "cathodes<2>" LOCATE = SITE "P23" LEVEL 1;
+COMP "anodes<2>" LOCATE = SITE "P32" LEVEL 1;
+COMP "cathodes<3>" LOCATE = SITE "P21" LEVEL 1;
+COMP "anodes<3>" LOCATE = SITE "P26" LEVEL 1;
+COMP "cathodes<4>" LOCATE = SITE "P20" LEVEL 1;
+COMP "cathodes<5>" LOCATE = SITE "P17" LEVEL 1;
+COMP "cathodes<6>" LOCATE = SITE "P83" LEVEL 1;
+COMP "cathodes<7>" LOCATE = SITE "P22" LEVEL 1;
+COMP "clock" LOCATE = SITE "P54" LEVEL 1;
+COMP "btn_reset" LOCATE = SITE "P69" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

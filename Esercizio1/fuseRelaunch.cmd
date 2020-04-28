@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit_tb_isim_beh.exe" -prj "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Esercizio1/MUX_8_1_Nbit_tb_beh.prj" "work.MUX_8_1_Nbit_tb" 

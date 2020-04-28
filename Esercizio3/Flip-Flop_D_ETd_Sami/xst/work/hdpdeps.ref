@@ -1,0 +1,29 @@
+V3 15
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Derivatore.vhd" 2019/11/18.09:27:06 P.58f
+EN work/Derivatore 1580379713 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Derivatore.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Derivatore/dataflow 1580379714 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Derivatore.vhd" \
+      EN work/Derivatore 1580379713
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Flip-Flop_D_ETd_SAMI.vhd" 2019/11/18.09:27:04 P.58f
+EN work/D_ETd_Sami 1580379715 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Flip-Flop_D_ETd_SAMI.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/D_ETd_Sami/structural 1580379716 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Flip-Flop_D_ETd_SAMI.vhd" \
+      EN work/D_ETd_Sami 1580379715 CP D_latch CP Derivatore
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_D.vhd" 2019/11/18.09:27:06 P.58f
+EN work/D_latch 1580379711 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_D.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/D_latch/structural 1580379712 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_D.vhd" \
+      EN work/D_latch 1580379711 CP RS_latch
+FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_RS.vhd" 2019/11/18.09:27:06 P.58f
+EN work/RS_latch 1580379709 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_RS.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/RS_latch/behavioral 1580379710 \
+      FL "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio3/Flip-Flop_D_ETd_Sami/Latch_RS.vhd" \
+      EN work/RS_latch 1580379709

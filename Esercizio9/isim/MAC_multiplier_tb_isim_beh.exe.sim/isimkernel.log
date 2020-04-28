@@ -1,0 +1,28 @@
+Command line:
+   MAC_multiplier_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50075
+
+Sun Feb 02 12:22:07 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5470.86 Meg
+
+ Total Signals          : 793
+ Total Nets             : 256
+ Total Signal Drivers   : 211
+ Total Blocks           : 275
+ Total Primitive Blocks : 65
+ Total Processes        : 210
+ Total Traceable Variables  : 81
+ Total Scalar Nets and Variables : 689
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4684.43 Meg
+
+Sun Feb 02 12:28:52 2020
+

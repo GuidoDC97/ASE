@@ -1,0 +1,1 @@
+vhdtdtfi -prj Esercizio13 -o "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio13/Esercizio13/ControlUnit.vhi" -module ControlUnit -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ControlUnit.vhd -lib work Control_Unit.vhd 

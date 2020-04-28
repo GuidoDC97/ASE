@@ -1,0 +1,64 @@
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 UART_Tappo.ngc UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 UART_Tappo.ngc UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 UART_Tappo.ngc UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.xst" -ofn "C:/Users/fabio/Desktop/Elaborato/Esercizio11/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 UART_Tappo.ngc UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "UART_Tappo.ngc" UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "UART_Tappo.ngc" UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "UART_Tappo.ngc" UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "UART_Tappo.ngc" UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-4 "UART_Tappo.ngc" UART_Tappo.ngd  
+map -intstyle ise -p xc3s250e-tq144-4 -cm area -ir off -pr off -c 100 -o UART_Tappo_map.ncd UART_Tappo.ngd UART_Tappo.pcf 
+par -w -intstyle ise -ol high -t 1 UART_Tappo_map.ncd UART_Tappo.ncd UART_Tappo.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_Tappo.twx UART_Tappo.ncd -o UART_Tappo.twr UART_Tappo.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f UART_Tappo.ut UART_Tappo.ncd 
+xst -intstyle ise -ifn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.xst" -ofn "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.syr" 

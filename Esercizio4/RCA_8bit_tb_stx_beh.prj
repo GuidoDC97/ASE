@@ -1,0 +1,4 @@
+vhdl isim_temp "full_adder.vhd"
+vhdl isim_temp "RCA_4bit.vhd"
+vhdl isim_temp "RCA_8bit.vhd"
+vhdl isim_temp "RCA_8bit_tb.vhd"

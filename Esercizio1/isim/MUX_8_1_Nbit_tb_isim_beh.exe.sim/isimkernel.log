@@ -1,0 +1,28 @@
+Command line:
+   MUX_8_1_Nbit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63935
+
+Wed Jan 29 16:26:50 2020
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5471.48 Meg
+
+ Total Signals          : 58
+ Total Nets             : 26
+ Total Signal Drivers   : 24
+ Total Blocks           : 15
+ Total Primitive Blocks : 8
+ Total Processes        : 16
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 399
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 4685.05 Meg
+
+Wed Jan 29 16:46:29 2020
+

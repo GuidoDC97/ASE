@@ -1,0 +1,573 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: UART_Tappo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UART_Tappo.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UART_Tappo"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-tq144
+
+---- Source Options
+Top Module Name                    : UART_Tappo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd" in Library work.
+Architecture behavioral of Entity uartcomponent is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd" in Library work.
+Entity <control_unit> compiled.
+Entity <control_unit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd" in Library work.
+Entity <debouncer> compiled.
+Entity <debouncer> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd" in Library work.
+Architecture behavioral of Entity clock_filter is up to date.
+Compiling vhdl file "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" in Library work.
+Architecture structural of Entity uart_tappo is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <UART_Tappo> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <UARTcomponent> in library <work> (architecture <behavioral>) with generics.
+	BAUD_DIVIDE_G = 14
+	BAUD_RATE_G = 231
+
+Analyzing hierarchy for entity <CONTROL_UNIT> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLOCK_FILTER> in library <work> (architecture <behavioral>) with generics.
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <UART_Tappo> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" line 71: Unconnected output port 'PE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" line 71: Unconnected output port 'FE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd" line 71: Unconnected output port 'OE' of component 'UARTcomponent'.
+Entity <UART_Tappo> analyzed. Unit <UART_Tappo> generated.
+
+Analyzing generic Entity <UARTcomponent> in library <work> (Architecture <behavioral>).
+	BAUD_DIVIDE_G = 14
+	BAUD_RATE_G = 231
+Entity <UARTcomponent> analyzed. Unit <UARTcomponent> generated.
+
+Analyzing generic Entity <CONTROL_UNIT> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <CONTROL_UNIT> analyzed. Unit <CONTROL_UNIT> generated.
+
+Analyzing Entity <Debouncer> in library <work> (Architecture <behavioral>).
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+Analyzing generic Entity <CLOCK_FILTER> in library <work> (Architecture <behavioral>).
+	CLOCK_FREQUENCY_IN = 50000000
+	CLOCK_FREQUENCY_OUT = 500
+Entity <CLOCK_FILTER> analyzed. Unit <CLOCK_FILTER> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UARTcomponent>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/RS232RefComp2.vhd".
+    Found finite state machine <FSM_0> for signal <sttCur>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | sttidle                                        |
+    | Power Up State     | sttidle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <strCur>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | stridle                                        |
+    | Power Up State     | stridle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <FE>.
+    Found 1-bit register for signal <OE>.
+    Found 1-bit register for signal <PE>.
+    Found 1-bit register for signal <RDA>.
+    Found 10-bit up counter for signal <clkDiv>.
+    Found 4-bit up counter for signal <ctr>.
+    Found 4-bit up counter for signal <dataCtr>.
+    Found 1-bit xor8 for signal <par$xor0000> created at line 249.
+    Found 1-bit xor9 for signal <parError$xor0000> created at line 243.
+    Found 8-bit register for signal <rdReg>.
+    Found 10-bit register for signal <rdSReg>.
+    Found 13-bit up counter for signal <tDelayCtr>.
+    Found 4-bit up counter for signal <tfCtr>.
+    Found 11-bit register for signal <tfSReg>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   5 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   2 Xor(s).
+Unit <UARTcomponent> synthesized.
+
+
+Synthesizing Unit <CONTROL_UNIT>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Control_Unit.vhd".
+    Found 1-bit register for signal <RD>.
+    Found 1-bit register for signal <WR>.
+    Found 8-bit register for signal <VALUE_RX_TEMP>.
+    Found 8-bit register for signal <VALUE_TX_TEMP>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+Unit <CONTROL_UNIT> synthesized.
+
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Debouncer.vhd".
+    Found 1-bit register for signal <LOAD>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <CLOCK_FILTER>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/Clock_filter.vhd".
+    Found 1-bit register for signal <CLOCK_FX>.
+    Found 17-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <CLOCK_FILTER> synthesized.
+
+
+Synthesizing Unit <UART_Tappo>.
+    Related source file is "C:/Users/Guido Di Chiara/Documents/Semestre Corrente/Architettura dei Sistemi di Elaborazione/Tesina/Esercizio11/Esercizio11_a/UART_Tappo.vhd".
+Unit <UART_Tappo> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 13-bit up counter                                     : 1
+ 17-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+# Registers                                            : 13
+ 1-bit register                                        : 8
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 8-bit register                                        : 3
+# Xors                                                 : 2
+ 1-bit xor8                                            : 1
+ 1-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <Inst_UARTcomponent/strCur/FSM> on signal <strCur[1:3]> with gray encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ stridle       | 000
+ streightdelay | 001
+ strgetdata    | 010
+ strwaitfor0   | 011
+ strwaitfor1   | 111
+ strcheckstop  | 110
+---------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_UARTcomponent/sttCur/FSM> on signal <sttCur[1:3]> with gray encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ sttidle      | 000
+ stttransfer  | 001
+ sttshift     | 110
+ sttdelay     | 011
+ sttwaitwrite | 010
+--------------------------
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <Inst_UARTcomponent>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 13-bit up counter                                     : 1
+ 17-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+# Xors                                                 : 2
+ 1-bit xor8                                            : 1
+ 1-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <UARTcomponent>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <UART_Tappo> ...
+
+Optimizing unit <UARTcomponent> ...
+
+Optimizing unit <CONTROL_UNIT> ...
+WARNING:Xst:2677 - Node <Inst_UARTcomponent/PE> of sequential type is unconnected in block <UART_Tappo>.
+WARNING:Xst:2677 - Node <Inst_UARTcomponent/OE> of sequential type is unconnected in block <UART_Tappo>.
+WARNING:Xst:2677 - Node <Inst_UARTcomponent/FE> of sequential type is unconnected in block <UART_Tappo>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block UART_Tappo, actual ratio is 3.
+
+Final Macro Processing ...
+
+Processing Unit <UART_Tappo> :
+	Found 3-bit shift register for signal <Inst_UARTcomponent/rdSReg_7>.
+Unit <UART_Tappo> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 104
+ Flip-Flops                                            : 104
+# Shift Registers                                      : 1
+ 3-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : UART_Tappo.ngr
+Top Level Output File Name         : UART_Tappo
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 205
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 38
+#      LUT2                        : 25
+#      LUT2_L                      : 2
+#      LUT3                        : 11
+#      LUT4                        : 33
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 42
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 105
+#      FDC                         : 19
+#      FDCE                        : 17
+#      FDE                         : 28
+#      FDR                         : 27
+#      FDRE                        : 12
+#      FDRS                        : 2
+# Shift Registers                  : 1
+#      SRL16E                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-4 
+
+ Number of Slices:                       77  out of   2448     3%  
+ Number of Slice Flip Flops:            104  out of   4896     2%  
+ Number of 4 input LUTs:                120  out of   4896     2%  
+    Number used as logic:               119
+    Number used as Shift registers:       1
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    108    17%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+Inst_CLOCK_FILTER/CLOCK_FX         | NONE(Inst_Debouncer/LOAD)| 1     |
+CLOCK                              | BUFGP                    | 105   |
+-----------------------------------+--------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------+-----------------------------+-------+
+Control Signal                                               | Buffer(FF name)             | Load  |
+-------------------------------------------------------------+-----------------------------+-------+
+RESET                                                        | IBUF                        | 35    |
+Inst_UARTcomponent/FE_or0000(Inst_UARTcomponent/FE_or00001:O)| NONE(Inst_UARTcomponent/RDA)| 1     |
+-------------------------------------------------------------+-----------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.210ns (Maximum Frequency: 161.031MHz)
+   Minimum input arrival time before clock: 4.504ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 6.210ns (frequency: 161.031MHz)
+  Total number of paths / destination ports: 1262 / 181
+-------------------------------------------------------------------------
+Delay:               6.210ns (Levels of Logic = 3)
+  Source:            Inst_UARTcomponent/clkDiv_2 (FF)
+  Destination:       Inst_UARTcomponent/clkDiv_9 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: Inst_UARTcomponent/clkDiv_2 to Inst_UARTcomponent/clkDiv_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  Inst_UARTcomponent/clkDiv_2 (Inst_UARTcomponent/clkDiv_2)
+     LUT4:I0->O            1   0.704   0.424  Inst_UARTcomponent/ctr_cmp_eq00007 (Inst_UARTcomponent/ctr_cmp_eq00007)
+     LUT4:I3->O            5   0.704   0.668  Inst_UARTcomponent/ctr_cmp_eq000033 (Inst_UARTcomponent/ctr_cmp_eq0000)
+     LUT3:I2->O           10   0.704   0.882  Inst_UARTcomponent/clkDiv_or00001 (Inst_UARTcomponent/clkDiv_or0000)
+     FDR:R                     0.911          Inst_UARTcomponent/clkDiv_0
+    ----------------------------------------
+    Total                      6.210ns (3.614ns logic, 2.596ns route)
+                                       (58.2% logic, 41.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_CLOCK_FILTER/CLOCK_FX'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            LOAD (PAD)
+  Destination:       Inst_Debouncer/LOAD (FF)
+  Destination Clock: Inst_CLOCK_FILTER/CLOCK_FX rising
+
+  Data Path: LOAD to Inst_Debouncer/LOAD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  LOAD_IBUF (LOAD_IBUF)
+     FDC:D                     0.308          Inst_Debouncer/LOAD
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              4.504ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       Inst_UARTcomponent/rdReg_7 (FF)
+  Destination Clock: CLOCK rising
+
+  Data Path: RESET to Inst_UARTcomponent/rdReg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            45   1.218   1.270  RESET_IBUF (RESET_IBUF)
+     LUT4:I3->O            8   0.704   0.757  Inst_UARTcomponent/rdReg_and00001 (Inst_UARTcomponent/rdReg_and0000)
+     FDE:CE                    0.555          Inst_UARTcomponent/rdReg_0
+    ----------------------------------------
+    Total                      4.504ns (2.477ns logic, 2.027ns route)
+                                       (55.0% logic, 45.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            Inst_CONTROL_UNIT/VALUE_RX_TEMP_7 (FF)
+  Destination:       OUT_VALUE<7> (PAD)
+  Source Clock:      CLOCK rising
+
+  Data Path: Inst_CONTROL_UNIT/VALUE_RX_TEMP_7 to OUT_VALUE<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.591   0.420  Inst_CONTROL_UNIT/VALUE_RX_TEMP_7 (Inst_CONTROL_UNIT/VALUE_RX_TEMP_7)
+     OBUF:I->O                 3.272          OUT_VALUE_7_OBUF (OUT_VALUE<7>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.44 secs
+ 
+--> 
+
+Total memory usage is 4518996 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
