@@ -1,7 +1,16 @@
-# ASE
- Repository progetto ASE
+# Computer Systems Architecture
+Repository for Computer Systems Architecture project.
 
-Il repository contiene il codice sviluppato in linguaggio VHDL al fine di realizzare gli esercizi proposti nel file **"Tracce per esercizi finali.pdf"**.
-Come IDE per lo sviluppo dei componenti in VHDL è stata utilizzata la suite Xilinx ISE.
-Il progetto include una relazione esaustiva sui componenti sviluppati. Tale relazione è contenuta nel file **"Elaborato_Finale_ASE.pdf"**
-Una versione LaTex del file .pdf è riportata nel file **"Elaborato%20Finale%20ASE.zip"**, praticamente integrabile con le piattaforme che supportano LaTex.
+Group project consisting in accomplishing different exercises about **VHDL** components. It starts from building basic components such as mux and shift registers to complex systems in both microprogrammed and cabled logic.
+
+Most of the components were also implementd on **FPGA** boards such as **Digilent Basys** and **Digilent Nexys 2**.
+
+**Xilinx ISE Desgin suite** was used as IDE for programming both components and FPGA boards.
+
+Detailed description of assigned exercises can be found **[here](/Tracce%20per%20esercizi%20finali.pdf)**. 
+
+# Documentation & Code
+
+Complete documentation in LaTex about developed components can be found **[here](/Elaborato_Finale_ASE.pdf)**.
+
+All components code is organized in directories with names that starts with "**Esercizio***".
