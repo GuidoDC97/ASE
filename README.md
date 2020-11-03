@@ -9,7 +9,7 @@ Most of the components were also implementd on **FPGA** boards such as **Digilen
 
 Detailed description of assigned exercises can be found **[here](/Tracce%20per%20esercizi%20finali.pdf)**. 
 
-# Documentation & Code
+## Documentation & Code
 
 Complete documentation in LaTex about developed components can be found **[here](/Elaborato_Finale_ASE.pdf)**.
 
