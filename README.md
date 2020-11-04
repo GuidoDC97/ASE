@@ -1,6 +1,8 @@
 # Computer Systems Architecture
 Repository for Computer Systems Architecture project.
 
+AY 2019/2020
+
 Group project consisting in accomplishing different exercises about **VHDL** components. It starts from building basic components such as mux and shift registers to complex systems in both microprogrammed and cabled logic.
 
 Most of the components were also implementd on **FPGA** boards such as **Digilent Basys** and **Digilent Nexys 2**.
